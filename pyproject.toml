@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cgmprofiles"
+version = "1.0.0"
+description = "Clinical profiles and free-living glucose in type 2 diabetes (AI-READI): Paper 1 analyses"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

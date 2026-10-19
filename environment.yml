@@ -1,0 +1,24 @@
+# Minimal environment for Paper 1 (CPU only, no deep learning packages).
+# Versions are pinned to the environment that produced the record repository, so that
+# k-means, the iterative imputer and every bootstrap reproduce the same numbers.
+name: paper1-cgm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=2.2.6
+  - pandas=2.3.3
+  - scipy=1.15.2
+  - scikit-learn=1.7.2
+  - matplotlib=3.10.9
+  - seaborn=0.13.2        # Fig 1 violins only
+  - pyarrow=24.0.0
+  - pyyaml=6.0.3
+  - joblib=1.5.3
+  - threadpoolctl=3.6.0
+  - libopenblas=0.3.32
+  - libblas=*=*openblas
+  - pytest
+  - pip
+  - pip:
+      - -e .

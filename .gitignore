@@ -1,0 +1,15 @@
+# Participant-level data under the AI-READI data use agreement: never commit
+restricted/
+data/
+*.parquet
+*.feather
+*.joblib
+*.pkl
+*.npy
+*.npz
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/

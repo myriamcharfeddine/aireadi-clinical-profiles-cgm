@@ -1,0 +1,269 @@
+# Paper 1 configuration: every named constant used by src/cgmprofiles and analyses/.
+# Data paths are relative to the environment variable AIREADI_DATA_DIR.
+# Seeds are copied verbatim from the record repository (see docs/provenance.md) so that
+# every bootstrap and permutation draw is identical.
+
+data:
+  parquet: enriched_multimodal/final_multimodal_dataset_20260515_184339.parquet
+  parquet_sha256: 1ee72b66689d2a7afdbfda5297670b74182c36612c98940e189bcfad0c08e446
+  split: experiment_c_split_adapt6h_seed42/split_participants.csv
+  restricted_dir: restricted          # inside the repository, gitignored; override with AIREADI_RESTRICTED_DIR
+
+columns:
+  participant_id: participant_id
+  timestamp: timestamp_local
+  glucose: cgm_glucose_mean
+  timezone: timezone
+  study_group: participants_study_group
+  site: participants_clinical_site
+  sex: demo_sex_at_birth
+  race: demo_race_primary
+  systolic_bp: clinical_systolic_bp_mmhg_baseline
+  ldl: ldl_cholesterol_mgdl_baseline
+  ldl_date: ldl_cholesterol_mgdl_baseline_date
+  triglycerides: triglycerides_mgdl_baseline
+  hdl: hdl_cholesterol_mgdl_baseline
+  hba1c: hba1c_percent_baseline
+  glp1: med_glp1_or_gip_glp1
+  any_diabetes_drug: med_any_diabetes_drug
+  lab_dates:
+    hba1c_percent_baseline: hba1c_percent_baseline_date
+    c_peptide_ngml_baseline: c_peptide_ngml_baseline_date
+    triglycerides_mgdl_baseline: triglycerides_mgdl_baseline_date
+    hdl_cholesterol_mgdl_baseline: hdl_cholesterol_mgdl_baseline_date
+  medications: [med_glp1_or_gip_glp1, med_metformin, med_sglt2, med_sulfonylurea, med_insulin]
+
+gate_tolerance: 1.0e-9           # largest allowed difference when a recomputation is checked against an earlier step
+
+cohort:
+  n_parquet: 1892
+  n_split: 1591
+  split_counts: {train: 1131, val: 239, test: 221}
+  study_group_to_stratum:
+    healthy: healthy
+    pre_diabetes_lifestyle_controlled: pre_diabetes
+    oral_medication_and_or_non_insulin_injectable_medication_controlled: t2d_oral_non_insulin
+    insulin_dependent: insulin_dependent
+  strata: [healthy, pre_diabetes, t2d_oral_non_insulin, insulin_dependent]
+  stratum_n: {healthy: 564, pre_diabetes: 405, t2d_oral_non_insulin: 458, insulin_dependent: 164}
+  primary: t2d_oral_non_insulin
+  split_order: [train, val, test]
+  female_code: F
+  min_valid_hdl: 0.0
+
+profiles:
+  factors: [participants_age, bmi_baseline, hba1c_percent_baseline, c_peptide_ngml_baseline, tg_hdl_ratio, waist_to_hip_ratio_baseline]
+  display_order_by: [hba1c_percent_baseline, bmi_baseline, tg_hdl_ratio]
+  k: {healthy: 2, pre_diabetes: 2, t2d_oral_non_insulin: 3, insulin_dependent: 3}
+  missing_data: {healthy: complete_case, pre_diabetes: iterative_imputation, t2d_oral_non_insulin: iterative_imputation, insulin_dependent: iterative_imputation}
+  skew_log_threshold: 1.0
+  log_min_value: -1.0
+  imputer_max_iter: 20
+  kmeans_n_init: 100
+  seed: 42
+  expected_counts:
+    healthy: {1: 325, 2: 213}
+    pre_diabetes: {1: 184, 2: 221}
+    t2d_oral_non_insulin: {1: 192, 2: 111, 3: 155}
+    insulin_dependent: {1: 53, 2: 79, 3: 32}
+  expected_train_counts_t2d: {1: 146, 2: 69, 3: 110}
+  c2: 2
+  margin_threshold: 0.20
+
+cgm:
+  windows: {window_48h: 48.0, window_full: null}
+  short_window: window_48h
+  full_window: window_full
+  seconds_per_hour: 3600.0
+  tir_mgdl: [70.0, 180.0]
+  min_readings_for_metric: 2
+  sd_ddof: 1
+  metrics: [mean_glucose, time_in_range_pct, coefficient_of_variation_pct]
+
+features:
+  sampling_min: 5
+  min_coverage_48h: 0.70
+  min_readings_full: 1000
+  max_interpolation_gap_min: 30
+  min_run_h: 6
+  tbr_mgdl: 70.0
+  tar_mgdl: 180.0
+  tar_high_mgdl: 250.0
+  mage_short_ma: 5
+  mage_long_ma: 32
+  mage_sd_multiplier: 1.0
+  acf_lags_h: {acf_1h: 1, acf_3h: 3, acf_24h: 24}
+  full_only: [acf_24h, circadian_power_share]
+  circadian_band_h: [20.0, 28.0]
+  spectrum_band_h: [2.0, 28.0]
+  n_spectrum_frequencies: 200
+  hours_per_day: 24
+
+cgm_groups:
+  k_primary: 3
+  k_range: [2, 3, 4, 5, 6]
+  n_init: 100
+  seed: 42
+  silhouette_tolerance: 0.02
+  skew_log_threshold: 1.0
+  profile_variance_target: 0.80
+  max_profile_pcs: 4
+  n_stability_bootstrap: 200
+  min_cluster_n: 20
+  primary: [extended, window_full]
+  partition_combos: [[minimal, window_48h], [extended, window_48h], [minimal, window_full], [extended, window_full]]
+
+bootstrap:
+  n_pairwise: 1000          # Section 3.1 pairwise mean differences and C2 versus rest (record convention)
+  n_default: 2000
+  ci_tails: [2.5, 97.5]
+  n_split_partitions: 2000
+  n_refit_stability: 200
+
+permutation:
+  n_agreement: 1000
+  n_prediction: 200
+  n_prediction_escalated: 1000
+  escalation_range: [0.01, 0.10]
+
+prediction:
+  n_folds: 5
+  n_repeats: 20
+  fold_seed: 42
+  inner_folds: 5
+  inner_seed: 42
+  grid_log10: [-3, 3, 13]
+  imputer_max_iter: 20
+  logistic_max_iter: 2000
+  n_jobs: 10
+  section32_m2_r2:          # published Section 3.2 values reproduced on the rebuilt folds (gate)
+    window_full: {mean_glucose: 0.510461, time_in_range_pct: 0.510347, coefficient_of_variation_pct: 0.079247}
+    window_48h: {mean_glucose: 0.519789, time_in_range_pct: 0.498469, coefficient_of_variation_pct: 0.06383}
+  section32_tolerance: 1.0e-4
+  combos: [[extended, window_full], [extended, window_48h], [minimal, window_full], [minimal, window_48h]]
+
+criteria:                   # pre-registered thresholds (docs/preregistration)
+  medium_eta: 0.06
+  ci_lower_floor: 0.01
+  ari: 0.10
+  cramers_v: 0.20
+  auroc: 0.65
+  alpha: 0.05
+
+seeds:
+  forward_pairwise: 42                 # seed + running counter over strata, windows, metrics, pairs
+  c2_vs_rest_offset: 900000
+  eta_bootstrap: 20261014
+  split_partition: 20261015
+  glp1_contrast: 20261016              # first contrast uses this + 2, then + 1 per contrast
+  b2_stability: 20261018
+  b3_bootstrap: 20261020
+  b4_permutation: 20261021
+  b4_bootstrap: 20261022
+  b6_permutation: 20261024
+  b6_bootstrap: 20261025
+  b5_bootstrap: 20261027
+  b5_permutation: 20261028
+  s1_bootstrap: 20261101
+  s3_bootstrap: 20261104
+  s2_b3: 20261110
+  s2_b4_permutation: 20261111
+  s2_b4_bootstrap: 20261112
+  s2_b5_permutation: 20261113
+  table_monte_carlo: 20261120
+  t2_bootstrap: 20261201
+  t2_permutation: 20261202
+  t2_icc_bootstrap: 20261203
+  t3_bootstrap: 20261301
+  t3_permutation: 20261302
+  t4_bootstrap: 20261303
+  t4_contrast_offset: 500
+  t4_reference: 20261304
+
+reverse:
+  partitions:               # label column, role, k, descriptive only (order fixes the shared RNG streams)
+    - [kmeans3_extended_window_full, primary, 3, false]
+    - [kmeans_silk2_extended_window_full, "sensitivity, k = 2 (silhouette optimum)", 2, false]
+    - [kmeans3_extended_window_48h, secondary, 3, false]
+    - [kmeans3_minimal_window_full, secondary, 3, false]
+    - [kmeans3_minimal_window_48h, "secondary, small cluster, descriptive only", 3, true]
+  pooled_k_fixed: [3, 4]
+
+strata:
+  other: [healthy, pre_diabetes, insulin_dependent]
+  exploratory: [insulin_dependent]
+  specificity_strata: [healthy, pre_diabetes]
+  primary_k: {healthy: 2, pre_diabetes: 2, insulin_dependent: 3}
+  out_of_range_percentile: 95
+  min_group_n: 20
+  min_train_group_n: 20
+
+temporal:
+  min_window_coverage: 0.70
+  window_names: [A, B]
+  designs:                  # seed_offset = position in the record's design list (keeps every draw identical)
+    days3: {A: [0.0, 72.0], B: [72.0, 144.0], seed_offset: 0, label: "Days 1 to 3 vs days 4 to 6"}
+    days4: {A: [0.0, 96.0], B: [96.0, 192.0], seed_offset: 1, label: "Days 1 to 4 vs days 5 to 8"}
+  primary: days3
+  ari_reproducible: 0.50
+  kappa_reproducible: 0.60
+  ari_moderate: 0.30
+  masked_decimals: 2
+  masked_percent_decimals: 0
+
+disclosure:
+  small_min: 1
+  small_max: 4
+  mask_small: "<5"
+  mask_complement: "NR"
+  max_hops: 2
+  fisher_expected_min: 5
+  monte_carlo_n: 20000
+  p_floor: 0.001
+
+labels:
+  strata_short: {healthy: Healthy, pre_diabetes: Prediabetes, t2d_oral_non_insulin: Non-insulin T2D, insulin_dependent: Insulin-treated T2D}
+  strata_long: {healthy: healthy, pre_diabetes: prediabetes, t2d_oral_non_insulin: type 2 diabetes treated without insulin,
+                insulin_dependent: type 2 diabetes treated with insulin}
+  variables: {mean_glucose: Mean glucose, time_in_range_pct: Time in range, coefficient_of_variation_pct: Coefficient of variation,
+              participants_age: Age, bmi_baseline: BMI, hba1c_percent_baseline: HbA1c, c_peptide_ngml_baseline: C-peptide,
+              tg_hdl_ratio: Triglyceride-to-HDL ratio, waist_to_hip_ratio_baseline: Waist-to-hip ratio}
+
+colors:
+  strata: {healthy: "#0072B2", pre_diabetes: "#E69F00", t2d_oral_non_insulin: "#009E73", insulin_dependent: "#CC79A7"}
+  profiles: {C1: "#003366", C2: "#5BBABA", C3: "#BA2828"}
+  neutral_dark: "#1A1A1A"
+  neutral_mid: "#6E6E6E"
+  neutral_light: "#BDBDBD"
+  null_color: "#888888"
+
+tables:
+  baseline_sections:        # [section, [[kind, column, label], ...]]; kind: cont, bin, cat, text
+    - [Demographics, [[cont, participants_age, "Age, years"], [bin, female, Female sex], [cat, demo_race_primary, Race (as recorded)],
+                      [cat, participants_clinical_site, Study site]]]
+    - [Profile variables, [[cont, bmi_baseline, "BMI, kg/m²"], [cont, hba1c_percent_baseline, "HbA1c, %"], [cont, c_peptide_ngml_baseline, "C-peptide, ng/mL"],
+                           [cont, tg_hdl_ratio, Triglyceride-to-HDL ratio (mg/dL)], [cont, waist_to_hip_ratio_baseline, Waist-to-hip ratio]]]
+    - [Other clinical, [[cont, clinical_systolic_bp_mmhg_baseline, "Systolic blood pressure, mmHg"], [cont, ldl_cholesterol_mgdl_baseline, "LDL cholesterol, mg/dL"]]]
+    - [Medication classes, [[bin, med_metformin, Metformin], [bin, med_glp1_or_gip_glp1, GLP-1 or GIP/GLP-1 agonist], [bin, med_sglt2, SGLT2 inhibitor],
+                            [bin, med_sulfonylurea, Sulfonylurea], [text, DPP4, DPP-4 inhibitor], [bin, med_insulin, Insulin flag],
+                            [bin, no_diabetes_drug_flag, No diabetes drug flagged]]]
+    - [CGM data, [[cont, cgm_days, Days of CGM], [cont, valid_readings, "Valid CGM readings, full record"]]]
+    - [Split, [[cat, split, Split]]]
+  decimals:                 # manuscript display: half-up rounding
+    participants_age: 0
+    bmi_baseline: 1
+    hba1c_percent_baseline: 1
+    c_peptide_ngml_baseline: 1
+    tg_hdl_ratio: 1
+    waist_to_hip_ratio_baseline: 2
+    clinical_systolic_bp_mmhg_baseline: 0
+    ldl_cholesterol_mgdl_baseline: 0
+    cgm_days: 1
+    valid_readings: 0
+  table1_rows: [n, "Age, years", Female sex, Race (as recorded), "BMI, kg/m²", "HbA1c, %", "C-peptide, ng/mL", Triglyceride-to-HDL ratio (mg/dL),
+                Waist-to-hip ratio, Metformin, GLP-1 or GIP/GLP-1 agonist, SGLT2 inhibitor, Sulfonylurea]
+  paper_labels:
+    Race (as recorded): Race
+    White or Caucasian: White
+    "Other, multiple or not reported": Other or not reported
+    Triglyceride-to-HDL ratio (mg/dL): Triglyceride-to-HDL ratio
