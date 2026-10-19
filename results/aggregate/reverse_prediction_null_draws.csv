@@ -1,0 +1,3201 @@
+analysis,draw,value
+ridge R2 participants_age,0,-0.015986589724691802
+ridge R2 participants_age,1,-0.02965115046837785
+ridge R2 participants_age,2,-0.018453493632985873
+ridge R2 participants_age,3,-0.03428222956452531
+ridge R2 participants_age,4,-0.010278901376245653
+ridge R2 participants_age,5,-0.016422708641257833
+ridge R2 participants_age,6,-0.03060555962792022
+ridge R2 participants_age,7,-0.0006652622573035671
+ridge R2 participants_age,8,-0.015812028466438033
+ridge R2 participants_age,9,-0.016836074114377153
+ridge R2 participants_age,10,-0.014595602746042546
+ridge R2 participants_age,11,-0.022364864406104523
+ridge R2 participants_age,12,-0.024216673104116015
+ridge R2 participants_age,13,-0.0023788161815085918
+ridge R2 participants_age,14,-0.01922931100376868
+ridge R2 participants_age,15,-0.03254891103729962
+ridge R2 participants_age,16,-0.02182710610463867
+ridge R2 participants_age,17,-0.026713479596630174
+ridge R2 participants_age,18,-0.0010612915361085662
+ridge R2 participants_age,19,-0.008375996001258601
+ridge R2 participants_age,20,0.0008630172720029972
+ridge R2 participants_age,21,-0.02970679820914257
+ridge R2 participants_age,22,-0.007817074631314425
+ridge R2 participants_age,23,0.003907988762108183
+ridge R2 participants_age,24,-0.027858173549073495
+ridge R2 participants_age,25,-0.029105722221598462
+ridge R2 participants_age,26,-0.012150093163900477
+ridge R2 participants_age,27,-0.029617161973349404
+ridge R2 participants_age,28,-0.022874389829746544
+ridge R2 participants_age,29,-0.035332959560610444
+ridge R2 participants_age,30,-0.0339062601783342
+ridge R2 participants_age,31,0.007539020493656401
+ridge R2 participants_age,32,-0.014529727632841993
+ridge R2 participants_age,33,-0.027878897866704833
+ridge R2 participants_age,34,-0.007874223349510157
+ridge R2 participants_age,35,-0.007978568226934213
+ridge R2 participants_age,36,-0.0029153475622698544
+ridge R2 participants_age,37,-0.027556529951907827
+ridge R2 participants_age,38,-0.030671342111638022
+ridge R2 participants_age,39,-0.014571006135557507
+ridge R2 participants_age,40,-0.027580448087698217
+ridge R2 participants_age,41,-0.03611657021884529
+ridge R2 participants_age,42,-0.027439695192465807
+ridge R2 participants_age,43,-0.01543213943981514
+ridge R2 participants_age,44,-0.013547968529830534
+ridge R2 participants_age,45,-0.02667439922023762
+ridge R2 participants_age,46,-0.031863635262816103
+ridge R2 participants_age,47,-0.03351353708918903
+ridge R2 participants_age,48,-0.032977237502156864
+ridge R2 participants_age,49,-0.007053075833297839
+ridge R2 participants_age,50,-0.006923755637848306
+ridge R2 participants_age,51,-0.03617093509939884
+ridge R2 participants_age,52,-0.013056081642070172
+ridge R2 participants_age,53,-0.018458556277857863
+ridge R2 participants_age,54,-0.019494673743085222
+ridge R2 participants_age,55,-0.006048668372843347
+ridge R2 participants_age,56,-0.012111787759868209
+ridge R2 participants_age,57,-0.021423043544082532
+ridge R2 participants_age,58,-0.027709597603810643
+ridge R2 participants_age,59,-0.028910926936242642
+ridge R2 participants_age,60,-0.022390168035708147
+ridge R2 participants_age,61,-0.03715967222266525
+ridge R2 participants_age,62,-0.02897275239602326
+ridge R2 participants_age,63,-0.015733393287147734
+ridge R2 participants_age,64,-0.02003332505484945
+ridge R2 participants_age,65,-0.030208656037103987
+ridge R2 participants_age,66,-0.030466731012122716
+ridge R2 participants_age,67,-0.01114302748830176
+ridge R2 participants_age,68,-0.03302042987205067
+ridge R2 participants_age,69,-0.026225758188580972
+ridge R2 participants_age,70,-0.018522261205394575
+ridge R2 participants_age,71,-0.02163208705667219
+ridge R2 participants_age,72,-0.02872228459603421
+ridge R2 participants_age,73,-0.017830066705456726
+ridge R2 participants_age,74,-0.006137297334723346
+ridge R2 participants_age,75,-0.031237390365192352
+ridge R2 participants_age,76,-0.015557416793436474
+ridge R2 participants_age,77,-0.024241906305636718
+ridge R2 participants_age,78,-0.01927369808156687
+ridge R2 participants_age,79,-0.03066164532891902
+ridge R2 participants_age,80,-0.029045107287814176
+ridge R2 participants_age,81,-0.02541583591143448
+ridge R2 participants_age,82,-0.02637003392316606
+ridge R2 participants_age,83,-0.023676822172408185
+ridge R2 participants_age,84,-0.02002214780828937
+ridge R2 participants_age,85,-0.005238515701001534
+ridge R2 participants_age,86,-0.032102373509302895
+ridge R2 participants_age,87,-0.012387151136705521
+ridge R2 participants_age,88,-0.026756336143652693
+ridge R2 participants_age,89,-0.01635883159849061
+ridge R2 participants_age,90,-0.020057382292021364
+ridge R2 participants_age,91,-0.03264731181996949
+ridge R2 participants_age,92,-0.022526689795247412
+ridge R2 participants_age,93,-0.01080062642752555
+ridge R2 participants_age,94,-0.012142159901758376
+ridge R2 participants_age,95,-0.01831144287015163
+ridge R2 participants_age,96,-0.02470932512385393
+ridge R2 participants_age,97,0.00037225524271133903
+ridge R2 participants_age,98,-0.018582233922700864
+ridge R2 participants_age,99,-0.010881801298358473
+ridge R2 participants_age,100,-0.026445069512519126
+ridge R2 participants_age,101,-0.03168868706013228
+ridge R2 participants_age,102,-0.01736054529869735
+ridge R2 participants_age,103,-0.004758570416346641
+ridge R2 participants_age,104,-0.01716437470614829
+ridge R2 participants_age,105,-0.01862809591845105
+ridge R2 participants_age,106,-0.022003090328591712
+ridge R2 participants_age,107,-0.022414357033929466
+ridge R2 participants_age,108,-0.022224602856356857
+ridge R2 participants_age,109,-0.02442997648200529
+ridge R2 participants_age,110,-0.02165405234494977
+ridge R2 participants_age,111,-0.02978128443609873
+ridge R2 participants_age,112,-0.012831635537227104
+ridge R2 participants_age,113,-0.02066830508348727
+ridge R2 participants_age,114,-0.018587190257944197
+ridge R2 participants_age,115,-0.015603406616626625
+ridge R2 participants_age,116,-0.00031607926523102847
+ridge R2 participants_age,117,-0.02603751460974313
+ridge R2 participants_age,118,-0.013917793554319324
+ridge R2 participants_age,119,-0.02879093364324259
+ridge R2 participants_age,120,-0.009982417141053856
+ridge R2 participants_age,121,-0.01230342322887501
+ridge R2 participants_age,122,-0.011051718804321098
+ridge R2 participants_age,123,-0.013125776600050099
+ridge R2 participants_age,124,-0.02206033967576171
+ridge R2 participants_age,125,-0.015168581339122023
+ridge R2 participants_age,126,-0.02479252893295758
+ridge R2 participants_age,127,-0.028343308672019063
+ridge R2 participants_age,128,-0.00918824270331764
+ridge R2 participants_age,129,-0.02905811676217862
+ridge R2 participants_age,130,-0.028798318117024824
+ridge R2 participants_age,131,-0.02239570419897352
+ridge R2 participants_age,132,-0.01871375368604178
+ridge R2 participants_age,133,-0.009647376912515826
+ridge R2 participants_age,134,-0.012484424868532518
+ridge R2 participants_age,135,-0.019979806125663746
+ridge R2 participants_age,136,-0.013751971107255345
+ridge R2 participants_age,137,-0.011457523744155429
+ridge R2 participants_age,138,-0.013080963104927568
+ridge R2 participants_age,139,-0.010227123621003198
+ridge R2 participants_age,140,-0.01028165356365851
+ridge R2 participants_age,141,-0.017170325028140532
+ridge R2 participants_age,142,-0.037229041605735924
+ridge R2 participants_age,143,-0.025304872187964733
+ridge R2 participants_age,144,-0.026099228606585756
+ridge R2 participants_age,145,-0.02217662312718094
+ridge R2 participants_age,146,-0.029282595865047112
+ridge R2 participants_age,147,-0.016360836914782073
+ridge R2 participants_age,148,-0.022556736988550208
+ridge R2 participants_age,149,-0.02888623267734225
+ridge R2 participants_age,150,-0.015676720911175
+ridge R2 participants_age,151,-0.03351830593599625
+ridge R2 participants_age,152,-0.017559380617442333
+ridge R2 participants_age,153,-0.013022381207047351
+ridge R2 participants_age,154,-0.01823402363679838
+ridge R2 participants_age,155,-0.01692613980905544
+ridge R2 participants_age,156,-0.03691093631727904
+ridge R2 participants_age,157,-0.005819013628501235
+ridge R2 participants_age,158,-0.017647746773413076
+ridge R2 participants_age,159,-0.02805480934170146
+ridge R2 participants_age,160,-0.01844443595696199
+ridge R2 participants_age,161,-0.0065106216045731635
+ridge R2 participants_age,162,-0.01154459291909915
+ridge R2 participants_age,163,-0.008714918089218093
+ridge R2 participants_age,164,-0.010261632792876618
+ridge R2 participants_age,165,-0.015837960477918855
+ridge R2 participants_age,166,-0.023626331900221453
+ridge R2 participants_age,167,-0.030586693101707363
+ridge R2 participants_age,168,-0.03957914387592698
+ridge R2 participants_age,169,-0.02645983716588085
+ridge R2 participants_age,170,-0.015366894015194976
+ridge R2 participants_age,171,-0.018119212139321883
+ridge R2 participants_age,172,-0.02003206109352207
+ridge R2 participants_age,173,-0.025395728137503015
+ridge R2 participants_age,174,-0.020729139105309713
+ridge R2 participants_age,175,-0.034436224242889724
+ridge R2 participants_age,176,-0.01484184552803991
+ridge R2 participants_age,177,-0.021416604005946693
+ridge R2 participants_age,178,0.0013908578748121903
+ridge R2 participants_age,179,0.005005089897342607
+ridge R2 participants_age,180,-0.01055451275324959
+ridge R2 participants_age,181,-0.029501111785714462
+ridge R2 participants_age,182,-0.028748644963215275
+ridge R2 participants_age,183,-0.02652384758158699
+ridge R2 participants_age,184,-0.018866579312368348
+ridge R2 participants_age,185,0.013891427583979321
+ridge R2 participants_age,186,-0.02493440976234318
+ridge R2 participants_age,187,-0.02414806183238216
+ridge R2 participants_age,188,-0.011418244443879733
+ridge R2 participants_age,189,-0.01100222585778421
+ridge R2 participants_age,190,-0.0219233318096137
+ridge R2 participants_age,191,-0.004495910728417485
+ridge R2 participants_age,192,-0.023008520043197755
+ridge R2 participants_age,193,-0.019970604563837258
+ridge R2 participants_age,194,-0.011893844090567818
+ridge R2 participants_age,195,-0.01847478125766311
+ridge R2 participants_age,196,-0.017302762941047378
+ridge R2 participants_age,197,-0.018334114558206993
+ridge R2 participants_age,198,-0.0270251488377935
+ridge R2 participants_age,199,-0.008568746014264716
+ridge R2 bmi_baseline,0,-0.014275543712284344
+ridge R2 bmi_baseline,1,-0.021448058030185235
+ridge R2 bmi_baseline,2,-0.027798773788990427
+ridge R2 bmi_baseline,3,-0.023938503021365687
+ridge R2 bmi_baseline,4,-0.03029301169495424
+ridge R2 bmi_baseline,5,-0.032206017949469645
+ridge R2 bmi_baseline,6,-0.012478006528530816
+ridge R2 bmi_baseline,7,-0.02307123459732141
+ridge R2 bmi_baseline,8,-0.016086978134720376
+ridge R2 bmi_baseline,9,-0.0028652096862564758
+ridge R2 bmi_baseline,10,-0.01983113457797736
+ridge R2 bmi_baseline,11,-0.006472611432918551
+ridge R2 bmi_baseline,12,-0.02601114406470373
+ridge R2 bmi_baseline,13,-0.03609888383150128
+ridge R2 bmi_baseline,14,-0.03299635164463055
+ridge R2 bmi_baseline,15,0.014012137097136446
+ridge R2 bmi_baseline,16,-0.01870636225054323
+ridge R2 bmi_baseline,17,-0.005782531819810588
+ridge R2 bmi_baseline,18,-0.031979493916667545
+ridge R2 bmi_baseline,19,-0.02707019482617734
+ridge R2 bmi_baseline,20,-0.03416520034085946
+ridge R2 bmi_baseline,21,-0.012378690964311767
+ridge R2 bmi_baseline,22,-0.02870507222951524
+ridge R2 bmi_baseline,23,-0.017907567885419917
+ridge R2 bmi_baseline,24,-0.014941421848639447
+ridge R2 bmi_baseline,25,-0.02256710480375257
+ridge R2 bmi_baseline,26,-0.01775313197371875
+ridge R2 bmi_baseline,27,-0.013305814577419861
+ridge R2 bmi_baseline,28,-0.028591425304492102
+ridge R2 bmi_baseline,29,-0.03363523225263587
+ridge R2 bmi_baseline,30,-0.0255662501542242
+ridge R2 bmi_baseline,31,-0.01029649568799873
+ridge R2 bmi_baseline,32,-0.029973720298014372
+ridge R2 bmi_baseline,33,-0.013245191226247899
+ridge R2 bmi_baseline,34,-0.006067318379056719
+ridge R2 bmi_baseline,35,-0.025870930643844048
+ridge R2 bmi_baseline,36,-0.009536470197217595
+ridge R2 bmi_baseline,37,0.003852671859773338
+ridge R2 bmi_baseline,38,-0.029296387300209004
+ridge R2 bmi_baseline,39,-0.024899018457167132
+ridge R2 bmi_baseline,40,-0.02577550284404917
+ridge R2 bmi_baseline,41,-0.0324358042632833
+ridge R2 bmi_baseline,42,-0.014935340421178056
+ridge R2 bmi_baseline,43,0.0128072841268001
+ridge R2 bmi_baseline,44,-0.02766669565970714
+ridge R2 bmi_baseline,45,-0.012701613969551051
+ridge R2 bmi_baseline,46,-0.027512439857164672
+ridge R2 bmi_baseline,47,-0.023095943687367226
+ridge R2 bmi_baseline,48,-0.03464742817585775
+ridge R2 bmi_baseline,49,-0.018123458625526334
+ridge R2 bmi_baseline,50,-0.029396240512928218
+ridge R2 bmi_baseline,51,-0.02975658376410739
+ridge R2 bmi_baseline,52,-0.00862864217982584
+ridge R2 bmi_baseline,53,-0.004850756683817181
+ridge R2 bmi_baseline,54,-0.007012149569898707
+ridge R2 bmi_baseline,55,-0.03401802076281957
+ridge R2 bmi_baseline,56,-0.01027131280368998
+ridge R2 bmi_baseline,57,-0.02606048309602582
+ridge R2 bmi_baseline,58,-0.022933285234055578
+ridge R2 bmi_baseline,59,-0.02918509232859834
+ridge R2 bmi_baseline,60,-0.017128120079824338
+ridge R2 bmi_baseline,61,-0.0383585388095562
+ridge R2 bmi_baseline,62,-0.017914623338235014
+ridge R2 bmi_baseline,63,-0.027137773623777228
+ridge R2 bmi_baseline,64,-0.010350853747407296
+ridge R2 bmi_baseline,65,-0.033927930465050604
+ridge R2 bmi_baseline,66,-0.034181222292986924
+ridge R2 bmi_baseline,67,-0.03913958156158204
+ridge R2 bmi_baseline,68,-0.021888279961320034
+ridge R2 bmi_baseline,69,-0.010045846499318722
+ridge R2 bmi_baseline,70,-0.029551395946847414
+ridge R2 bmi_baseline,71,-0.024189124979330012
+ridge R2 bmi_baseline,72,-0.03458884925346961
+ridge R2 bmi_baseline,73,-0.012686402595943225
+ridge R2 bmi_baseline,74,-0.03139000388238755
+ridge R2 bmi_baseline,75,-0.020598283539861706
+ridge R2 bmi_baseline,76,-0.02392828137955627
+ridge R2 bmi_baseline,77,-0.02389713836181917
+ridge R2 bmi_baseline,78,-0.01777177481942549
+ridge R2 bmi_baseline,79,-0.01752725525883747
+ridge R2 bmi_baseline,80,-0.016052361303906748
+ridge R2 bmi_baseline,81,-0.0018305312937021423
+ridge R2 bmi_baseline,82,-0.01614748772374175
+ridge R2 bmi_baseline,83,-0.030842295591428925
+ridge R2 bmi_baseline,84,-0.03294076504853627
+ridge R2 bmi_baseline,85,-0.0322245416826028
+ridge R2 bmi_baseline,86,-0.013673816476819534
+ridge R2 bmi_baseline,87,-0.0312983037162653
+ridge R2 bmi_baseline,88,-0.027879428586751853
+ridge R2 bmi_baseline,89,-0.016838086711119304
+ridge R2 bmi_baseline,90,-0.01988676294438063
+ridge R2 bmi_baseline,91,-0.029641449246855744
+ridge R2 bmi_baseline,92,-0.024142625461922584
+ridge R2 bmi_baseline,93,-0.02732767428728633
+ridge R2 bmi_baseline,94,-0.03165256785071757
+ridge R2 bmi_baseline,95,0.030261447567731414
+ridge R2 bmi_baseline,96,-0.008710765580873359
+ridge R2 bmi_baseline,97,-0.024025020706018196
+ridge R2 bmi_baseline,98,-0.00848612980228669
+ridge R2 bmi_baseline,99,-0.03211128279734754
+ridge R2 bmi_baseline,100,-0.0038506117682441943
+ridge R2 bmi_baseline,101,0.00044749652274456153
+ridge R2 bmi_baseline,102,-0.011895333235891314
+ridge R2 bmi_baseline,103,-0.021361282575822038
+ridge R2 bmi_baseline,104,-0.025118969781370293
+ridge R2 bmi_baseline,105,-0.038478757124308816
+ridge R2 bmi_baseline,106,-0.014439973013389062
+ridge R2 bmi_baseline,107,-0.0035174495608547574
+ridge R2 bmi_baseline,108,-0.010388082227179574
+ridge R2 bmi_baseline,109,-0.007945957531989123
+ridge R2 bmi_baseline,110,-0.01656704824480637
+ridge R2 bmi_baseline,111,-0.024652293327671826
+ridge R2 bmi_baseline,112,-0.02204169054597993
+ridge R2 bmi_baseline,113,-0.01827483009329356
+ridge R2 bmi_baseline,114,-0.028357471195208817
+ridge R2 bmi_baseline,115,-0.009521112205943316
+ridge R2 bmi_baseline,116,-0.0019500875705444898
+ridge R2 bmi_baseline,117,-0.036273057517218765
+ridge R2 bmi_baseline,118,-0.020590834145876258
+ridge R2 bmi_baseline,119,-0.015462425519243261
+ridge R2 bmi_baseline,120,-0.014773485406520681
+ridge R2 bmi_baseline,121,-0.006465267275044484
+ridge R2 bmi_baseline,122,-0.02243651634550914
+ridge R2 bmi_baseline,123,-0.026099012165711644
+ridge R2 bmi_baseline,124,-0.017430304691787857
+ridge R2 bmi_baseline,125,-0.017247730474536205
+ridge R2 bmi_baseline,126,-0.021388864666059826
+ridge R2 bmi_baseline,127,-0.01258667891095877
+ridge R2 bmi_baseline,128,-0.023139246145427395
+ridge R2 bmi_baseline,129,0.002512377719152803
+ridge R2 bmi_baseline,130,-0.020008933937529116
+ridge R2 bmi_baseline,131,-0.015336164481355663
+ridge R2 bmi_baseline,132,-0.005178972295684536
+ridge R2 bmi_baseline,133,-0.01639696205205965
+ridge R2 bmi_baseline,134,0.0012581455768602146
+ridge R2 bmi_baseline,135,-0.008421219386003376
+ridge R2 bmi_baseline,136,-0.0261710638289665
+ridge R2 bmi_baseline,137,-0.018774945325574333
+ridge R2 bmi_baseline,138,-0.017323050296877307
+ridge R2 bmi_baseline,139,-0.03190682359837593
+ridge R2 bmi_baseline,140,-0.00952415649669347
+ridge R2 bmi_baseline,141,-0.020255278357271367
+ridge R2 bmi_baseline,142,-0.031344200854307
+ridge R2 bmi_baseline,143,0.0022627749140021747
+ridge R2 bmi_baseline,144,-0.02627346588156132
+ridge R2 bmi_baseline,145,-0.03334387596141308
+ridge R2 bmi_baseline,146,-0.01876193361952283
+ridge R2 bmi_baseline,147,-0.01204297616988681
+ridge R2 bmi_baseline,148,-0.017095700830236593
+ridge R2 bmi_baseline,149,-0.019413112136112076
+ridge R2 bmi_baseline,150,-0.017408397920244623
+ridge R2 bmi_baseline,151,-0.00903863615476852
+ridge R2 bmi_baseline,152,-0.017643060386572706
+ridge R2 bmi_baseline,153,-0.0017880607904574575
+ridge R2 bmi_baseline,154,-0.03251321523478112
+ridge R2 bmi_baseline,155,-0.01080057160930803
+ridge R2 bmi_baseline,156,-0.02546975881565894
+ridge R2 bmi_baseline,157,-0.01901871923890197
+ridge R2 bmi_baseline,158,-0.02770007654442197
+ridge R2 bmi_baseline,159,-0.01669455111693563
+ridge R2 bmi_baseline,160,-0.028228220003767346
+ridge R2 bmi_baseline,161,-0.00930595881341012
+ridge R2 bmi_baseline,162,-0.011165405579238064
+ridge R2 bmi_baseline,163,-0.015489316551398291
+ridge R2 bmi_baseline,164,-0.02324629795257782
+ridge R2 bmi_baseline,165,-0.02961046413671342
+ridge R2 bmi_baseline,166,-0.030591307821690394
+ridge R2 bmi_baseline,167,-0.021813957080725865
+ridge R2 bmi_baseline,168,-0.017206156741232714
+ridge R2 bmi_baseline,169,-0.020932325007435137
+ridge R2 bmi_baseline,170,0.003925873622875664
+ridge R2 bmi_baseline,171,-0.017965763589187
+ridge R2 bmi_baseline,172,-0.028057383328836227
+ridge R2 bmi_baseline,173,-0.008481430409985391
+ridge R2 bmi_baseline,174,-0.03492856319100812
+ridge R2 bmi_baseline,175,-0.02502873501441516
+ridge R2 bmi_baseline,176,-0.01172826503562896
+ridge R2 bmi_baseline,177,-0.02125416932506896
+ridge R2 bmi_baseline,178,-0.03688101770928398
+ridge R2 bmi_baseline,179,-0.006609131131498636
+ridge R2 bmi_baseline,180,-0.0010942969291600768
+ridge R2 bmi_baseline,181,-0.020202094180179042
+ridge R2 bmi_baseline,182,-0.023488617419466173
+ridge R2 bmi_baseline,183,-0.028839273002406962
+ridge R2 bmi_baseline,184,-0.024284278838951456
+ridge R2 bmi_baseline,185,-0.024652552772319813
+ridge R2 bmi_baseline,186,-0.011640119076433697
+ridge R2 bmi_baseline,187,-0.02472952740781942
+ridge R2 bmi_baseline,188,-0.03814451198487956
+ridge R2 bmi_baseline,189,-0.011373915049342154
+ridge R2 bmi_baseline,190,-0.030468279172431112
+ridge R2 bmi_baseline,191,-0.011112794239810597
+ridge R2 bmi_baseline,192,-0.014898760215976914
+ridge R2 bmi_baseline,193,-0.0030903703114186776
+ridge R2 bmi_baseline,194,-0.01224744488565821
+ridge R2 bmi_baseline,195,-0.019825367805614613
+ridge R2 bmi_baseline,196,-0.016292085268754475
+ridge R2 bmi_baseline,197,-0.024638575542188734
+ridge R2 bmi_baseline,198,0.003304511389051412
+ridge R2 bmi_baseline,199,-0.03069538094471147
+ridge R2 hba1c_percent_baseline,0,-0.029794761337395226
+ridge R2 hba1c_percent_baseline,1,-0.035698148350158165
+ridge R2 hba1c_percent_baseline,2,-0.036358297263227035
+ridge R2 hba1c_percent_baseline,3,-0.022982567212169958
+ridge R2 hba1c_percent_baseline,4,-0.043566843683137124
+ridge R2 hba1c_percent_baseline,5,-0.013628888345895485
+ridge R2 hba1c_percent_baseline,6,0.0014162876487675558
+ridge R2 hba1c_percent_baseline,7,-0.04012913410134655
+ridge R2 hba1c_percent_baseline,8,-0.0424163387395049
+ridge R2 hba1c_percent_baseline,9,-0.043124665680269736
+ridge R2 hba1c_percent_baseline,10,-0.03042128691976198
+ridge R2 hba1c_percent_baseline,11,-0.04312299423110688
+ridge R2 hba1c_percent_baseline,12,-0.018339975501214134
+ridge R2 hba1c_percent_baseline,13,-0.017092051396462082
+ridge R2 hba1c_percent_baseline,14,-0.0007762835460820572
+ridge R2 hba1c_percent_baseline,15,-0.024090938785352956
+ridge R2 hba1c_percent_baseline,16,-0.02588165604853576
+ridge R2 hba1c_percent_baseline,17,-0.04550226266828128
+ridge R2 hba1c_percent_baseline,18,-0.011190238946106046
+ridge R2 hba1c_percent_baseline,19,-0.043638765442092
+ridge R2 hba1c_percent_baseline,20,-0.037602391480503705
+ridge R2 hba1c_percent_baseline,21,-0.02098286355948553
+ridge R2 hba1c_percent_baseline,22,-0.03374460205911256
+ridge R2 hba1c_percent_baseline,23,-0.04028479913054017
+ridge R2 hba1c_percent_baseline,24,-0.00581165815339868
+ridge R2 hba1c_percent_baseline,25,-0.008835090702493886
+ridge R2 hba1c_percent_baseline,26,-0.03030823032245289
+ridge R2 hba1c_percent_baseline,27,-0.03296638466127888
+ridge R2 hba1c_percent_baseline,28,-0.01283146914879385
+ridge R2 hba1c_percent_baseline,29,-0.04550268574695293
+ridge R2 hba1c_percent_baseline,30,-0.021121008723503865
+ridge R2 hba1c_percent_baseline,31,-0.04236929787338317
+ridge R2 hba1c_percent_baseline,32,-0.027384570715689005
+ridge R2 hba1c_percent_baseline,33,-0.03578423228923122
+ridge R2 hba1c_percent_baseline,34,-0.03542202481188972
+ridge R2 hba1c_percent_baseline,35,-0.02807768580961234
+ridge R2 hba1c_percent_baseline,36,-0.029739440976190412
+ridge R2 hba1c_percent_baseline,37,-0.04906878094340561
+ridge R2 hba1c_percent_baseline,38,-0.03322746686999256
+ridge R2 hba1c_percent_baseline,39,-0.013048949002242294
+ridge R2 hba1c_percent_baseline,40,-0.04757729550871903
+ridge R2 hba1c_percent_baseline,41,-0.031921487564287254
+ridge R2 hba1c_percent_baseline,42,-0.025850460014905652
+ridge R2 hba1c_percent_baseline,43,-0.019694462439417526
+ridge R2 hba1c_percent_baseline,44,0.012445636205086652
+ridge R2 hba1c_percent_baseline,45,-0.03385839361876042
+ridge R2 hba1c_percent_baseline,46,-0.008904091228704614
+ridge R2 hba1c_percent_baseline,47,-0.037555458152495724
+ridge R2 hba1c_percent_baseline,48,-0.017314127566449677
+ridge R2 hba1c_percent_baseline,49,-0.033412637072496976
+ridge R2 hba1c_percent_baseline,50,-0.019858899607419156
+ridge R2 hba1c_percent_baseline,51,-0.02673270067015121
+ridge R2 hba1c_percent_baseline,52,-0.04115127560928289
+ridge R2 hba1c_percent_baseline,53,-0.035248717272589714
+ridge R2 hba1c_percent_baseline,54,-0.02367945744620581
+ridge R2 hba1c_percent_baseline,55,-0.019162741637711145
+ridge R2 hba1c_percent_baseline,56,-0.02392982669916832
+ridge R2 hba1c_percent_baseline,57,-0.03197696907683678
+ridge R2 hba1c_percent_baseline,58,-0.021155398801782965
+ridge R2 hba1c_percent_baseline,59,-0.03780218015026704
+ridge R2 hba1c_percent_baseline,60,-0.03437115531125445
+ridge R2 hba1c_percent_baseline,61,-0.0056371154517118605
+ridge R2 hba1c_percent_baseline,62,-0.017050649220506475
+ridge R2 hba1c_percent_baseline,63,-0.02094856311507831
+ridge R2 hba1c_percent_baseline,64,-0.046742930163513385
+ridge R2 hba1c_percent_baseline,65,-0.015429624363233696
+ridge R2 hba1c_percent_baseline,66,-0.04305226774417159
+ridge R2 hba1c_percent_baseline,67,-0.041369767759146914
+ridge R2 hba1c_percent_baseline,68,-0.026403161530970554
+ridge R2 hba1c_percent_baseline,69,-0.03131209524451628
+ridge R2 hba1c_percent_baseline,70,-0.027404324875602182
+ridge R2 hba1c_percent_baseline,71,-0.04580468028341356
+ridge R2 hba1c_percent_baseline,72,-0.03870010109199984
+ridge R2 hba1c_percent_baseline,73,-0.03775188650009342
+ridge R2 hba1c_percent_baseline,74,-0.03366299762063929
+ridge R2 hba1c_percent_baseline,75,-0.019216351428177125
+ridge R2 hba1c_percent_baseline,76,-0.03559443382541616
+ridge R2 hba1c_percent_baseline,77,-0.037034725895097376
+ridge R2 hba1c_percent_baseline,78,-0.031228789259624135
+ridge R2 hba1c_percent_baseline,79,-0.01918405814935986
+ridge R2 hba1c_percent_baseline,80,0.025508606467905315
+ridge R2 hba1c_percent_baseline,81,-0.022912400737131078
+ridge R2 hba1c_percent_baseline,82,-0.04663766330564223
+ridge R2 hba1c_percent_baseline,83,-0.014497005798955742
+ridge R2 hba1c_percent_baseline,84,-0.03574801244840753
+ridge R2 hba1c_percent_baseline,85,-0.023410650513830955
+ridge R2 hba1c_percent_baseline,86,-0.02785212216284605
+ridge R2 hba1c_percent_baseline,87,-0.04084985996564838
+ridge R2 hba1c_percent_baseline,88,-0.030014769229521843
+ridge R2 hba1c_percent_baseline,89,-0.03581661612261744
+ridge R2 hba1c_percent_baseline,90,-0.02666296092301934
+ridge R2 hba1c_percent_baseline,91,-0.04323239958441927
+ridge R2 hba1c_percent_baseline,92,-0.038013728760186494
+ridge R2 hba1c_percent_baseline,93,-0.017447708019977082
+ridge R2 hba1c_percent_baseline,94,-0.04288668617052083
+ridge R2 hba1c_percent_baseline,95,-0.006636089675601697
+ridge R2 hba1c_percent_baseline,96,-0.03540786368232407
+ridge R2 hba1c_percent_baseline,97,-0.03018607381656424
+ridge R2 hba1c_percent_baseline,98,-0.030815748559121836
+ridge R2 hba1c_percent_baseline,99,-0.025621214721245567
+ridge R2 hba1c_percent_baseline,100,-0.02103753472292147
+ridge R2 hba1c_percent_baseline,101,-0.017329071857523193
+ridge R2 hba1c_percent_baseline,102,-0.010518982080345296
+ridge R2 hba1c_percent_baseline,103,-0.030680486866356826
+ridge R2 hba1c_percent_baseline,104,-0.026282330175942947
+ridge R2 hba1c_percent_baseline,105,-0.01277795028450801
+ridge R2 hba1c_percent_baseline,106,-0.035838732307449606
+ridge R2 hba1c_percent_baseline,107,-0.027034178239839557
+ridge R2 hba1c_percent_baseline,108,-0.030449510886324527
+ridge R2 hba1c_percent_baseline,109,-0.044897977004350054
+ridge R2 hba1c_percent_baseline,110,-0.03244664121585239
+ridge R2 hba1c_percent_baseline,111,-0.03217999987189102
+ridge R2 hba1c_percent_baseline,112,-0.045751197411179056
+ridge R2 hba1c_percent_baseline,113,-0.03349992727660123
+ridge R2 hba1c_percent_baseline,114,-0.03086066296978629
+ridge R2 hba1c_percent_baseline,115,-0.05667284666845385
+ridge R2 hba1c_percent_baseline,116,-0.014697027420881525
+ridge R2 hba1c_percent_baseline,117,-0.03219632261341099
+ridge R2 hba1c_percent_baseline,118,-0.032176652697959884
+ridge R2 hba1c_percent_baseline,119,-0.024328195582079992
+ridge R2 hba1c_percent_baseline,120,-0.05239383162633038
+ridge R2 hba1c_percent_baseline,121,-0.03558965848408979
+ridge R2 hba1c_percent_baseline,122,-0.036600973259320435
+ridge R2 hba1c_percent_baseline,123,-0.035118979289819885
+ridge R2 hba1c_percent_baseline,124,-0.025874026035414666
+ridge R2 hba1c_percent_baseline,125,-0.03187221440159349
+ridge R2 hba1c_percent_baseline,126,-0.035541551404855154
+ridge R2 hba1c_percent_baseline,127,-0.026647311992398448
+ridge R2 hba1c_percent_baseline,128,-0.02529446658772172
+ridge R2 hba1c_percent_baseline,129,-0.024497885290611032
+ridge R2 hba1c_percent_baseline,130,-0.030759628242941872
+ridge R2 hba1c_percent_baseline,131,-0.003271871746254318
+ridge R2 hba1c_percent_baseline,132,-0.040377690738717
+ridge R2 hba1c_percent_baseline,133,-0.024613461560058614
+ridge R2 hba1c_percent_baseline,134,-0.042012587825418723
+ridge R2 hba1c_percent_baseline,135,-0.02679561009655873
+ridge R2 hba1c_percent_baseline,136,-0.02081068266568953
+ridge R2 hba1c_percent_baseline,137,-0.0037562196694762573
+ridge R2 hba1c_percent_baseline,138,-0.016525617512479274
+ridge R2 hba1c_percent_baseline,139,-0.008400330412305923
+ridge R2 hba1c_percent_baseline,140,-0.03896598465492973
+ridge R2 hba1c_percent_baseline,141,-0.04587443989371898
+ridge R2 hba1c_percent_baseline,142,-0.02811503767909662
+ridge R2 hba1c_percent_baseline,143,-0.03425891543544246
+ridge R2 hba1c_percent_baseline,144,-0.02378896152672305
+ridge R2 hba1c_percent_baseline,145,-0.04265913067555349
+ridge R2 hba1c_percent_baseline,146,-0.016398335022567156
+ridge R2 hba1c_percent_baseline,147,-0.015281630489693443
+ridge R2 hba1c_percent_baseline,148,-0.03635272214298757
+ridge R2 hba1c_percent_baseline,149,-0.037767244981014914
+ridge R2 hba1c_percent_baseline,150,-0.03744345788286796
+ridge R2 hba1c_percent_baseline,151,-0.023102993679745554
+ridge R2 hba1c_percent_baseline,152,-0.04940278564156331
+ridge R2 hba1c_percent_baseline,153,-0.011508940226158115
+ridge R2 hba1c_percent_baseline,154,-0.03252222895735546
+ridge R2 hba1c_percent_baseline,155,-0.0398611870514336
+ridge R2 hba1c_percent_baseline,156,-0.015562367040584002
+ridge R2 hba1c_percent_baseline,157,-0.028963889386328434
+ridge R2 hba1c_percent_baseline,158,-0.02529304144920541
+ridge R2 hba1c_percent_baseline,159,-0.04042449053019603
+ridge R2 hba1c_percent_baseline,160,-0.04892899084870206
+ridge R2 hba1c_percent_baseline,161,-0.04155143042230791
+ridge R2 hba1c_percent_baseline,162,-0.018336482844772073
+ridge R2 hba1c_percent_baseline,163,-0.016989692776105292
+ridge R2 hba1c_percent_baseline,164,-0.035169020307805665
+ridge R2 hba1c_percent_baseline,165,-0.04593576732693827
+ridge R2 hba1c_percent_baseline,166,-0.014064652188651827
+ridge R2 hba1c_percent_baseline,167,-0.04886497908477394
+ridge R2 hba1c_percent_baseline,168,-0.05688149639966533
+ridge R2 hba1c_percent_baseline,169,-0.03251194969648896
+ridge R2 hba1c_percent_baseline,170,-0.026429452316440116
+ridge R2 hba1c_percent_baseline,171,-0.011688558473065491
+ridge R2 hba1c_percent_baseline,172,-0.052388330615322776
+ridge R2 hba1c_percent_baseline,173,-0.03292335751248321
+ridge R2 hba1c_percent_baseline,174,-0.015575080567802768
+ridge R2 hba1c_percent_baseline,175,-0.03458461772733701
+ridge R2 hba1c_percent_baseline,176,-0.019173838636013185
+ridge R2 hba1c_percent_baseline,177,-0.025596500088720386
+ridge R2 hba1c_percent_baseline,178,-0.03768782870405363
+ridge R2 hba1c_percent_baseline,179,-0.03149478367894476
+ridge R2 hba1c_percent_baseline,180,-0.032314750544672144
+ridge R2 hba1c_percent_baseline,181,-0.036829254997604144
+ridge R2 hba1c_percent_baseline,182,-0.017315291879546946
+ridge R2 hba1c_percent_baseline,183,-0.03412393229812216
+ridge R2 hba1c_percent_baseline,184,-0.017642553246790982
+ridge R2 hba1c_percent_baseline,185,-0.06497516240958912
+ridge R2 hba1c_percent_baseline,186,-0.020278852120974022
+ridge R2 hba1c_percent_baseline,187,-0.010358299852175623
+ridge R2 hba1c_percent_baseline,188,-0.020434260373401125
+ridge R2 hba1c_percent_baseline,189,-0.04441342950231708
+ridge R2 hba1c_percent_baseline,190,-0.01506274202505864
+ridge R2 hba1c_percent_baseline,191,-0.05353930140165031
+ridge R2 hba1c_percent_baseline,192,-0.03672492593669663
+ridge R2 hba1c_percent_baseline,193,-0.028358523142601566
+ridge R2 hba1c_percent_baseline,194,-0.036821455126570424
+ridge R2 hba1c_percent_baseline,195,-0.041203900665862214
+ridge R2 hba1c_percent_baseline,196,-0.031498121231474
+ridge R2 hba1c_percent_baseline,197,-0.021237831783426753
+ridge R2 hba1c_percent_baseline,198,0.0007379291558776702
+ridge R2 hba1c_percent_baseline,199,-0.03742336919006095
+ridge R2 c_peptide_ngml_baseline,0,-0.003308928858590132
+ridge R2 c_peptide_ngml_baseline,1,-0.012403059063337274
+ridge R2 c_peptide_ngml_baseline,2,-0.010475000141324298
+ridge R2 c_peptide_ngml_baseline,3,-0.004202584920303121
+ridge R2 c_peptide_ngml_baseline,4,-0.008364629285710024
+ridge R2 c_peptide_ngml_baseline,5,-0.009542862829085674
+ridge R2 c_peptide_ngml_baseline,6,-0.013694226371582685
+ridge R2 c_peptide_ngml_baseline,7,-0.015084383199059248
+ridge R2 c_peptide_ngml_baseline,8,-0.01225765181778904
+ridge R2 c_peptide_ngml_baseline,9,-0.004629150679800631
+ridge R2 c_peptide_ngml_baseline,10,-0.009054516994756012
+ridge R2 c_peptide_ngml_baseline,11,-0.0063145220382958556
+ridge R2 c_peptide_ngml_baseline,12,-0.008101243071450437
+ridge R2 c_peptide_ngml_baseline,13,-0.011632269380501548
+ridge R2 c_peptide_ngml_baseline,14,-0.0025472250339484415
+ridge R2 c_peptide_ngml_baseline,15,-0.012118698086259982
+ridge R2 c_peptide_ngml_baseline,16,-0.0006325204719543898
+ridge R2 c_peptide_ngml_baseline,17,-0.006816935110477651
+ridge R2 c_peptide_ngml_baseline,18,-0.0020155185120422914
+ridge R2 c_peptide_ngml_baseline,19,-0.0068326284647077795
+ridge R2 c_peptide_ngml_baseline,20,-0.014336832913410591
+ridge R2 c_peptide_ngml_baseline,21,-0.0035018249209206598
+ridge R2 c_peptide_ngml_baseline,22,-0.009913917722762955
+ridge R2 c_peptide_ngml_baseline,23,0.0016535987740442515
+ridge R2 c_peptide_ngml_baseline,24,9.318812397951515e-05
+ridge R2 c_peptide_ngml_baseline,25,-0.004707473091678294
+ridge R2 c_peptide_ngml_baseline,26,-0.0009833652163480089
+ridge R2 c_peptide_ngml_baseline,27,-0.014665635773383645
+ridge R2 c_peptide_ngml_baseline,28,-0.01032702385035078
+ridge R2 c_peptide_ngml_baseline,29,-0.003828457928709561
+ridge R2 c_peptide_ngml_baseline,30,-0.006825608044181974
+ridge R2 c_peptide_ngml_baseline,31,-0.0042477996755707625
+ridge R2 c_peptide_ngml_baseline,32,-0.00423352625426765
+ridge R2 c_peptide_ngml_baseline,33,-0.004678380465168885
+ridge R2 c_peptide_ngml_baseline,34,0.0041026977501988915
+ridge R2 c_peptide_ngml_baseline,35,-0.0034402487762910106
+ridge R2 c_peptide_ngml_baseline,36,-0.002745658474239576
+ridge R2 c_peptide_ngml_baseline,37,-0.006028510679677801
+ridge R2 c_peptide_ngml_baseline,38,-0.013774634811472453
+ridge R2 c_peptide_ngml_baseline,39,-0.014310062427486336
+ridge R2 c_peptide_ngml_baseline,40,-3.110375841308688e-05
+ridge R2 c_peptide_ngml_baseline,41,-0.004395968918550874
+ridge R2 c_peptide_ngml_baseline,42,-0.009928287176862005
+ridge R2 c_peptide_ngml_baseline,43,-0.009534496627739752
+ridge R2 c_peptide_ngml_baseline,44,-0.01303959272599764
+ridge R2 c_peptide_ngml_baseline,45,-0.004857333395098085
+ridge R2 c_peptide_ngml_baseline,46,-0.007154608265098172
+ridge R2 c_peptide_ngml_baseline,47,-0.008358265394666109
+ridge R2 c_peptide_ngml_baseline,48,-0.01262008961644323
+ridge R2 c_peptide_ngml_baseline,49,-0.009825650823251042
+ridge R2 c_peptide_ngml_baseline,50,-0.009548927631227944
+ridge R2 c_peptide_ngml_baseline,51,-0.0057901250044565256
+ridge R2 c_peptide_ngml_baseline,52,-0.010365092961515998
+ridge R2 c_peptide_ngml_baseline,53,-0.008027894841957206
+ridge R2 c_peptide_ngml_baseline,54,0.0017855859967548238
+ridge R2 c_peptide_ngml_baseline,55,-0.009913845247188968
+ridge R2 c_peptide_ngml_baseline,56,-0.0027931643864966826
+ridge R2 c_peptide_ngml_baseline,57,-0.008032822045372923
+ridge R2 c_peptide_ngml_baseline,58,-0.0036387338290464477
+ridge R2 c_peptide_ngml_baseline,59,-0.00616171800288412
+ridge R2 c_peptide_ngml_baseline,60,-0.011620284391633762
+ridge R2 c_peptide_ngml_baseline,61,-0.0009111744538552458
+ridge R2 c_peptide_ngml_baseline,62,-0.002553566130931273
+ridge R2 c_peptide_ngml_baseline,63,-0.008709523748601011
+ridge R2 c_peptide_ngml_baseline,64,-0.007458739415309612
+ridge R2 c_peptide_ngml_baseline,65,-0.008107935453019799
+ridge R2 c_peptide_ngml_baseline,66,-0.015457181704627398
+ridge R2 c_peptide_ngml_baseline,67,-0.011546811438210458
+ridge R2 c_peptide_ngml_baseline,68,-0.00488525409424434
+ridge R2 c_peptide_ngml_baseline,69,-0.007519427504273812
+ridge R2 c_peptide_ngml_baseline,70,-0.01439446994072946
+ridge R2 c_peptide_ngml_baseline,71,-0.008095036898328578
+ridge R2 c_peptide_ngml_baseline,72,-0.012568001105150994
+ridge R2 c_peptide_ngml_baseline,73,-0.0034666189115770685
+ridge R2 c_peptide_ngml_baseline,74,-0.013123340249720172
+ridge R2 c_peptide_ngml_baseline,75,-0.007458902783469723
+ridge R2 c_peptide_ngml_baseline,76,-0.008550791331973562
+ridge R2 c_peptide_ngml_baseline,77,-0.013936297804435505
+ridge R2 c_peptide_ngml_baseline,78,-0.010968245669495058
+ridge R2 c_peptide_ngml_baseline,79,-0.008979695954725697
+ridge R2 c_peptide_ngml_baseline,80,-0.0014044221580782335
+ridge R2 c_peptide_ngml_baseline,81,-0.008663003020509707
+ridge R2 c_peptide_ngml_baseline,82,-0.004503175188942832
+ridge R2 c_peptide_ngml_baseline,83,-0.00724558548279397
+ridge R2 c_peptide_ngml_baseline,84,-0.010570699874486333
+ridge R2 c_peptide_ngml_baseline,85,-0.0031865540287412397
+ridge R2 c_peptide_ngml_baseline,86,-0.006583208849339384
+ridge R2 c_peptide_ngml_baseline,87,-0.014505395843469104
+ridge R2 c_peptide_ngml_baseline,88,-0.012655603713913166
+ridge R2 c_peptide_ngml_baseline,89,-0.010984478059823388
+ridge R2 c_peptide_ngml_baseline,90,-0.0016350045955149106
+ridge R2 c_peptide_ngml_baseline,91,-0.007904219551721159
+ridge R2 c_peptide_ngml_baseline,92,-0.01635378966932932
+ridge R2 c_peptide_ngml_baseline,93,-0.006803206532728812
+ridge R2 c_peptide_ngml_baseline,94,-0.00950004029438789
+ridge R2 c_peptide_ngml_baseline,95,-0.013053883178471448
+ridge R2 c_peptide_ngml_baseline,96,-0.013404108049400065
+ridge R2 c_peptide_ngml_baseline,97,-0.00969001981869444
+ridge R2 c_peptide_ngml_baseline,98,-0.006964196752225371
+ridge R2 c_peptide_ngml_baseline,99,-0.0051351431724802055
+ridge R2 c_peptide_ngml_baseline,100,-0.009177879577136672
+ridge R2 c_peptide_ngml_baseline,101,-0.004609728471384855
+ridge R2 c_peptide_ngml_baseline,102,-0.004827854023143452
+ridge R2 c_peptide_ngml_baseline,103,-0.010091518848655667
+ridge R2 c_peptide_ngml_baseline,104,-0.0020534392472686402
+ridge R2 c_peptide_ngml_baseline,105,-0.00565766493127029
+ridge R2 c_peptide_ngml_baseline,106,-0.0010361447811588764
+ridge R2 c_peptide_ngml_baseline,107,-0.007580162813283886
+ridge R2 c_peptide_ngml_baseline,108,-0.014563160818682475
+ridge R2 c_peptide_ngml_baseline,109,-0.013663407841207453
+ridge R2 c_peptide_ngml_baseline,110,-0.011709773650897759
+ridge R2 c_peptide_ngml_baseline,111,-0.010505911025941117
+ridge R2 c_peptide_ngml_baseline,112,-0.010148011041094529
+ridge R2 c_peptide_ngml_baseline,113,-0.005951999200243918
+ridge R2 c_peptide_ngml_baseline,114,-0.013054101224050818
+ridge R2 c_peptide_ngml_baseline,115,-0.00749802410276823
+ridge R2 c_peptide_ngml_baseline,116,-0.005144748419550593
+ridge R2 c_peptide_ngml_baseline,117,-0.006379264923432659
+ridge R2 c_peptide_ngml_baseline,118,-0.0014165392145244482
+ridge R2 c_peptide_ngml_baseline,119,-0.014915240530679386
+ridge R2 c_peptide_ngml_baseline,120,-0.0007499095701595238
+ridge R2 c_peptide_ngml_baseline,121,-0.002345954728369737
+ridge R2 c_peptide_ngml_baseline,122,-0.007933811877312902
+ridge R2 c_peptide_ngml_baseline,123,-0.005935529436668974
+ridge R2 c_peptide_ngml_baseline,124,-0.004801329916253705
+ridge R2 c_peptide_ngml_baseline,125,-0.007968682590191234
+ridge R2 c_peptide_ngml_baseline,126,-0.0026470792476347427
+ridge R2 c_peptide_ngml_baseline,127,-0.007657223026287685
+ridge R2 c_peptide_ngml_baseline,128,-0.010969334457963997
+ridge R2 c_peptide_ngml_baseline,129,-0.01436248862514966
+ridge R2 c_peptide_ngml_baseline,130,-0.010886399972049432
+ridge R2 c_peptide_ngml_baseline,131,-0.0070826823619483115
+ridge R2 c_peptide_ngml_baseline,132,-0.0011111452829293267
+ridge R2 c_peptide_ngml_baseline,133,-0.010919160500548308
+ridge R2 c_peptide_ngml_baseline,134,-0.009325455218024858
+ridge R2 c_peptide_ngml_baseline,135,-0.010333697656149665
+ridge R2 c_peptide_ngml_baseline,136,-0.010175206115381474
+ridge R2 c_peptide_ngml_baseline,137,-0.004927508103196976
+ridge R2 c_peptide_ngml_baseline,138,-0.00885427036372377
+ridge R2 c_peptide_ngml_baseline,139,-0.00978854809658336
+ridge R2 c_peptide_ngml_baseline,140,-0.0026533292034520706
+ridge R2 c_peptide_ngml_baseline,141,-0.014925868171581813
+ridge R2 c_peptide_ngml_baseline,142,-0.011416902405163798
+ridge R2 c_peptide_ngml_baseline,143,-0.008189640516678809
+ridge R2 c_peptide_ngml_baseline,144,-0.0005280524011623822
+ridge R2 c_peptide_ngml_baseline,145,-0.004687227147244455
+ridge R2 c_peptide_ngml_baseline,146,-0.009588904320877445
+ridge R2 c_peptide_ngml_baseline,147,-0.008825942001306153
+ridge R2 c_peptide_ngml_baseline,148,-0.009382568837450478
+ridge R2 c_peptide_ngml_baseline,149,-0.005323100497733657
+ridge R2 c_peptide_ngml_baseline,150,-0.012109644348117232
+ridge R2 c_peptide_ngml_baseline,151,-0.011655190831465934
+ridge R2 c_peptide_ngml_baseline,152,-0.0063930680367338955
+ridge R2 c_peptide_ngml_baseline,153,-0.0051095116238637495
+ridge R2 c_peptide_ngml_baseline,154,-0.0032586704416888157
+ridge R2 c_peptide_ngml_baseline,155,-0.0014921518093244934
+ridge R2 c_peptide_ngml_baseline,156,-0.022012429860424287
+ridge R2 c_peptide_ngml_baseline,157,-0.0045642752113519425
+ridge R2 c_peptide_ngml_baseline,158,-0.0016943997826122104
+ridge R2 c_peptide_ngml_baseline,159,-0.011441375480377047
+ridge R2 c_peptide_ngml_baseline,160,-0.007393183996182495
+ridge R2 c_peptide_ngml_baseline,161,-0.014572746001824344
+ridge R2 c_peptide_ngml_baseline,162,0.012886041150659833
+ridge R2 c_peptide_ngml_baseline,163,-0.00035444961823949406
+ridge R2 c_peptide_ngml_baseline,164,-0.006347383815153096
+ridge R2 c_peptide_ngml_baseline,165,-0.005676565140937617
+ridge R2 c_peptide_ngml_baseline,166,-0.008652534339953055
+ridge R2 c_peptide_ngml_baseline,167,-0.014557133403116929
+ridge R2 c_peptide_ngml_baseline,168,-0.0033204415655279096
+ridge R2 c_peptide_ngml_baseline,169,-0.006866712883017101
+ridge R2 c_peptide_ngml_baseline,170,-0.004258601115504579
+ridge R2 c_peptide_ngml_baseline,171,-0.0022402052738719203
+ridge R2 c_peptide_ngml_baseline,172,-0.006894997664360192
+ridge R2 c_peptide_ngml_baseline,173,-0.007641401903760281
+ridge R2 c_peptide_ngml_baseline,174,-0.011932611445817587
+ridge R2 c_peptide_ngml_baseline,175,-0.0005897611095238009
+ridge R2 c_peptide_ngml_baseline,176,-0.010041924666951196
+ridge R2 c_peptide_ngml_baseline,177,-0.010478940521136515
+ridge R2 c_peptide_ngml_baseline,178,-0.00040381422354296426
+ridge R2 c_peptide_ngml_baseline,179,0.001380638234810938
+ridge R2 c_peptide_ngml_baseline,180,0.0016135922515334578
+ridge R2 c_peptide_ngml_baseline,181,-0.012036403123936834
+ridge R2 c_peptide_ngml_baseline,182,-0.0041486108140098565
+ridge R2 c_peptide_ngml_baseline,183,-0.013576806930844842
+ridge R2 c_peptide_ngml_baseline,184,-0.007451796086903606
+ridge R2 c_peptide_ngml_baseline,185,-0.013550559554780905
+ridge R2 c_peptide_ngml_baseline,186,-0.007643677862469778
+ridge R2 c_peptide_ngml_baseline,187,-0.008836147469016842
+ridge R2 c_peptide_ngml_baseline,188,-0.01009765673968488
+ridge R2 c_peptide_ngml_baseline,189,-0.013742221682532474
+ridge R2 c_peptide_ngml_baseline,190,-0.01438282610506647
+ridge R2 c_peptide_ngml_baseline,191,-0.014748716257886763
+ridge R2 c_peptide_ngml_baseline,192,-0.006954983635200529
+ridge R2 c_peptide_ngml_baseline,193,-0.00604521196061647
+ridge R2 c_peptide_ngml_baseline,194,-0.010453953832965546
+ridge R2 c_peptide_ngml_baseline,195,-0.009933959594672803
+ridge R2 c_peptide_ngml_baseline,196,-0.006968588460357639
+ridge R2 c_peptide_ngml_baseline,197,-0.0011850509136024368
+ridge R2 c_peptide_ngml_baseline,198,-0.0189400766118919
+ridge R2 c_peptide_ngml_baseline,199,-0.00832992106772057
+ridge R2 c_peptide_ngml_baseline,200,-0.015938077569020104
+ridge R2 c_peptide_ngml_baseline,201,-0.005998341966249265
+ridge R2 c_peptide_ngml_baseline,202,0.0023410195190504135
+ridge R2 c_peptide_ngml_baseline,203,-0.012380654198594687
+ridge R2 c_peptide_ngml_baseline,204,-0.009371521020550055
+ridge R2 c_peptide_ngml_baseline,205,-0.010011045786749273
+ridge R2 c_peptide_ngml_baseline,206,-0.01051244665431117
+ridge R2 c_peptide_ngml_baseline,207,-0.0030528835452117153
+ridge R2 c_peptide_ngml_baseline,208,-0.00890580416874176
+ridge R2 c_peptide_ngml_baseline,209,-0.009158457329181635
+ridge R2 c_peptide_ngml_baseline,210,-0.013656944551781125
+ridge R2 c_peptide_ngml_baseline,211,-0.005847444218149533
+ridge R2 c_peptide_ngml_baseline,212,-0.011630168121622653
+ridge R2 c_peptide_ngml_baseline,213,-0.0026234140236005565
+ridge R2 c_peptide_ngml_baseline,214,-0.005526339811829484
+ridge R2 c_peptide_ngml_baseline,215,-0.012899905351475338
+ridge R2 c_peptide_ngml_baseline,216,-0.009258586224920817
+ridge R2 c_peptide_ngml_baseline,217,-0.007628594421615231
+ridge R2 c_peptide_ngml_baseline,218,-0.007558445593338625
+ridge R2 c_peptide_ngml_baseline,219,-0.012639466253561826
+ridge R2 c_peptide_ngml_baseline,220,-0.01357308923592071
+ridge R2 c_peptide_ngml_baseline,221,-0.009822166104199503
+ridge R2 c_peptide_ngml_baseline,222,-0.01533376120712937
+ridge R2 c_peptide_ngml_baseline,223,-0.012494987577569283
+ridge R2 c_peptide_ngml_baseline,224,0.0005338043915480428
+ridge R2 c_peptide_ngml_baseline,225,-0.009569528373630565
+ridge R2 c_peptide_ngml_baseline,226,0.0037722112924848394
+ridge R2 c_peptide_ngml_baseline,227,-0.01228710778192088
+ridge R2 c_peptide_ngml_baseline,228,-0.012242766380666348
+ridge R2 c_peptide_ngml_baseline,229,-0.011245665159969498
+ridge R2 c_peptide_ngml_baseline,230,-0.0033407869207024987
+ridge R2 c_peptide_ngml_baseline,231,-0.005719495133865937
+ridge R2 c_peptide_ngml_baseline,232,0.0012503972409850794
+ridge R2 c_peptide_ngml_baseline,233,-0.010464833572913834
+ridge R2 c_peptide_ngml_baseline,234,-0.00979710945712231
+ridge R2 c_peptide_ngml_baseline,235,-0.002599056273784539
+ridge R2 c_peptide_ngml_baseline,236,0.008729547790093495
+ridge R2 c_peptide_ngml_baseline,237,-0.016612878610609005
+ridge R2 c_peptide_ngml_baseline,238,-0.0024664892438754915
+ridge R2 c_peptide_ngml_baseline,239,0.005282741849509609
+ridge R2 c_peptide_ngml_baseline,240,-0.004741741444090675
+ridge R2 c_peptide_ngml_baseline,241,-0.004734475097441182
+ridge R2 c_peptide_ngml_baseline,242,-0.0032195656374540693
+ridge R2 c_peptide_ngml_baseline,243,0.0014074059125190885
+ridge R2 c_peptide_ngml_baseline,244,-0.0037480182670259765
+ridge R2 c_peptide_ngml_baseline,245,-0.0013993191338821376
+ridge R2 c_peptide_ngml_baseline,246,-0.009461309040720511
+ridge R2 c_peptide_ngml_baseline,247,-0.01141677152543319
+ridge R2 c_peptide_ngml_baseline,248,-0.013747387752817586
+ridge R2 c_peptide_ngml_baseline,249,-0.014012380825459969
+ridge R2 c_peptide_ngml_baseline,250,-0.0010168588904300169
+ridge R2 c_peptide_ngml_baseline,251,0.0052901475543694065
+ridge R2 c_peptide_ngml_baseline,252,-7.895164629179163e-05
+ridge R2 c_peptide_ngml_baseline,253,0.006432789328674193
+ridge R2 c_peptide_ngml_baseline,254,-0.013885062819755545
+ridge R2 c_peptide_ngml_baseline,255,-0.003960425524718758
+ridge R2 c_peptide_ngml_baseline,256,-0.01411593076636497
+ridge R2 c_peptide_ngml_baseline,257,-0.013558394087641146
+ridge R2 c_peptide_ngml_baseline,258,-0.009802014814786597
+ridge R2 c_peptide_ngml_baseline,259,-0.008703647242674029
+ridge R2 c_peptide_ngml_baseline,260,-0.013268276218417974
+ridge R2 c_peptide_ngml_baseline,261,-0.016145141786473527
+ridge R2 c_peptide_ngml_baseline,262,-0.003485855547448402
+ridge R2 c_peptide_ngml_baseline,263,-0.006820654401262782
+ridge R2 c_peptide_ngml_baseline,264,-0.014550091201174675
+ridge R2 c_peptide_ngml_baseline,265,-0.015548303792664697
+ridge R2 c_peptide_ngml_baseline,266,-0.0024573774657661307
+ridge R2 c_peptide_ngml_baseline,267,-0.0049195842801093015
+ridge R2 c_peptide_ngml_baseline,268,-0.012425774597267791
+ridge R2 c_peptide_ngml_baseline,269,-0.005036867188587424
+ridge R2 c_peptide_ngml_baseline,270,-0.005152774494913581
+ridge R2 c_peptide_ngml_baseline,271,-0.005881218138713784
+ridge R2 c_peptide_ngml_baseline,272,-0.003499335229340206
+ridge R2 c_peptide_ngml_baseline,273,-0.006122542264975994
+ridge R2 c_peptide_ngml_baseline,274,-0.012551226784577985
+ridge R2 c_peptide_ngml_baseline,275,-0.01130969563499784
+ridge R2 c_peptide_ngml_baseline,276,-0.011063378439585714
+ridge R2 c_peptide_ngml_baseline,277,-0.004713536607677593
+ridge R2 c_peptide_ngml_baseline,278,-0.01029664182335921
+ridge R2 c_peptide_ngml_baseline,279,-0.006487210671478172
+ridge R2 c_peptide_ngml_baseline,280,-0.010280200414951146
+ridge R2 c_peptide_ngml_baseline,281,-0.01177329257959836
+ridge R2 c_peptide_ngml_baseline,282,-0.010074398685917973
+ridge R2 c_peptide_ngml_baseline,283,-0.014238876982256787
+ridge R2 c_peptide_ngml_baseline,284,0.0006999012303680052
+ridge R2 c_peptide_ngml_baseline,285,-0.013628542526982645
+ridge R2 c_peptide_ngml_baseline,286,-0.012071903001532824
+ridge R2 c_peptide_ngml_baseline,287,-0.01194719020926227
+ridge R2 c_peptide_ngml_baseline,288,-0.01182756815754682
+ridge R2 c_peptide_ngml_baseline,289,-0.01303875714031677
+ridge R2 c_peptide_ngml_baseline,290,-0.008907835232512262
+ridge R2 c_peptide_ngml_baseline,291,-0.009852183311430673
+ridge R2 c_peptide_ngml_baseline,292,0.0021384839235570885
+ridge R2 c_peptide_ngml_baseline,293,-0.010170316595591977
+ridge R2 c_peptide_ngml_baseline,294,-0.0005899142873553309
+ridge R2 c_peptide_ngml_baseline,295,-0.00684145700731853
+ridge R2 c_peptide_ngml_baseline,296,-0.0025844433852657556
+ridge R2 c_peptide_ngml_baseline,297,-0.014763090543978175
+ridge R2 c_peptide_ngml_baseline,298,-0.009184870980245341
+ridge R2 c_peptide_ngml_baseline,299,-0.010145788365692798
+ridge R2 c_peptide_ngml_baseline,300,-0.010019126298720149
+ridge R2 c_peptide_ngml_baseline,301,-0.007404700904243722
+ridge R2 c_peptide_ngml_baseline,302,-0.012836057375670284
+ridge R2 c_peptide_ngml_baseline,303,-0.010975963660927457
+ridge R2 c_peptide_ngml_baseline,304,-0.005227148661557379
+ridge R2 c_peptide_ngml_baseline,305,-0.00992475205625376
+ridge R2 c_peptide_ngml_baseline,306,-0.00438890505279943
+ridge R2 c_peptide_ngml_baseline,307,-0.009707644303360796
+ridge R2 c_peptide_ngml_baseline,308,-0.01296556485724909
+ridge R2 c_peptide_ngml_baseline,309,-0.009281555562171251
+ridge R2 c_peptide_ngml_baseline,310,0.008320635716423497
+ridge R2 c_peptide_ngml_baseline,311,0.00021789702937957678
+ridge R2 c_peptide_ngml_baseline,312,-0.0063212740002547285
+ridge R2 c_peptide_ngml_baseline,313,-0.008052536717784164
+ridge R2 c_peptide_ngml_baseline,314,-0.008111553413223449
+ridge R2 c_peptide_ngml_baseline,315,-0.012424364610104988
+ridge R2 c_peptide_ngml_baseline,316,-0.016091486968988544
+ridge R2 c_peptide_ngml_baseline,317,-0.006967909138636541
+ridge R2 c_peptide_ngml_baseline,318,-0.008129554386176352
+ridge R2 c_peptide_ngml_baseline,319,-0.002915673643424155
+ridge R2 c_peptide_ngml_baseline,320,-0.013256174746772542
+ridge R2 c_peptide_ngml_baseline,321,-0.005377208857011206
+ridge R2 c_peptide_ngml_baseline,322,-0.00859669701293364
+ridge R2 c_peptide_ngml_baseline,323,-0.01576152683159715
+ridge R2 c_peptide_ngml_baseline,324,-0.000284997587185698
+ridge R2 c_peptide_ngml_baseline,325,-0.0074791457711274045
+ridge R2 c_peptide_ngml_baseline,326,-0.00890542602644051
+ridge R2 c_peptide_ngml_baseline,327,-0.004062141669520125
+ridge R2 c_peptide_ngml_baseline,328,-0.011717977860545625
+ridge R2 c_peptide_ngml_baseline,329,-0.012750579744732704
+ridge R2 c_peptide_ngml_baseline,330,-0.007948175481422348
+ridge R2 c_peptide_ngml_baseline,331,-0.008841499183252166
+ridge R2 c_peptide_ngml_baseline,332,-0.008600481302741159
+ridge R2 c_peptide_ngml_baseline,333,-0.0028819279167151546
+ridge R2 c_peptide_ngml_baseline,334,-0.0025387701983532462
+ridge R2 c_peptide_ngml_baseline,335,-0.010204513716753905
+ridge R2 c_peptide_ngml_baseline,336,-0.010920377622944955
+ridge R2 c_peptide_ngml_baseline,337,0.0012807034763527847
+ridge R2 c_peptide_ngml_baseline,338,-0.014520966562785231
+ridge R2 c_peptide_ngml_baseline,339,-0.01302874453970948
+ridge R2 c_peptide_ngml_baseline,340,-0.0036714285925687484
+ridge R2 c_peptide_ngml_baseline,341,-0.006265726887029421
+ridge R2 c_peptide_ngml_baseline,342,-0.008018223604472574
+ridge R2 c_peptide_ngml_baseline,343,-0.015912002420487736
+ridge R2 c_peptide_ngml_baseline,344,0.00481878719553408
+ridge R2 c_peptide_ngml_baseline,345,-0.015000638659516063
+ridge R2 c_peptide_ngml_baseline,346,-0.016802913018099996
+ridge R2 c_peptide_ngml_baseline,347,-0.005657534558837218
+ridge R2 c_peptide_ngml_baseline,348,-0.001169532134229323
+ridge R2 c_peptide_ngml_baseline,349,-0.011195321680149695
+ridge R2 c_peptide_ngml_baseline,350,-0.0066549907642379225
+ridge R2 c_peptide_ngml_baseline,351,-0.01187221515136705
+ridge R2 c_peptide_ngml_baseline,352,-0.004142037329567749
+ridge R2 c_peptide_ngml_baseline,353,-0.00019836544801354883
+ridge R2 c_peptide_ngml_baseline,354,-0.007224316665332964
+ridge R2 c_peptide_ngml_baseline,355,-0.007463946938221611
+ridge R2 c_peptide_ngml_baseline,356,-0.006448534147961427
+ridge R2 c_peptide_ngml_baseline,357,-0.00661124050038886
+ridge R2 c_peptide_ngml_baseline,358,0.008197249291246322
+ridge R2 c_peptide_ngml_baseline,359,0.00413555998878723
+ridge R2 c_peptide_ngml_baseline,360,0.007022947991064732
+ridge R2 c_peptide_ngml_baseline,361,-0.012039756141669189
+ridge R2 c_peptide_ngml_baseline,362,-0.008713051097363422
+ridge R2 c_peptide_ngml_baseline,363,-0.010164321821018563
+ridge R2 c_peptide_ngml_baseline,364,-0.015588509743041268
+ridge R2 c_peptide_ngml_baseline,365,-0.007545962462277789
+ridge R2 c_peptide_ngml_baseline,366,-0.01062483489083954
+ridge R2 c_peptide_ngml_baseline,367,-0.0037604131583552913
+ridge R2 c_peptide_ngml_baseline,368,-0.01483173757908296
+ridge R2 c_peptide_ngml_baseline,369,-0.004057024098627959
+ridge R2 c_peptide_ngml_baseline,370,0.005647576032209556
+ridge R2 c_peptide_ngml_baseline,371,-0.011354047933182398
+ridge R2 c_peptide_ngml_baseline,372,-0.011229639511199263
+ridge R2 c_peptide_ngml_baseline,373,-0.005403575179162123
+ridge R2 c_peptide_ngml_baseline,374,-0.005875343652439247
+ridge R2 c_peptide_ngml_baseline,375,-0.008590362200933344
+ridge R2 c_peptide_ngml_baseline,376,-0.009434751446073308
+ridge R2 c_peptide_ngml_baseline,377,-0.0008794747339739839
+ridge R2 c_peptide_ngml_baseline,378,-0.013990904458914821
+ridge R2 c_peptide_ngml_baseline,379,-0.013471004330054548
+ridge R2 c_peptide_ngml_baseline,380,-0.004963684036815019
+ridge R2 c_peptide_ngml_baseline,381,-0.007126239970716597
+ridge R2 c_peptide_ngml_baseline,382,-0.0046800031148224175
+ridge R2 c_peptide_ngml_baseline,383,-0.008995297654501577
+ridge R2 c_peptide_ngml_baseline,384,-0.007675153084981234
+ridge R2 c_peptide_ngml_baseline,385,-0.0022500423103142264
+ridge R2 c_peptide_ngml_baseline,386,-0.006525397755741791
+ridge R2 c_peptide_ngml_baseline,387,-0.015081859870718528
+ridge R2 c_peptide_ngml_baseline,388,-0.015163212904496737
+ridge R2 c_peptide_ngml_baseline,389,-0.014734764281572277
+ridge R2 c_peptide_ngml_baseline,390,-0.005322234849595819
+ridge R2 c_peptide_ngml_baseline,391,-0.0018192505725691532
+ridge R2 c_peptide_ngml_baseline,392,-0.00814952630439536
+ridge R2 c_peptide_ngml_baseline,393,-0.014071217995591745
+ridge R2 c_peptide_ngml_baseline,394,-0.012400798569209837
+ridge R2 c_peptide_ngml_baseline,395,-0.0007973010000710268
+ridge R2 c_peptide_ngml_baseline,396,-0.007167959354517306
+ridge R2 c_peptide_ngml_baseline,397,-0.01110749701969671
+ridge R2 c_peptide_ngml_baseline,398,-0.001788163225177053
+ridge R2 c_peptide_ngml_baseline,399,0.0013801216033676456
+ridge R2 c_peptide_ngml_baseline,400,-0.004388368271477594
+ridge R2 c_peptide_ngml_baseline,401,-0.010359431383474282
+ridge R2 c_peptide_ngml_baseline,402,-0.005964490094762631
+ridge R2 c_peptide_ngml_baseline,403,-0.008194577880701326
+ridge R2 c_peptide_ngml_baseline,404,-0.008443954892685346
+ridge R2 c_peptide_ngml_baseline,405,-0.007166209880681951
+ridge R2 c_peptide_ngml_baseline,406,-0.010243193999166733
+ridge R2 c_peptide_ngml_baseline,407,-0.004177311964256081
+ridge R2 c_peptide_ngml_baseline,408,-0.010939989999953381
+ridge R2 c_peptide_ngml_baseline,409,-0.013300744413556664
+ridge R2 c_peptide_ngml_baseline,410,-0.0036156893995162864
+ridge R2 c_peptide_ngml_baseline,411,-0.011835981529035866
+ridge R2 c_peptide_ngml_baseline,412,-0.010538494570997425
+ridge R2 c_peptide_ngml_baseline,413,-0.006648663588465942
+ridge R2 c_peptide_ngml_baseline,414,-0.009685788744652646
+ridge R2 c_peptide_ngml_baseline,415,-0.010250839743460638
+ridge R2 c_peptide_ngml_baseline,416,-0.00032744572037479713
+ridge R2 c_peptide_ngml_baseline,417,-0.011124341705722962
+ridge R2 c_peptide_ngml_baseline,418,-0.007512006684482486
+ridge R2 c_peptide_ngml_baseline,419,-0.008088945268356573
+ridge R2 c_peptide_ngml_baseline,420,0.0036170422706750527
+ridge R2 c_peptide_ngml_baseline,421,0.005067341470518016
+ridge R2 c_peptide_ngml_baseline,422,-0.010765064392461943
+ridge R2 c_peptide_ngml_baseline,423,-0.006362369584618666
+ridge R2 c_peptide_ngml_baseline,424,-0.015135452029626961
+ridge R2 c_peptide_ngml_baseline,425,-0.007177627603976777
+ridge R2 c_peptide_ngml_baseline,426,-0.008341550151495847
+ridge R2 c_peptide_ngml_baseline,427,-0.005550501267259866
+ridge R2 c_peptide_ngml_baseline,428,-0.00575596452108873
+ridge R2 c_peptide_ngml_baseline,429,-0.0016494877177051226
+ridge R2 c_peptide_ngml_baseline,430,-0.005947996503659514
+ridge R2 c_peptide_ngml_baseline,431,-0.010367186436763598
+ridge R2 c_peptide_ngml_baseline,432,0.0073592146489170895
+ridge R2 c_peptide_ngml_baseline,433,-0.01453410407539435
+ridge R2 c_peptide_ngml_baseline,434,-0.012994672193694878
+ridge R2 c_peptide_ngml_baseline,435,-0.013594732214233574
+ridge R2 c_peptide_ngml_baseline,436,-0.012404644929312036
+ridge R2 c_peptide_ngml_baseline,437,0.004797718640054183
+ridge R2 c_peptide_ngml_baseline,438,-0.006388450884044383
+ridge R2 c_peptide_ngml_baseline,439,-0.013896019335549958
+ridge R2 c_peptide_ngml_baseline,440,-0.01217446183289006
+ridge R2 c_peptide_ngml_baseline,441,-0.0049224087762453905
+ridge R2 c_peptide_ngml_baseline,442,-0.01478320797984245
+ridge R2 c_peptide_ngml_baseline,443,-0.005054712440998754
+ridge R2 c_peptide_ngml_baseline,444,-0.007579674016136462
+ridge R2 c_peptide_ngml_baseline,445,-0.0022840281816258745
+ridge R2 c_peptide_ngml_baseline,446,-0.0014475709753456467
+ridge R2 c_peptide_ngml_baseline,447,-0.007057538408612007
+ridge R2 c_peptide_ngml_baseline,448,-0.010428564698062193
+ridge R2 c_peptide_ngml_baseline,449,-0.015351626937832208
+ridge R2 c_peptide_ngml_baseline,450,-0.012033863229221398
+ridge R2 c_peptide_ngml_baseline,451,-0.01692991662853105
+ridge R2 c_peptide_ngml_baseline,452,-0.003958178301166848
+ridge R2 c_peptide_ngml_baseline,453,-0.012491564840716007
+ridge R2 c_peptide_ngml_baseline,454,-0.008721376774613265
+ridge R2 c_peptide_ngml_baseline,455,-0.011992766779562292
+ridge R2 c_peptide_ngml_baseline,456,-0.012170255249596584
+ridge R2 c_peptide_ngml_baseline,457,-0.012536050991606595
+ridge R2 c_peptide_ngml_baseline,458,-0.006178905781074384
+ridge R2 c_peptide_ngml_baseline,459,-0.008796086175341111
+ridge R2 c_peptide_ngml_baseline,460,-0.010354412249903966
+ridge R2 c_peptide_ngml_baseline,461,-0.015015028347006742
+ridge R2 c_peptide_ngml_baseline,462,-0.01002700783640842
+ridge R2 c_peptide_ngml_baseline,463,-0.003382705872312153
+ridge R2 c_peptide_ngml_baseline,464,-0.013428651314202344
+ridge R2 c_peptide_ngml_baseline,465,0.0020308522780513316
+ridge R2 c_peptide_ngml_baseline,466,-0.014001017969299312
+ridge R2 c_peptide_ngml_baseline,467,-0.009233352096013947
+ridge R2 c_peptide_ngml_baseline,468,-0.002713687723437941
+ridge R2 c_peptide_ngml_baseline,469,-0.008438225202090255
+ridge R2 c_peptide_ngml_baseline,470,-0.015128612283516585
+ridge R2 c_peptide_ngml_baseline,471,-0.007917417965009665
+ridge R2 c_peptide_ngml_baseline,472,-0.009852275854994152
+ridge R2 c_peptide_ngml_baseline,473,-0.010917831829005964
+ridge R2 c_peptide_ngml_baseline,474,0.0005905359160144341
+ridge R2 c_peptide_ngml_baseline,475,-0.001720267282119936
+ridge R2 c_peptide_ngml_baseline,476,-0.009225768117625543
+ridge R2 c_peptide_ngml_baseline,477,-0.012877381253993514
+ridge R2 c_peptide_ngml_baseline,478,-0.018144755744607943
+ridge R2 c_peptide_ngml_baseline,479,-0.0051122443978361964
+ridge R2 c_peptide_ngml_baseline,480,-0.00768507724427403
+ridge R2 c_peptide_ngml_baseline,481,0.00015071214010087264
+ridge R2 c_peptide_ngml_baseline,482,-0.012489876144098577
+ridge R2 c_peptide_ngml_baseline,483,-0.0004377197557396961
+ridge R2 c_peptide_ngml_baseline,484,0.002172048244965419
+ridge R2 c_peptide_ngml_baseline,485,-0.012671625047644408
+ridge R2 c_peptide_ngml_baseline,486,-0.008927346351122134
+ridge R2 c_peptide_ngml_baseline,487,-0.012799639040362631
+ridge R2 c_peptide_ngml_baseline,488,0.002560568085080428
+ridge R2 c_peptide_ngml_baseline,489,-0.002541366622397012
+ridge R2 c_peptide_ngml_baseline,490,-0.0028532011884518926
+ridge R2 c_peptide_ngml_baseline,491,-0.006720771750539312
+ridge R2 c_peptide_ngml_baseline,492,-0.006760856110104907
+ridge R2 c_peptide_ngml_baseline,493,-0.0034078704036877294
+ridge R2 c_peptide_ngml_baseline,494,-0.006969960900209848
+ridge R2 c_peptide_ngml_baseline,495,0.00037749143485021897
+ridge R2 c_peptide_ngml_baseline,496,-0.01589432009548508
+ridge R2 c_peptide_ngml_baseline,497,-0.0017010691769094866
+ridge R2 c_peptide_ngml_baseline,498,-0.007438199002243406
+ridge R2 c_peptide_ngml_baseline,499,-0.00896125888307453
+ridge R2 c_peptide_ngml_baseline,500,-0.010191564052148161
+ridge R2 c_peptide_ngml_baseline,501,0.0017479180419098794
+ridge R2 c_peptide_ngml_baseline,502,-0.009544535741822457
+ridge R2 c_peptide_ngml_baseline,503,-0.01421587644382516
+ridge R2 c_peptide_ngml_baseline,504,-0.004165078822193191
+ridge R2 c_peptide_ngml_baseline,505,-0.008731440106404476
+ridge R2 c_peptide_ngml_baseline,506,-0.011311314879153711
+ridge R2 c_peptide_ngml_baseline,507,-0.012265926836873664
+ridge R2 c_peptide_ngml_baseline,508,-0.011494341651263618
+ridge R2 c_peptide_ngml_baseline,509,-0.003403495110263499
+ridge R2 c_peptide_ngml_baseline,510,-0.0037573417524947583
+ridge R2 c_peptide_ngml_baseline,511,-0.008278515250766061
+ridge R2 c_peptide_ngml_baseline,512,-0.010908331782793157
+ridge R2 c_peptide_ngml_baseline,513,-0.004543617119213694
+ridge R2 c_peptide_ngml_baseline,514,-0.005122205626253429
+ridge R2 c_peptide_ngml_baseline,515,-0.007790956882548716
+ridge R2 c_peptide_ngml_baseline,516,-0.013680552522146838
+ridge R2 c_peptide_ngml_baseline,517,-0.011827370548581184
+ridge R2 c_peptide_ngml_baseline,518,-0.0021041332996745155
+ridge R2 c_peptide_ngml_baseline,519,-0.016694185858828092
+ridge R2 c_peptide_ngml_baseline,520,-0.013874629584941012
+ridge R2 c_peptide_ngml_baseline,521,-0.007481473491400603
+ridge R2 c_peptide_ngml_baseline,522,-0.006730520651202498
+ridge R2 c_peptide_ngml_baseline,523,-0.0017683491188811296
+ridge R2 c_peptide_ngml_baseline,524,-0.0191134611138688
+ridge R2 c_peptide_ngml_baseline,525,-0.008810076062202521
+ridge R2 c_peptide_ngml_baseline,526,-0.007448493513587229
+ridge R2 c_peptide_ngml_baseline,527,-0.008235843600021386
+ridge R2 c_peptide_ngml_baseline,528,-0.012763943312000592
+ridge R2 c_peptide_ngml_baseline,529,-0.012239180714581632
+ridge R2 c_peptide_ngml_baseline,530,-0.008815499802377724
+ridge R2 c_peptide_ngml_baseline,531,0.011073700899121075
+ridge R2 c_peptide_ngml_baseline,532,-0.007370674315994918
+ridge R2 c_peptide_ngml_baseline,533,-0.002303197587669059
+ridge R2 c_peptide_ngml_baseline,534,-0.0037290244098604486
+ridge R2 c_peptide_ngml_baseline,535,-0.004734847914921847
+ridge R2 c_peptide_ngml_baseline,536,-0.011901709141270311
+ridge R2 c_peptide_ngml_baseline,537,-0.012069248491411333
+ridge R2 c_peptide_ngml_baseline,538,-0.008696095777126933
+ridge R2 c_peptide_ngml_baseline,539,-0.012278024641094953
+ridge R2 c_peptide_ngml_baseline,540,-0.012764742209029123
+ridge R2 c_peptide_ngml_baseline,541,-0.005694085587317765
+ridge R2 c_peptide_ngml_baseline,542,0.004015890675098666
+ridge R2 c_peptide_ngml_baseline,543,-0.0015650680497305558
+ridge R2 c_peptide_ngml_baseline,544,-0.009808238384418022
+ridge R2 c_peptide_ngml_baseline,545,-0.0025877255805919486
+ridge R2 c_peptide_ngml_baseline,546,-0.012575731300001669
+ridge R2 c_peptide_ngml_baseline,547,-0.00997354214995183
+ridge R2 c_peptide_ngml_baseline,548,-0.011979945578910245
+ridge R2 c_peptide_ngml_baseline,549,-0.004664575034150298
+ridge R2 c_peptide_ngml_baseline,550,-0.01080312445758147
+ridge R2 c_peptide_ngml_baseline,551,-0.006451978965769989
+ridge R2 c_peptide_ngml_baseline,552,-0.011750411088242929
+ridge R2 c_peptide_ngml_baseline,553,-0.012953719229463978
+ridge R2 c_peptide_ngml_baseline,554,-0.00515959409288258
+ridge R2 c_peptide_ngml_baseline,555,-0.01378199074454356
+ridge R2 c_peptide_ngml_baseline,556,0.00541542984729082
+ridge R2 c_peptide_ngml_baseline,557,-0.01833020809933794
+ridge R2 c_peptide_ngml_baseline,558,-0.0025625842911527474
+ridge R2 c_peptide_ngml_baseline,559,-0.01186547838137808
+ridge R2 c_peptide_ngml_baseline,560,-0.008886480464316726
+ridge R2 c_peptide_ngml_baseline,561,-0.002814518593977189
+ridge R2 c_peptide_ngml_baseline,562,0.010517291466512257
+ridge R2 c_peptide_ngml_baseline,563,-0.011529637939141857
+ridge R2 c_peptide_ngml_baseline,564,0.010314341936814575
+ridge R2 c_peptide_ngml_baseline,565,-0.006346586903897666
+ridge R2 c_peptide_ngml_baseline,566,-0.006927451342479074
+ridge R2 c_peptide_ngml_baseline,567,-0.013596930342711477
+ridge R2 c_peptide_ngml_baseline,568,-0.0051019385829740305
+ridge R2 c_peptide_ngml_baseline,569,-0.007733751683959511
+ridge R2 c_peptide_ngml_baseline,570,-0.009923141103914679
+ridge R2 c_peptide_ngml_baseline,571,-0.0019053401255200164
+ridge R2 c_peptide_ngml_baseline,572,0.0009236880133294267
+ridge R2 c_peptide_ngml_baseline,573,-0.006890385107874097
+ridge R2 c_peptide_ngml_baseline,574,-0.010439028617192037
+ridge R2 c_peptide_ngml_baseline,575,0.006879724095810169
+ridge R2 c_peptide_ngml_baseline,576,-0.011896595099565976
+ridge R2 c_peptide_ngml_baseline,577,0.0006482462918934173
+ridge R2 c_peptide_ngml_baseline,578,-0.011788083722319875
+ridge R2 c_peptide_ngml_baseline,579,-0.006856512551371319
+ridge R2 c_peptide_ngml_baseline,580,-0.011237744106098457
+ridge R2 c_peptide_ngml_baseline,581,-0.0056790521626532975
+ridge R2 c_peptide_ngml_baseline,582,-0.006773307868598977
+ridge R2 c_peptide_ngml_baseline,583,-0.0020463633667000547
+ridge R2 c_peptide_ngml_baseline,584,0.008847714925590222
+ridge R2 c_peptide_ngml_baseline,585,-0.009814729642980025
+ridge R2 c_peptide_ngml_baseline,586,-0.0039001283729314107
+ridge R2 c_peptide_ngml_baseline,587,-0.012641152765867414
+ridge R2 c_peptide_ngml_baseline,588,-0.009586267078837807
+ridge R2 c_peptide_ngml_baseline,589,-0.008607857542165753
+ridge R2 c_peptide_ngml_baseline,590,-0.012490499007738798
+ridge R2 c_peptide_ngml_baseline,591,-0.007461098283187306
+ridge R2 c_peptide_ngml_baseline,592,-0.015090709675833702
+ridge R2 c_peptide_ngml_baseline,593,-0.007308342316610705
+ridge R2 c_peptide_ngml_baseline,594,-0.004426181190573253
+ridge R2 c_peptide_ngml_baseline,595,-0.008389311125373222
+ridge R2 c_peptide_ngml_baseline,596,-0.010307498697705642
+ridge R2 c_peptide_ngml_baseline,597,-0.004637426876662243
+ridge R2 c_peptide_ngml_baseline,598,-0.01309818666041851
+ridge R2 c_peptide_ngml_baseline,599,-0.008207659138546264
+ridge R2 c_peptide_ngml_baseline,600,-0.0005520135767753676
+ridge R2 c_peptide_ngml_baseline,601,-0.011302027114706625
+ridge R2 c_peptide_ngml_baseline,602,-0.002104645924477122
+ridge R2 c_peptide_ngml_baseline,603,-0.010290409641055431
+ridge R2 c_peptide_ngml_baseline,604,-0.007377507752174939
+ridge R2 c_peptide_ngml_baseline,605,-0.008331226883787846
+ridge R2 c_peptide_ngml_baseline,606,-0.01042016978550886
+ridge R2 c_peptide_ngml_baseline,607,0.0005277596675022922
+ridge R2 c_peptide_ngml_baseline,608,-0.013670887271295395
+ridge R2 c_peptide_ngml_baseline,609,-0.006530260214803407
+ridge R2 c_peptide_ngml_baseline,610,-0.009470017331202785
+ridge R2 c_peptide_ngml_baseline,611,-0.005262961045767067
+ridge R2 c_peptide_ngml_baseline,612,-0.009031708782314407
+ridge R2 c_peptide_ngml_baseline,613,-0.010375521544433441
+ridge R2 c_peptide_ngml_baseline,614,-0.009447866072187283
+ridge R2 c_peptide_ngml_baseline,615,-0.0016149443268203
+ridge R2 c_peptide_ngml_baseline,616,-0.011612756097284738
+ridge R2 c_peptide_ngml_baseline,617,-0.012447772152026193
+ridge R2 c_peptide_ngml_baseline,618,-0.0007326506617870709
+ridge R2 c_peptide_ngml_baseline,619,-0.0020623129614678604
+ridge R2 c_peptide_ngml_baseline,620,-0.016881483713762524
+ridge R2 c_peptide_ngml_baseline,621,-0.0035307438228775467
+ridge R2 c_peptide_ngml_baseline,622,-0.009256659794201871
+ridge R2 c_peptide_ngml_baseline,623,-0.003177494323711727
+ridge R2 c_peptide_ngml_baseline,624,-0.004209107126673661
+ridge R2 c_peptide_ngml_baseline,625,-0.011096764605100118
+ridge R2 c_peptide_ngml_baseline,626,-0.003993844488884957
+ridge R2 c_peptide_ngml_baseline,627,-0.005535108563769375
+ridge R2 c_peptide_ngml_baseline,628,-0.00926253854136827
+ridge R2 c_peptide_ngml_baseline,629,-0.009369593348230065
+ridge R2 c_peptide_ngml_baseline,630,0.003590448672216695
+ridge R2 c_peptide_ngml_baseline,631,0.003066972407393509
+ridge R2 c_peptide_ngml_baseline,632,0.00016765377954774952
+ridge R2 c_peptide_ngml_baseline,633,0.008750218123370734
+ridge R2 c_peptide_ngml_baseline,634,0.000674262814684301
+ridge R2 c_peptide_ngml_baseline,635,-0.009793348314296013
+ridge R2 c_peptide_ngml_baseline,636,-0.008668818790028565
+ridge R2 c_peptide_ngml_baseline,637,-0.011910994936523478
+ridge R2 c_peptide_ngml_baseline,638,-0.010527474682888283
+ridge R2 c_peptide_ngml_baseline,639,-0.010850070031362069
+ridge R2 c_peptide_ngml_baseline,640,-0.006970387071291606
+ridge R2 c_peptide_ngml_baseline,641,-0.007016742848935165
+ridge R2 c_peptide_ngml_baseline,642,-0.011449956627120006
+ridge R2 c_peptide_ngml_baseline,643,-0.01363304009108468
+ridge R2 c_peptide_ngml_baseline,644,-0.00806616126854487
+ridge R2 c_peptide_ngml_baseline,645,0.007384174850175729
+ridge R2 c_peptide_ngml_baseline,646,-0.009033582794795159
+ridge R2 c_peptide_ngml_baseline,647,-0.005683672280781149
+ridge R2 c_peptide_ngml_baseline,648,-0.006538870348892445
+ridge R2 c_peptide_ngml_baseline,649,-0.008305437090727397
+ridge R2 c_peptide_ngml_baseline,650,-0.004178747404114613
+ridge R2 c_peptide_ngml_baseline,651,-0.006907421972206507
+ridge R2 c_peptide_ngml_baseline,652,-0.006548920836285221
+ridge R2 c_peptide_ngml_baseline,653,-0.014882690743067695
+ridge R2 c_peptide_ngml_baseline,654,-0.004234407974614385
+ridge R2 c_peptide_ngml_baseline,655,-0.011999356419162055
+ridge R2 c_peptide_ngml_baseline,656,-0.006977142213952181
+ridge R2 c_peptide_ngml_baseline,657,-0.008081539102831714
+ridge R2 c_peptide_ngml_baseline,658,-0.012011157756209867
+ridge R2 c_peptide_ngml_baseline,659,-0.003517707461462072
+ridge R2 c_peptide_ngml_baseline,660,-0.01546218925180809
+ridge R2 c_peptide_ngml_baseline,661,-0.005900394056201019
+ridge R2 c_peptide_ngml_baseline,662,-0.00298127097724743
+ridge R2 c_peptide_ngml_baseline,663,-0.012777036187379576
+ridge R2 c_peptide_ngml_baseline,664,-0.015078177825853079
+ridge R2 c_peptide_ngml_baseline,665,-0.015943482703998146
+ridge R2 c_peptide_ngml_baseline,666,-0.010903895461451762
+ridge R2 c_peptide_ngml_baseline,667,-0.006256478250513009
+ridge R2 c_peptide_ngml_baseline,668,-0.003937994836664904
+ridge R2 c_peptide_ngml_baseline,669,-0.010314325938650448
+ridge R2 c_peptide_ngml_baseline,670,-0.008186170391423442
+ridge R2 c_peptide_ngml_baseline,671,-0.010060122152349527
+ridge R2 c_peptide_ngml_baseline,672,-0.009722435252668138
+ridge R2 c_peptide_ngml_baseline,673,-0.011424105377557447
+ridge R2 c_peptide_ngml_baseline,674,-0.008271381947979828
+ridge R2 c_peptide_ngml_baseline,675,-0.0015287060409130415
+ridge R2 c_peptide_ngml_baseline,676,-0.00873583349297391
+ridge R2 c_peptide_ngml_baseline,677,-0.00994969752028485
+ridge R2 c_peptide_ngml_baseline,678,-0.007267080794049363
+ridge R2 c_peptide_ngml_baseline,679,-0.01139333123692099
+ridge R2 c_peptide_ngml_baseline,680,-0.005811321015810611
+ridge R2 c_peptide_ngml_baseline,681,-0.009218862167585495
+ridge R2 c_peptide_ngml_baseline,682,-0.004552970978298987
+ridge R2 c_peptide_ngml_baseline,683,-0.001022563100094409
+ridge R2 c_peptide_ngml_baseline,684,-0.00890823357674364
+ridge R2 c_peptide_ngml_baseline,685,-0.005251979799189899
+ridge R2 c_peptide_ngml_baseline,686,0.002731628057772051
+ridge R2 c_peptide_ngml_baseline,687,-0.0037031933358979696
+ridge R2 c_peptide_ngml_baseline,688,-0.002772173475212636
+ridge R2 c_peptide_ngml_baseline,689,0.0002869545087426095
+ridge R2 c_peptide_ngml_baseline,690,-0.010257003503914675
+ridge R2 c_peptide_ngml_baseline,691,-0.011526891622126723
+ridge R2 c_peptide_ngml_baseline,692,-0.009710614781598625
+ridge R2 c_peptide_ngml_baseline,693,-0.007021902771733757
+ridge R2 c_peptide_ngml_baseline,694,-0.010530640265202784
+ridge R2 c_peptide_ngml_baseline,695,-0.004538406292645458
+ridge R2 c_peptide_ngml_baseline,696,-0.008437742814487725
+ridge R2 c_peptide_ngml_baseline,697,-0.010007322655040118
+ridge R2 c_peptide_ngml_baseline,698,-0.004068544950558195
+ridge R2 c_peptide_ngml_baseline,699,-0.009919711126973763
+ridge R2 c_peptide_ngml_baseline,700,-0.006230168991792073
+ridge R2 c_peptide_ngml_baseline,701,-0.01422545065818781
+ridge R2 c_peptide_ngml_baseline,702,-0.012751284779568772
+ridge R2 c_peptide_ngml_baseline,703,0.005248587645219849
+ridge R2 c_peptide_ngml_baseline,704,-0.011133669908311772
+ridge R2 c_peptide_ngml_baseline,705,-0.007170756989486993
+ridge R2 c_peptide_ngml_baseline,706,-0.005415416394012995
+ridge R2 c_peptide_ngml_baseline,707,-0.01233543266919579
+ridge R2 c_peptide_ngml_baseline,708,-0.005511534994345979
+ridge R2 c_peptide_ngml_baseline,709,-0.005824069475913962
+ridge R2 c_peptide_ngml_baseline,710,-0.00602625698644732
+ridge R2 c_peptide_ngml_baseline,711,-0.012788064411001443
+ridge R2 c_peptide_ngml_baseline,712,-0.005971747803768412
+ridge R2 c_peptide_ngml_baseline,713,-0.008368022941374065
+ridge R2 c_peptide_ngml_baseline,714,-0.01871118633757507
+ridge R2 c_peptide_ngml_baseline,715,-0.008921843262051699
+ridge R2 c_peptide_ngml_baseline,716,-0.004788421586430891
+ridge R2 c_peptide_ngml_baseline,717,-0.004638627629912628
+ridge R2 c_peptide_ngml_baseline,718,0.005794756600185136
+ridge R2 c_peptide_ngml_baseline,719,-0.007272144774201905
+ridge R2 c_peptide_ngml_baseline,720,-0.008662746715124126
+ridge R2 c_peptide_ngml_baseline,721,-0.013882042963973662
+ridge R2 c_peptide_ngml_baseline,722,-0.00893301614277986
+ridge R2 c_peptide_ngml_baseline,723,-0.012271782565570488
+ridge R2 c_peptide_ngml_baseline,724,-0.006984577145737747
+ridge R2 c_peptide_ngml_baseline,725,-0.0034638173882133305
+ridge R2 c_peptide_ngml_baseline,726,-0.006275669971093523
+ridge R2 c_peptide_ngml_baseline,727,-0.009450664871414327
+ridge R2 c_peptide_ngml_baseline,728,-0.0052489013120973205
+ridge R2 c_peptide_ngml_baseline,729,-0.011602605622838214
+ridge R2 c_peptide_ngml_baseline,730,-0.008776080358249061
+ridge R2 c_peptide_ngml_baseline,731,-0.007820950369309188
+ridge R2 c_peptide_ngml_baseline,732,-0.010199954281389534
+ridge R2 c_peptide_ngml_baseline,733,-0.008753010557746466
+ridge R2 c_peptide_ngml_baseline,734,-0.011676638038374598
+ridge R2 c_peptide_ngml_baseline,735,-0.006720330013454623
+ridge R2 c_peptide_ngml_baseline,736,-0.009638742510979181
+ridge R2 c_peptide_ngml_baseline,737,0.0008053114298599562
+ridge R2 c_peptide_ngml_baseline,738,-0.015762218436417008
+ridge R2 c_peptide_ngml_baseline,739,-0.012198352371514787
+ridge R2 c_peptide_ngml_baseline,740,-0.009022266206932361
+ridge R2 c_peptide_ngml_baseline,741,-0.015961195538649164
+ridge R2 c_peptide_ngml_baseline,742,0.002280010992548598
+ridge R2 c_peptide_ngml_baseline,743,-0.005358484734235169
+ridge R2 c_peptide_ngml_baseline,744,-0.010159622552847969
+ridge R2 c_peptide_ngml_baseline,745,-0.007874114059711834
+ridge R2 c_peptide_ngml_baseline,746,-0.010478142001579593
+ridge R2 c_peptide_ngml_baseline,747,-0.00828078015996958
+ridge R2 c_peptide_ngml_baseline,748,-0.009817042063301695
+ridge R2 c_peptide_ngml_baseline,749,-0.010408250397915042
+ridge R2 c_peptide_ngml_baseline,750,-0.012964247979360799
+ridge R2 c_peptide_ngml_baseline,751,-0.0015766174903733
+ridge R2 c_peptide_ngml_baseline,752,0.006855720325239734
+ridge R2 c_peptide_ngml_baseline,753,-0.009429251402525596
+ridge R2 c_peptide_ngml_baseline,754,-0.005028912395995455
+ridge R2 c_peptide_ngml_baseline,755,-0.01198707709538982
+ridge R2 c_peptide_ngml_baseline,756,-0.014937212308762327
+ridge R2 c_peptide_ngml_baseline,757,-0.008983461549974647
+ridge R2 c_peptide_ngml_baseline,758,-0.012928454718621918
+ridge R2 c_peptide_ngml_baseline,759,-0.016192348664408662
+ridge R2 c_peptide_ngml_baseline,760,-0.012522817604126768
+ridge R2 c_peptide_ngml_baseline,761,-0.009978429119535281
+ridge R2 c_peptide_ngml_baseline,762,-0.006710294703308861
+ridge R2 c_peptide_ngml_baseline,763,0.008128898917090344
+ridge R2 c_peptide_ngml_baseline,764,-0.004567989921624882
+ridge R2 c_peptide_ngml_baseline,765,0.0008573924526842358
+ridge R2 c_peptide_ngml_baseline,766,-0.008983386719215725
+ridge R2 c_peptide_ngml_baseline,767,-0.0009204128762136943
+ridge R2 c_peptide_ngml_baseline,768,-0.014276910926016129
+ridge R2 c_peptide_ngml_baseline,769,-0.014515654915910448
+ridge R2 c_peptide_ngml_baseline,770,-0.006371978357171626
+ridge R2 c_peptide_ngml_baseline,771,-0.0013388691942655129
+ridge R2 c_peptide_ngml_baseline,772,-0.013734077885267038
+ridge R2 c_peptide_ngml_baseline,773,-0.010619957837538996
+ridge R2 c_peptide_ngml_baseline,774,-0.011576913510920273
+ridge R2 c_peptide_ngml_baseline,775,-0.007688015076725563
+ridge R2 c_peptide_ngml_baseline,776,-0.00734969577659883
+ridge R2 c_peptide_ngml_baseline,777,-0.006688856055061532
+ridge R2 c_peptide_ngml_baseline,778,-0.01277229844255423
+ridge R2 c_peptide_ngml_baseline,779,-0.015065738056390998
+ridge R2 c_peptide_ngml_baseline,780,-0.013130632377313711
+ridge R2 c_peptide_ngml_baseline,781,-0.00033609181224925067
+ridge R2 c_peptide_ngml_baseline,782,-0.0040016339569564074
+ridge R2 c_peptide_ngml_baseline,783,-0.002037174383430429
+ridge R2 c_peptide_ngml_baseline,784,-0.0006305453649988468
+ridge R2 c_peptide_ngml_baseline,785,-0.006159893270451633
+ridge R2 c_peptide_ngml_baseline,786,-0.018257314851348294
+ridge R2 c_peptide_ngml_baseline,787,-0.01213539145606446
+ridge R2 c_peptide_ngml_baseline,788,-0.008460605198151505
+ridge R2 c_peptide_ngml_baseline,789,-0.009305665496514015
+ridge R2 c_peptide_ngml_baseline,790,-0.0029747640943049714
+ridge R2 c_peptide_ngml_baseline,791,0.0035978037882070657
+ridge R2 c_peptide_ngml_baseline,792,-0.007047250950657391
+ridge R2 c_peptide_ngml_baseline,793,-0.008223940096956595
+ridge R2 c_peptide_ngml_baseline,794,0.009890512506767757
+ridge R2 c_peptide_ngml_baseline,795,-0.00206356345962444
+ridge R2 c_peptide_ngml_baseline,796,0.0075860901046568285
+ridge R2 c_peptide_ngml_baseline,797,-0.009706077423004222
+ridge R2 c_peptide_ngml_baseline,798,-0.010561741975248617
+ridge R2 c_peptide_ngml_baseline,799,-0.005471823168495371
+ridge R2 c_peptide_ngml_baseline,800,-0.006518445677967888
+ridge R2 c_peptide_ngml_baseline,801,0.01297757964643842
+ridge R2 c_peptide_ngml_baseline,802,-0.00874263668118469
+ridge R2 c_peptide_ngml_baseline,803,-0.00861703882797693
+ridge R2 c_peptide_ngml_baseline,804,-0.0027238901804502724
+ridge R2 c_peptide_ngml_baseline,805,-0.014164860177261707
+ridge R2 c_peptide_ngml_baseline,806,0.0041789334854384075
+ridge R2 c_peptide_ngml_baseline,807,-0.003635712889350051
+ridge R2 c_peptide_ngml_baseline,808,-0.008388321836245272
+ridge R2 c_peptide_ngml_baseline,809,-0.0006489831374190125
+ridge R2 c_peptide_ngml_baseline,810,-0.013320333038476573
+ridge R2 c_peptide_ngml_baseline,811,-0.006557617790262649
+ridge R2 c_peptide_ngml_baseline,812,-0.006079965412071342
+ridge R2 c_peptide_ngml_baseline,813,-0.002827402491824893
+ridge R2 c_peptide_ngml_baseline,814,-0.005047199528567248
+ridge R2 c_peptide_ngml_baseline,815,-0.012536707126529434
+ridge R2 c_peptide_ngml_baseline,816,-0.0066393716220021215
+ridge R2 c_peptide_ngml_baseline,817,-0.0032987562262825065
+ridge R2 c_peptide_ngml_baseline,818,-0.0069757468223012875
+ridge R2 c_peptide_ngml_baseline,819,-0.001531836213507276
+ridge R2 c_peptide_ngml_baseline,820,-0.005407716097118653
+ridge R2 c_peptide_ngml_baseline,821,-0.013106369590191402
+ridge R2 c_peptide_ngml_baseline,822,-0.008016365445042695
+ridge R2 c_peptide_ngml_baseline,823,-0.012018916427911863
+ridge R2 c_peptide_ngml_baseline,824,-0.008103746690420133
+ridge R2 c_peptide_ngml_baseline,825,-0.010295119438752609
+ridge R2 c_peptide_ngml_baseline,826,-0.010188071497347906
+ridge R2 c_peptide_ngml_baseline,827,-0.01679389646112628
+ridge R2 c_peptide_ngml_baseline,828,-0.0018905265305126928
+ridge R2 c_peptide_ngml_baseline,829,-0.010897031230130638
+ridge R2 c_peptide_ngml_baseline,830,-0.006005032152573531
+ridge R2 c_peptide_ngml_baseline,831,-0.00822667277064304
+ridge R2 c_peptide_ngml_baseline,832,0.004805885459498227
+ridge R2 c_peptide_ngml_baseline,833,-0.006025324035506596
+ridge R2 c_peptide_ngml_baseline,834,-0.008473164777868414
+ridge R2 c_peptide_ngml_baseline,835,-0.016276782533879652
+ridge R2 c_peptide_ngml_baseline,836,-0.005194997798277479
+ridge R2 c_peptide_ngml_baseline,837,-0.01462272479981519
+ridge R2 c_peptide_ngml_baseline,838,-0.008484413488624165
+ridge R2 c_peptide_ngml_baseline,839,-0.008207753049147115
+ridge R2 c_peptide_ngml_baseline,840,-0.008626072083902647
+ridge R2 c_peptide_ngml_baseline,841,-0.006685001350915876
+ridge R2 c_peptide_ngml_baseline,842,-0.013128694638769645
+ridge R2 c_peptide_ngml_baseline,843,-0.007730028011124768
+ridge R2 c_peptide_ngml_baseline,844,0.0003283757393941489
+ridge R2 c_peptide_ngml_baseline,845,-0.01595613165930576
+ridge R2 c_peptide_ngml_baseline,846,-0.006965790039571429
+ridge R2 c_peptide_ngml_baseline,847,-0.010429923838453314
+ridge R2 c_peptide_ngml_baseline,848,-0.005661837087603594
+ridge R2 c_peptide_ngml_baseline,849,-0.006027239333554091
+ridge R2 c_peptide_ngml_baseline,850,-0.009177380713330852
+ridge R2 c_peptide_ngml_baseline,851,-0.005116379378630853
+ridge R2 c_peptide_ngml_baseline,852,-0.013914864813574734
+ridge R2 c_peptide_ngml_baseline,853,-0.0030829410110264632
+ridge R2 c_peptide_ngml_baseline,854,-0.010271354196981886
+ridge R2 c_peptide_ngml_baseline,855,-0.015559920096419821
+ridge R2 c_peptide_ngml_baseline,856,-0.011333107384571939
+ridge R2 c_peptide_ngml_baseline,857,-0.005402682688390392
+ridge R2 c_peptide_ngml_baseline,858,-0.006971874654861487
+ridge R2 c_peptide_ngml_baseline,859,-0.004281392743191503
+ridge R2 c_peptide_ngml_baseline,860,-0.011626526880886168
+ridge R2 c_peptide_ngml_baseline,861,-0.0012219062302880612
+ridge R2 c_peptide_ngml_baseline,862,-0.007641669353822378
+ridge R2 c_peptide_ngml_baseline,863,-0.01151392193347589
+ridge R2 c_peptide_ngml_baseline,864,-0.014510630325081708
+ridge R2 c_peptide_ngml_baseline,865,-0.010243178090456162
+ridge R2 c_peptide_ngml_baseline,866,-0.007776216987567919
+ridge R2 c_peptide_ngml_baseline,867,-0.0037787528523531844
+ridge R2 c_peptide_ngml_baseline,868,-0.010897402941946854
+ridge R2 c_peptide_ngml_baseline,869,-0.012970357676856947
+ridge R2 c_peptide_ngml_baseline,870,-0.002922028582177605
+ridge R2 c_peptide_ngml_baseline,871,-0.009940521330321417
+ridge R2 c_peptide_ngml_baseline,872,-0.010118818482078185
+ridge R2 c_peptide_ngml_baseline,873,-0.0027359704151439512
+ridge R2 c_peptide_ngml_baseline,874,-0.0009353369955251711
+ridge R2 c_peptide_ngml_baseline,875,-0.011489106184910947
+ridge R2 c_peptide_ngml_baseline,876,-0.002731081706285776
+ridge R2 c_peptide_ngml_baseline,877,-0.008642640650777578
+ridge R2 c_peptide_ngml_baseline,878,-0.009731174292187728
+ridge R2 c_peptide_ngml_baseline,879,-0.0027919447546214116
+ridge R2 c_peptide_ngml_baseline,880,-0.012546308931416617
+ridge R2 c_peptide_ngml_baseline,881,-0.006426948348562833
+ridge R2 c_peptide_ngml_baseline,882,0.00011194688381155338
+ridge R2 c_peptide_ngml_baseline,883,-0.00832647095922745
+ridge R2 c_peptide_ngml_baseline,884,-0.004723761499728862
+ridge R2 c_peptide_ngml_baseline,885,-0.008902706725396614
+ridge R2 c_peptide_ngml_baseline,886,-0.01389231487555076
+ridge R2 c_peptide_ngml_baseline,887,-0.012330991394374102
+ridge R2 c_peptide_ngml_baseline,888,-0.0046389663013270965
+ridge R2 c_peptide_ngml_baseline,889,-0.005598470900061159
+ridge R2 c_peptide_ngml_baseline,890,-0.010158436197408083
+ridge R2 c_peptide_ngml_baseline,891,-0.006778074139751844
+ridge R2 c_peptide_ngml_baseline,892,-0.006703095475088183
+ridge R2 c_peptide_ngml_baseline,893,-0.008974572529584224
+ridge R2 c_peptide_ngml_baseline,894,-0.003181356523326073
+ridge R2 c_peptide_ngml_baseline,895,-0.0009877873583132857
+ridge R2 c_peptide_ngml_baseline,896,-0.013664576808040563
+ridge R2 c_peptide_ngml_baseline,897,-0.004266420377538882
+ridge R2 c_peptide_ngml_baseline,898,-0.007518258701619818
+ridge R2 c_peptide_ngml_baseline,899,-0.014987874381081845
+ridge R2 c_peptide_ngml_baseline,900,-0.012976894983043774
+ridge R2 c_peptide_ngml_baseline,901,-0.012737337214809408
+ridge R2 c_peptide_ngml_baseline,902,-0.006542211883856286
+ridge R2 c_peptide_ngml_baseline,903,-0.016490763145456944
+ridge R2 c_peptide_ngml_baseline,904,-0.012766830316500721
+ridge R2 c_peptide_ngml_baseline,905,-0.0009896619560731956
+ridge R2 c_peptide_ngml_baseline,906,-0.006099742556315624
+ridge R2 c_peptide_ngml_baseline,907,-0.010814487531250139
+ridge R2 c_peptide_ngml_baseline,908,-0.008462294125756609
+ridge R2 c_peptide_ngml_baseline,909,-0.012559363123733513
+ridge R2 c_peptide_ngml_baseline,910,-0.008806269140073875
+ridge R2 c_peptide_ngml_baseline,911,-0.008096409454778852
+ridge R2 c_peptide_ngml_baseline,912,-0.013020207177825815
+ridge R2 c_peptide_ngml_baseline,913,-0.007096171322192646
+ridge R2 c_peptide_ngml_baseline,914,-0.01215174371937211
+ridge R2 c_peptide_ngml_baseline,915,-0.013989662904183353
+ridge R2 c_peptide_ngml_baseline,916,-0.008246665126265595
+ridge R2 c_peptide_ngml_baseline,917,-0.0038117883216186588
+ridge R2 c_peptide_ngml_baseline,918,-0.0032854113834897003
+ridge R2 c_peptide_ngml_baseline,919,-0.005684287298441282
+ridge R2 c_peptide_ngml_baseline,920,-0.012015329170638633
+ridge R2 c_peptide_ngml_baseline,921,0.00019731291056623856
+ridge R2 c_peptide_ngml_baseline,922,-0.006875912236243842
+ridge R2 c_peptide_ngml_baseline,923,-0.006641483755906341
+ridge R2 c_peptide_ngml_baseline,924,-0.01004031108014014
+ridge R2 c_peptide_ngml_baseline,925,-0.010560063085375493
+ridge R2 c_peptide_ngml_baseline,926,0.0006185640479581256
+ridge R2 c_peptide_ngml_baseline,927,-0.014900143205484051
+ridge R2 c_peptide_ngml_baseline,928,-0.009252226200383573
+ridge R2 c_peptide_ngml_baseline,929,-0.003731910995483423
+ridge R2 c_peptide_ngml_baseline,930,0.0004920473251219804
+ridge R2 c_peptide_ngml_baseline,931,-0.005930691030367141
+ridge R2 c_peptide_ngml_baseline,932,-0.012072531830476851
+ridge R2 c_peptide_ngml_baseline,933,-0.004807050781545863
+ridge R2 c_peptide_ngml_baseline,934,-0.0060851555199761265
+ridge R2 c_peptide_ngml_baseline,935,-0.009045074832124023
+ridge R2 c_peptide_ngml_baseline,936,-0.002933732934843558
+ridge R2 c_peptide_ngml_baseline,937,-0.004731755299379525
+ridge R2 c_peptide_ngml_baseline,938,-0.017325748665401264
+ridge R2 c_peptide_ngml_baseline,939,-0.0033432891413396337
+ridge R2 c_peptide_ngml_baseline,940,-0.0031201438266874604
+ridge R2 c_peptide_ngml_baseline,941,-0.006827439572799854
+ridge R2 c_peptide_ngml_baseline,942,-0.004203292450328799
+ridge R2 c_peptide_ngml_baseline,943,-0.00750404441344199
+ridge R2 c_peptide_ngml_baseline,944,-0.011360684580211666
+ridge R2 c_peptide_ngml_baseline,945,-0.010416659062405964
+ridge R2 c_peptide_ngml_baseline,946,-0.011834030270442275
+ridge R2 c_peptide_ngml_baseline,947,-0.002172976710782759
+ridge R2 c_peptide_ngml_baseline,948,0.01064414557812432
+ridge R2 c_peptide_ngml_baseline,949,-0.011518284632950904
+ridge R2 c_peptide_ngml_baseline,950,-0.002291630139060752
+ridge R2 c_peptide_ngml_baseline,951,-0.004998077953805913
+ridge R2 c_peptide_ngml_baseline,952,-0.0135559026339922
+ridge R2 c_peptide_ngml_baseline,953,-0.012077697042014668
+ridge R2 c_peptide_ngml_baseline,954,-0.005826532476742363
+ridge R2 c_peptide_ngml_baseline,955,-0.011935557878374636
+ridge R2 c_peptide_ngml_baseline,956,-0.00580724005210409
+ridge R2 c_peptide_ngml_baseline,957,-0.01136480211435864
+ridge R2 c_peptide_ngml_baseline,958,-0.011785525713557732
+ridge R2 c_peptide_ngml_baseline,959,-0.004765115892160887
+ridge R2 c_peptide_ngml_baseline,960,-0.013166295045111243
+ridge R2 c_peptide_ngml_baseline,961,-0.0077720045279521255
+ridge R2 c_peptide_ngml_baseline,962,-0.012583019633675141
+ridge R2 c_peptide_ngml_baseline,963,-0.013045517577671584
+ridge R2 c_peptide_ngml_baseline,964,-0.01076117375922947
+ridge R2 c_peptide_ngml_baseline,965,-0.0003785566694156639
+ridge R2 c_peptide_ngml_baseline,966,-0.007233040405067559
+ridge R2 c_peptide_ngml_baseline,967,0.003596029198884132
+ridge R2 c_peptide_ngml_baseline,968,-0.0018989678500389573
+ridge R2 c_peptide_ngml_baseline,969,-0.011262375051996898
+ridge R2 c_peptide_ngml_baseline,970,-0.0033907885303849916
+ridge R2 c_peptide_ngml_baseline,971,-0.010682550227119503
+ridge R2 c_peptide_ngml_baseline,972,-0.0008685072579746045
+ridge R2 c_peptide_ngml_baseline,973,-0.01167285678319585
+ridge R2 c_peptide_ngml_baseline,974,-0.010392403528177718
+ridge R2 c_peptide_ngml_baseline,975,0.00397288734532153
+ridge R2 c_peptide_ngml_baseline,976,-0.01013675160216243
+ridge R2 c_peptide_ngml_baseline,977,-0.00842907310011487
+ridge R2 c_peptide_ngml_baseline,978,-0.013700842539091651
+ridge R2 c_peptide_ngml_baseline,979,-0.007742598411729196
+ridge R2 c_peptide_ngml_baseline,980,-0.012898509291510818
+ridge R2 c_peptide_ngml_baseline,981,-0.009573051431734259
+ridge R2 c_peptide_ngml_baseline,982,-0.010428011921490787
+ridge R2 c_peptide_ngml_baseline,983,-0.007779586665793481
+ridge R2 c_peptide_ngml_baseline,984,0.00017320539499454668
+ridge R2 c_peptide_ngml_baseline,985,-0.010348615147056872
+ridge R2 c_peptide_ngml_baseline,986,2.9735730196933652e-05
+ridge R2 c_peptide_ngml_baseline,987,-0.0023872857511666457
+ridge R2 c_peptide_ngml_baseline,988,-0.007035757464493919
+ridge R2 c_peptide_ngml_baseline,989,0.002279296363479788
+ridge R2 c_peptide_ngml_baseline,990,-0.010123382111759671
+ridge R2 c_peptide_ngml_baseline,991,-0.006388041893581109
+ridge R2 c_peptide_ngml_baseline,992,-0.008307649611115853
+ridge R2 c_peptide_ngml_baseline,993,-0.014862830846927633
+ridge R2 c_peptide_ngml_baseline,994,-0.0037285585940693977
+ridge R2 c_peptide_ngml_baseline,995,-0.007667958692984644
+ridge R2 c_peptide_ngml_baseline,996,0.0010435870811380532
+ridge R2 c_peptide_ngml_baseline,997,-0.004100556903205321
+ridge R2 c_peptide_ngml_baseline,998,-0.012813296683875652
+ridge R2 c_peptide_ngml_baseline,999,-0.005771352150292897
+ridge R2 tg_hdl_ratio,0,-0.010342227288079986
+ridge R2 tg_hdl_ratio,1,-0.004937224017487196
+ridge R2 tg_hdl_ratio,2,-0.007226212163661483
+ridge R2 tg_hdl_ratio,3,-0.009652934273591596
+ridge R2 tg_hdl_ratio,4,-0.004305935990969401
+ridge R2 tg_hdl_ratio,5,-0.009887675647048733
+ridge R2 tg_hdl_ratio,6,-0.005672430418248053
+ridge R2 tg_hdl_ratio,7,-0.006656048561147987
+ridge R2 tg_hdl_ratio,8,-0.010812273630155023
+ridge R2 tg_hdl_ratio,9,-0.01321577030795229
+ridge R2 tg_hdl_ratio,10,-0.013444399854422917
+ridge R2 tg_hdl_ratio,11,-0.009640504427680163
+ridge R2 tg_hdl_ratio,12,-0.007389244707111109
+ridge R2 tg_hdl_ratio,13,-0.0013095398563787164
+ridge R2 tg_hdl_ratio,14,-0.01099320893579514
+ridge R2 tg_hdl_ratio,15,-0.002589330887233343
+ridge R2 tg_hdl_ratio,16,-0.012000764787326146
+ridge R2 tg_hdl_ratio,17,-0.006025223783755251
+ridge R2 tg_hdl_ratio,18,-0.005452127795523953
+ridge R2 tg_hdl_ratio,19,-0.005714429218799166
+ridge R2 tg_hdl_ratio,20,-0.0001074048393203686
+ridge R2 tg_hdl_ratio,21,-0.0059781954652147196
+ridge R2 tg_hdl_ratio,22,0.0016574122950321346
+ridge R2 tg_hdl_ratio,23,-0.009656886896578731
+ridge R2 tg_hdl_ratio,24,-0.01416283121025641
+ridge R2 tg_hdl_ratio,25,-0.005618497891597629
+ridge R2 tg_hdl_ratio,26,-0.006347384221164987
+ridge R2 tg_hdl_ratio,27,-0.005990350787269838
+ridge R2 tg_hdl_ratio,28,-0.004794149911147905
+ridge R2 tg_hdl_ratio,29,-0.003047281213810482
+ridge R2 tg_hdl_ratio,30,-0.009235825343383741
+ridge R2 tg_hdl_ratio,31,-0.013784306613876751
+ridge R2 tg_hdl_ratio,32,0.009734383282297698
+ridge R2 tg_hdl_ratio,33,-0.002877403931263345
+ridge R2 tg_hdl_ratio,34,-0.00639537839446902
+ridge R2 tg_hdl_ratio,35,-0.004432082308146068
+ridge R2 tg_hdl_ratio,36,-0.0018851672483339854
+ridge R2 tg_hdl_ratio,37,-0.0031970359026989303
+ridge R2 tg_hdl_ratio,38,-0.011000490513687344
+ridge R2 tg_hdl_ratio,39,-0.004091702753404425
+ridge R2 tg_hdl_ratio,40,-0.00324869716575793
+ridge R2 tg_hdl_ratio,41,-0.007995516399077252
+ridge R2 tg_hdl_ratio,42,-0.009073201573221112
+ridge R2 tg_hdl_ratio,43,-0.011546945980238643
+ridge R2 tg_hdl_ratio,44,-0.009084395284781666
+ridge R2 tg_hdl_ratio,45,-0.0024335333790432845
+ridge R2 tg_hdl_ratio,46,-0.01007728509368877
+ridge R2 tg_hdl_ratio,47,-0.007984553868412014
+ridge R2 tg_hdl_ratio,48,-0.004107712710925693
+ridge R2 tg_hdl_ratio,49,-0.009665145165929534
+ridge R2 tg_hdl_ratio,50,-0.00218716957999332
+ridge R2 tg_hdl_ratio,51,-0.012145843013850355
+ridge R2 tg_hdl_ratio,52,-0.0009383773195270617
+ridge R2 tg_hdl_ratio,53,-0.004071974964265257
+ridge R2 tg_hdl_ratio,54,-0.005019787560988531
+ridge R2 tg_hdl_ratio,55,-0.01020561812953269
+ridge R2 tg_hdl_ratio,56,-0.011210473244110286
+ridge R2 tg_hdl_ratio,57,-0.0053443844513587635
+ridge R2 tg_hdl_ratio,58,-0.007525370366306294
+ridge R2 tg_hdl_ratio,59,-0.009014626486409938
+ridge R2 tg_hdl_ratio,60,-0.00822143812818621
+ridge R2 tg_hdl_ratio,61,-0.008414851705689008
+ridge R2 tg_hdl_ratio,62,-0.0068648846816588005
+ridge R2 tg_hdl_ratio,63,-0.009186955668610386
+ridge R2 tg_hdl_ratio,64,-0.0018849115556005547
+ridge R2 tg_hdl_ratio,65,0.0003399592704365073
+ridge R2 tg_hdl_ratio,66,-0.010497938833964549
+ridge R2 tg_hdl_ratio,67,-0.013933177616179071
+ridge R2 tg_hdl_ratio,68,0.0013484894008153336
+ridge R2 tg_hdl_ratio,69,-0.0005190636331202647
+ridge R2 tg_hdl_ratio,70,-0.0043357981489438036
+ridge R2 tg_hdl_ratio,71,-0.009505114614200005
+ridge R2 tg_hdl_ratio,72,-0.014156099766018837
+ridge R2 tg_hdl_ratio,73,-0.004874060373490696
+ridge R2 tg_hdl_ratio,74,0.0006152531467155109
+ridge R2 tg_hdl_ratio,75,-0.004268188099858294
+ridge R2 tg_hdl_ratio,76,-0.009032202640552711
+ridge R2 tg_hdl_ratio,77,-0.004206290280202252
+ridge R2 tg_hdl_ratio,78,0.007133148660931288
+ridge R2 tg_hdl_ratio,79,-0.008096331721366923
+ridge R2 tg_hdl_ratio,80,0.0037465229691950874
+ridge R2 tg_hdl_ratio,81,-0.00024788680908205407
+ridge R2 tg_hdl_ratio,82,-0.01140537170339928
+ridge R2 tg_hdl_ratio,83,-0.008189245460829664
+ridge R2 tg_hdl_ratio,84,-0.002022265555631897
+ridge R2 tg_hdl_ratio,85,-0.011279072028455461
+ridge R2 tg_hdl_ratio,86,-0.00972095270683826
+ridge R2 tg_hdl_ratio,87,-0.008806108587733563
+ridge R2 tg_hdl_ratio,88,-0.01013426907332926
+ridge R2 tg_hdl_ratio,89,-0.00036755022172374474
+ridge R2 tg_hdl_ratio,90,-0.01319363799748019
+ridge R2 tg_hdl_ratio,91,-0.003884184829942239
+ridge R2 tg_hdl_ratio,92,-0.006454962013161314
+ridge R2 tg_hdl_ratio,93,-0.012541678654737431
+ridge R2 tg_hdl_ratio,94,-0.004210526769118594
+ridge R2 tg_hdl_ratio,95,-0.004009486449755961
+ridge R2 tg_hdl_ratio,96,-0.008922951436404647
+ridge R2 tg_hdl_ratio,97,-0.0066838431770477325
+ridge R2 tg_hdl_ratio,98,-0.0013145813870141243
+ridge R2 tg_hdl_ratio,99,-0.010648750954417974
+ridge R2 tg_hdl_ratio,100,-0.008256128574562593
+ridge R2 tg_hdl_ratio,101,-0.00934410530974894
+ridge R2 tg_hdl_ratio,102,-0.002077483178097639
+ridge R2 tg_hdl_ratio,103,-0.00674398644951868
+ridge R2 tg_hdl_ratio,104,-0.009998417678365623
+ridge R2 tg_hdl_ratio,105,-0.012387710134756702
+ridge R2 tg_hdl_ratio,106,0.001587085204469263
+ridge R2 tg_hdl_ratio,107,0.00034838287337779494
+ridge R2 tg_hdl_ratio,108,0.0007733534341061166
+ridge R2 tg_hdl_ratio,109,-0.005571755891135455
+ridge R2 tg_hdl_ratio,110,0.004138761066157959
+ridge R2 tg_hdl_ratio,111,-0.0011482650309919684
+ridge R2 tg_hdl_ratio,112,-0.008721309909149877
+ridge R2 tg_hdl_ratio,113,0.006289790921783833
+ridge R2 tg_hdl_ratio,114,-0.009131725576024818
+ridge R2 tg_hdl_ratio,115,-0.011864459544578487
+ridge R2 tg_hdl_ratio,116,-0.0024159465970183813
+ridge R2 tg_hdl_ratio,117,-0.00891994624314818
+ridge R2 tg_hdl_ratio,118,-0.01748555604612445
+ridge R2 tg_hdl_ratio,119,0.0014541082340975287
+ridge R2 tg_hdl_ratio,120,-0.006265932844326194
+ridge R2 tg_hdl_ratio,121,-0.009643621263536684
+ridge R2 tg_hdl_ratio,122,-0.0048409952702119785
+ridge R2 tg_hdl_ratio,123,-0.00837578033795916
+ridge R2 tg_hdl_ratio,124,-0.003248171828107882
+ridge R2 tg_hdl_ratio,125,-0.009798531249228137
+ridge R2 tg_hdl_ratio,126,-0.006452064626381926
+ridge R2 tg_hdl_ratio,127,-0.007844670164217638
+ridge R2 tg_hdl_ratio,128,-0.013975919307629425
+ridge R2 tg_hdl_ratio,129,-0.006841939284403908
+ridge R2 tg_hdl_ratio,130,-0.011430518305901582
+ridge R2 tg_hdl_ratio,131,-0.005454543948109958
+ridge R2 tg_hdl_ratio,132,-0.0007187373490686877
+ridge R2 tg_hdl_ratio,133,-0.010462891982518707
+ridge R2 tg_hdl_ratio,134,-0.009241266980305474
+ridge R2 tg_hdl_ratio,135,-0.008331299896124689
+ridge R2 tg_hdl_ratio,136,-0.012934766057738578
+ridge R2 tg_hdl_ratio,137,-0.009508169269029976
+ridge R2 tg_hdl_ratio,138,-0.011541207478694693
+ridge R2 tg_hdl_ratio,139,-0.00230798557969103
+ridge R2 tg_hdl_ratio,140,0.002391518854583885
+ridge R2 tg_hdl_ratio,141,-0.016592432657116962
+ridge R2 tg_hdl_ratio,142,-0.007191556669130517
+ridge R2 tg_hdl_ratio,143,-0.009659523897831201
+ridge R2 tg_hdl_ratio,144,-0.004275781793142475
+ridge R2 tg_hdl_ratio,145,-0.010257723628996906
+ridge R2 tg_hdl_ratio,146,-0.011251392201274024
+ridge R2 tg_hdl_ratio,147,-0.0045726358528681565
+ridge R2 tg_hdl_ratio,148,-0.00017870922275364798
+ridge R2 tg_hdl_ratio,149,-0.010929707694798063
+ridge R2 tg_hdl_ratio,150,-0.009349643290512688
+ridge R2 tg_hdl_ratio,151,-0.0065417032334329495
+ridge R2 tg_hdl_ratio,152,-0.005372096512899827
+ridge R2 tg_hdl_ratio,153,-0.006449168395076921
+ridge R2 tg_hdl_ratio,154,-0.008885394635803179
+ridge R2 tg_hdl_ratio,155,-0.006678725761787074
+ridge R2 tg_hdl_ratio,156,-0.012359879069017587
+ridge R2 tg_hdl_ratio,157,-0.015941976593711438
+ridge R2 tg_hdl_ratio,158,-0.005060900372760857
+ridge R2 tg_hdl_ratio,159,-0.010454271945941063
+ridge R2 tg_hdl_ratio,160,-0.003201223020549371
+ridge R2 tg_hdl_ratio,161,-0.011003622377238509
+ridge R2 tg_hdl_ratio,162,-0.011002650962105509
+ridge R2 tg_hdl_ratio,163,-0.007784115802432767
+ridge R2 tg_hdl_ratio,164,-0.008909934724921742
+ridge R2 tg_hdl_ratio,165,-0.008045817026209878
+ridge R2 tg_hdl_ratio,166,0.005212835172443642
+ridge R2 tg_hdl_ratio,167,-0.0043274006465476855
+ridge R2 tg_hdl_ratio,168,-0.003346192509829704
+ridge R2 tg_hdl_ratio,169,-0.006494210519170762
+ridge R2 tg_hdl_ratio,170,-0.0029774577249563894
+ridge R2 tg_hdl_ratio,171,-0.009199415813962775
+ridge R2 tg_hdl_ratio,172,-0.012114898219712789
+ridge R2 tg_hdl_ratio,173,-0.00479498753342944
+ridge R2 tg_hdl_ratio,174,-0.00117576356307314
+ridge R2 tg_hdl_ratio,175,-0.006435861146256494
+ridge R2 tg_hdl_ratio,176,-0.0027332107435040776
+ridge R2 tg_hdl_ratio,177,-0.00720613348043786
+ridge R2 tg_hdl_ratio,178,-0.007486558270055399
+ridge R2 tg_hdl_ratio,179,-0.005068826111573221
+ridge R2 tg_hdl_ratio,180,-0.0076576343759044985
+ridge R2 tg_hdl_ratio,181,-0.0122213499712307
+ridge R2 tg_hdl_ratio,182,-0.009206448697500313
+ridge R2 tg_hdl_ratio,183,-0.005438773876804248
+ridge R2 tg_hdl_ratio,184,-0.013745013111921667
+ridge R2 tg_hdl_ratio,185,-0.015307160612421988
+ridge R2 tg_hdl_ratio,186,-0.007013127082363901
+ridge R2 tg_hdl_ratio,187,-0.010425170612975432
+ridge R2 tg_hdl_ratio,188,-0.0027078730498732995
+ridge R2 tg_hdl_ratio,189,-0.006101965348672911
+ridge R2 tg_hdl_ratio,190,-0.014798871075454967
+ridge R2 tg_hdl_ratio,191,-0.008444948821117126
+ridge R2 tg_hdl_ratio,192,-0.0056815006751822494
+ridge R2 tg_hdl_ratio,193,-0.013533018901049854
+ridge R2 tg_hdl_ratio,194,-0.010995825208282461
+ridge R2 tg_hdl_ratio,195,-0.00926514739190254
+ridge R2 tg_hdl_ratio,196,-0.012047541892227231
+ridge R2 tg_hdl_ratio,197,-0.007859606459094559
+ridge R2 tg_hdl_ratio,198,-0.0067618628734182895
+ridge R2 tg_hdl_ratio,199,-0.005981233811012565
+ridge R2 tg_hdl_ratio,200,-0.00781741661869595
+ridge R2 tg_hdl_ratio,201,-0.011347991838955185
+ridge R2 tg_hdl_ratio,202,-0.011136007633465672
+ridge R2 tg_hdl_ratio,203,-0.007754212184067688
+ridge R2 tg_hdl_ratio,204,-0.008921105744910784
+ridge R2 tg_hdl_ratio,205,-0.005179827912401791
+ridge R2 tg_hdl_ratio,206,-0.006808566338680322
+ridge R2 tg_hdl_ratio,207,-0.0065809983820785956
+ridge R2 tg_hdl_ratio,208,-0.0018147639211645306
+ridge R2 tg_hdl_ratio,209,-0.016400916429640144
+ridge R2 tg_hdl_ratio,210,-0.005151413500608992
+ridge R2 tg_hdl_ratio,211,-0.008316527111843053
+ridge R2 tg_hdl_ratio,212,-0.006157143127563547
+ridge R2 tg_hdl_ratio,213,-0.004931566257244446
+ridge R2 tg_hdl_ratio,214,-0.012078377953222086
+ridge R2 tg_hdl_ratio,215,-0.0037202663754007936
+ridge R2 tg_hdl_ratio,216,-0.0108721551342994
+ridge R2 tg_hdl_ratio,217,-0.007400880739895754
+ridge R2 tg_hdl_ratio,218,-0.01314245825031235
+ridge R2 tg_hdl_ratio,219,-0.005672931458141406
+ridge R2 tg_hdl_ratio,220,-0.01338755064302033
+ridge R2 tg_hdl_ratio,221,-0.011781575762751073
+ridge R2 tg_hdl_ratio,222,-0.016399504456530378
+ridge R2 tg_hdl_ratio,223,-0.007275367199770955
+ridge R2 tg_hdl_ratio,224,-0.010858980126277284
+ridge R2 tg_hdl_ratio,225,-0.008799575430628925
+ridge R2 tg_hdl_ratio,226,-0.007256678838155173
+ridge R2 tg_hdl_ratio,227,-0.009214413564258894
+ridge R2 tg_hdl_ratio,228,-0.005518064529591582
+ridge R2 tg_hdl_ratio,229,-0.01615718516938025
+ridge R2 tg_hdl_ratio,230,-0.013951915008123983
+ridge R2 tg_hdl_ratio,231,-0.007838842398377954
+ridge R2 tg_hdl_ratio,232,-0.015383489741168432
+ridge R2 tg_hdl_ratio,233,-0.009761432406762971
+ridge R2 tg_hdl_ratio,234,-0.004348473503060113
+ridge R2 tg_hdl_ratio,235,-0.00018644731216643784
+ridge R2 tg_hdl_ratio,236,-0.00947723543172474
+ridge R2 tg_hdl_ratio,237,-0.0006411047550336502
+ridge R2 tg_hdl_ratio,238,0.00016355068603401968
+ridge R2 tg_hdl_ratio,239,-0.010660906993052777
+ridge R2 tg_hdl_ratio,240,-0.011091774393393372
+ridge R2 tg_hdl_ratio,241,-0.005619331629714619
+ridge R2 tg_hdl_ratio,242,0.0016848824279247498
+ridge R2 tg_hdl_ratio,243,-0.006409737903006585
+ridge R2 tg_hdl_ratio,244,-0.0054136937728830326
+ridge R2 tg_hdl_ratio,245,-0.010922133946265511
+ridge R2 tg_hdl_ratio,246,-0.012501579758349424
+ridge R2 tg_hdl_ratio,247,-0.013812624333207735
+ridge R2 tg_hdl_ratio,248,-0.007846588709067293
+ridge R2 tg_hdl_ratio,249,0.006383619640422222
+ridge R2 tg_hdl_ratio,250,-0.012394722633633615
+ridge R2 tg_hdl_ratio,251,-0.012041078112310366
+ridge R2 tg_hdl_ratio,252,-0.010972514583507342
+ridge R2 tg_hdl_ratio,253,-0.009628512150924529
+ridge R2 tg_hdl_ratio,254,0.000683202123757165
+ridge R2 tg_hdl_ratio,255,-0.004095227979263205
+ridge R2 tg_hdl_ratio,256,-0.009934763594806606
+ridge R2 tg_hdl_ratio,257,-0.004822318113198554
+ridge R2 tg_hdl_ratio,258,-0.012086541145304608
+ridge R2 tg_hdl_ratio,259,-0.007467725585166507
+ridge R2 tg_hdl_ratio,260,-0.011267464496035329
+ridge R2 tg_hdl_ratio,261,-0.0034683193003044455
+ridge R2 tg_hdl_ratio,262,-0.00930988586299919
+ridge R2 tg_hdl_ratio,263,-0.014961008732841563
+ridge R2 tg_hdl_ratio,264,-0.009805527764224609
+ridge R2 tg_hdl_ratio,265,-0.013915052720776977
+ridge R2 tg_hdl_ratio,266,-0.00857315156336802
+ridge R2 tg_hdl_ratio,267,-0.011693274321387115
+ridge R2 tg_hdl_ratio,268,-0.0029033245498026883
+ridge R2 tg_hdl_ratio,269,-0.0052608038512422794
+ridge R2 tg_hdl_ratio,270,-0.015236657202643666
+ridge R2 tg_hdl_ratio,271,-0.011834046261321118
+ridge R2 tg_hdl_ratio,272,-0.0024882765226825754
+ridge R2 tg_hdl_ratio,273,-0.004444818186696287
+ridge R2 tg_hdl_ratio,274,-0.006211307626826645
+ridge R2 tg_hdl_ratio,275,-0.015533731045870747
+ridge R2 tg_hdl_ratio,276,-0.003985468462478048
+ridge R2 tg_hdl_ratio,277,0.0034761098665894163
+ridge R2 tg_hdl_ratio,278,-0.009019213124457748
+ridge R2 tg_hdl_ratio,279,-0.009833343835474073
+ridge R2 tg_hdl_ratio,280,-0.01258045064598412
+ridge R2 tg_hdl_ratio,281,-0.0014185071288292939
+ridge R2 tg_hdl_ratio,282,-0.00881590490069506
+ridge R2 tg_hdl_ratio,283,-0.004599054494796029
+ridge R2 tg_hdl_ratio,284,-0.003180525185459304
+ridge R2 tg_hdl_ratio,285,-0.008405636482816892
+ridge R2 tg_hdl_ratio,286,-0.014291275139316495
+ridge R2 tg_hdl_ratio,287,-0.0038314876295315603
+ridge R2 tg_hdl_ratio,288,-0.009282360784318877
+ridge R2 tg_hdl_ratio,289,-0.010318846696595108
+ridge R2 tg_hdl_ratio,290,-0.0013317005275303995
+ridge R2 tg_hdl_ratio,291,-0.012185186818975735
+ridge R2 tg_hdl_ratio,292,-0.0025877450085194376
+ridge R2 tg_hdl_ratio,293,-0.006343765992376849
+ridge R2 tg_hdl_ratio,294,-0.01045843448313577
+ridge R2 tg_hdl_ratio,295,-0.013352800388124253
+ridge R2 tg_hdl_ratio,296,-0.011046081750192949
+ridge R2 tg_hdl_ratio,297,-0.008751591317802454
+ridge R2 tg_hdl_ratio,298,-0.0005665602933917491
+ridge R2 tg_hdl_ratio,299,-0.00427149312831232
+ridge R2 tg_hdl_ratio,300,-0.01504321013804688
+ridge R2 tg_hdl_ratio,301,-0.012073631627236292
+ridge R2 tg_hdl_ratio,302,-0.011872072521956323
+ridge R2 tg_hdl_ratio,303,-0.012874522555100576
+ridge R2 tg_hdl_ratio,304,-0.008026577601473184
+ridge R2 tg_hdl_ratio,305,-0.012381726862302544
+ridge R2 tg_hdl_ratio,306,0.0016158238378977119
+ridge R2 tg_hdl_ratio,307,-0.017687062711555734
+ridge R2 tg_hdl_ratio,308,-0.011736584673507577
+ridge R2 tg_hdl_ratio,309,-0.009434877485650528
+ridge R2 tg_hdl_ratio,310,-0.0026957927525002034
+ridge R2 tg_hdl_ratio,311,-0.010923543927924717
+ridge R2 tg_hdl_ratio,312,0.004306078132939262
+ridge R2 tg_hdl_ratio,313,-0.011382247849001104
+ridge R2 tg_hdl_ratio,314,-0.010635254696289786
+ridge R2 tg_hdl_ratio,315,-0.012477101321495931
+ridge R2 tg_hdl_ratio,316,-0.01524126188961672
+ridge R2 tg_hdl_ratio,317,-0.0014948404571821783
+ridge R2 tg_hdl_ratio,318,-0.012797145519137576
+ridge R2 tg_hdl_ratio,319,-0.015108809872832918
+ridge R2 tg_hdl_ratio,320,0.0015796653496535917
+ridge R2 tg_hdl_ratio,321,-0.005171125121835152
+ridge R2 tg_hdl_ratio,322,-0.011461195475622299
+ridge R2 tg_hdl_ratio,323,-0.011415594322190081
+ridge R2 tg_hdl_ratio,324,-0.0009870650981889106
+ridge R2 tg_hdl_ratio,325,-0.0051184747883135095
+ridge R2 tg_hdl_ratio,326,-0.008301593507853422
+ridge R2 tg_hdl_ratio,327,-0.01123203901540637
+ridge R2 tg_hdl_ratio,328,-0.011545716796105499
+ridge R2 tg_hdl_ratio,329,-0.011685546327737661
+ridge R2 tg_hdl_ratio,330,-0.004414641445149803
+ridge R2 tg_hdl_ratio,331,-0.00877634679338346
+ridge R2 tg_hdl_ratio,332,-0.01374726541902116
+ridge R2 tg_hdl_ratio,333,0.010473087630506361
+ridge R2 tg_hdl_ratio,334,-0.01076864246652498
+ridge R2 tg_hdl_ratio,335,-0.002873087359913429
+ridge R2 tg_hdl_ratio,336,0.007011484490729192
+ridge R2 tg_hdl_ratio,337,-0.005091392699823505
+ridge R2 tg_hdl_ratio,338,-0.008823791732105901
+ridge R2 tg_hdl_ratio,339,-0.012137144631920282
+ridge R2 tg_hdl_ratio,340,-0.009466267855124055
+ridge R2 tg_hdl_ratio,341,-0.007615645463497689
+ridge R2 tg_hdl_ratio,342,-0.007888806242108082
+ridge R2 tg_hdl_ratio,343,-0.013500462460388496
+ridge R2 tg_hdl_ratio,344,-0.007490314495338213
+ridge R2 tg_hdl_ratio,345,-0.004962075610947192
+ridge R2 tg_hdl_ratio,346,0.0015232992677067791
+ridge R2 tg_hdl_ratio,347,0.01279683254177999
+ridge R2 tg_hdl_ratio,348,-0.001615786869906266
+ridge R2 tg_hdl_ratio,349,-0.005123744585566303
+ridge R2 tg_hdl_ratio,350,-0.010335511731429214
+ridge R2 tg_hdl_ratio,351,-0.006210426294558369
+ridge R2 tg_hdl_ratio,352,-0.010846898120500548
+ridge R2 tg_hdl_ratio,353,-0.009395293412437056
+ridge R2 tg_hdl_ratio,354,-0.004201674384182619
+ridge R2 tg_hdl_ratio,355,-0.002139494606800074
+ridge R2 tg_hdl_ratio,356,-0.006462688176998244
+ridge R2 tg_hdl_ratio,357,-0.01157668742516682
+ridge R2 tg_hdl_ratio,358,-0.001846106596467223
+ridge R2 tg_hdl_ratio,359,-0.00042601080355564314
+ridge R2 tg_hdl_ratio,360,-0.006403628690880403
+ridge R2 tg_hdl_ratio,361,-0.011790075261380428
+ridge R2 tg_hdl_ratio,362,-0.00901329754724478
+ridge R2 tg_hdl_ratio,363,-0.009244375503696833
+ridge R2 tg_hdl_ratio,364,-0.008064530101465017
+ridge R2 tg_hdl_ratio,365,0.008549966453925806
+ridge R2 tg_hdl_ratio,366,-0.007408909500909777
+ridge R2 tg_hdl_ratio,367,-0.01438152533018644
+ridge R2 tg_hdl_ratio,368,-0.008193150319492304
+ridge R2 tg_hdl_ratio,369,-0.008572458004681316
+ridge R2 tg_hdl_ratio,370,-0.004321811962804123
+ridge R2 tg_hdl_ratio,371,-0.012008802936207097
+ridge R2 tg_hdl_ratio,372,-0.014917726908541207
+ridge R2 tg_hdl_ratio,373,-0.008620341305600743
+ridge R2 tg_hdl_ratio,374,-0.006723916143284603
+ridge R2 tg_hdl_ratio,375,-0.008001377252397468
+ridge R2 tg_hdl_ratio,376,-0.013380593497858584
+ridge R2 tg_hdl_ratio,377,-0.008624580552361927
+ridge R2 tg_hdl_ratio,378,-0.004963630317719403
+ridge R2 tg_hdl_ratio,379,-0.00368167131049546
+ridge R2 tg_hdl_ratio,380,-0.006822481473226727
+ridge R2 tg_hdl_ratio,381,-0.007678479907451852
+ridge R2 tg_hdl_ratio,382,-0.004985733633082301
+ridge R2 tg_hdl_ratio,383,-0.006556112820475191
+ridge R2 tg_hdl_ratio,384,-0.012110383199312347
+ridge R2 tg_hdl_ratio,385,-0.017469033381560806
+ridge R2 tg_hdl_ratio,386,-0.00915877343051541
+ridge R2 tg_hdl_ratio,387,-0.009943201022337034
+ridge R2 tg_hdl_ratio,388,0.000923010040633998
+ridge R2 tg_hdl_ratio,389,-0.008309750510338887
+ridge R2 tg_hdl_ratio,390,0.00818462696911304
+ridge R2 tg_hdl_ratio,391,-0.010752838621744365
+ridge R2 tg_hdl_ratio,392,0.003386200693510033
+ridge R2 tg_hdl_ratio,393,-0.004883045840563538
+ridge R2 tg_hdl_ratio,394,-0.009847471618060322
+ridge R2 tg_hdl_ratio,395,-0.015359921997636139
+ridge R2 tg_hdl_ratio,396,-0.004277069573046077
+ridge R2 tg_hdl_ratio,397,-0.008558475627273854
+ridge R2 tg_hdl_ratio,398,-0.004492866053590339
+ridge R2 tg_hdl_ratio,399,-0.01188879079514904
+ridge R2 tg_hdl_ratio,400,-0.006760031894984753
+ridge R2 tg_hdl_ratio,401,-0.0007115729259339343
+ridge R2 tg_hdl_ratio,402,-0.007474951739903313
+ridge R2 tg_hdl_ratio,403,-0.007360783896439571
+ridge R2 tg_hdl_ratio,404,0.002662652032282331
+ridge R2 tg_hdl_ratio,405,-0.012998623263396958
+ridge R2 tg_hdl_ratio,406,-0.007121774400188574
+ridge R2 tg_hdl_ratio,407,-0.002104441528901546
+ridge R2 tg_hdl_ratio,408,-0.0036393470793818494
+ridge R2 tg_hdl_ratio,409,-0.008510624704330283
+ridge R2 tg_hdl_ratio,410,0.002315081661269147
+ridge R2 tg_hdl_ratio,411,0.001912505104059048
+ridge R2 tg_hdl_ratio,412,-0.001639035288817814
+ridge R2 tg_hdl_ratio,413,0.0014578618543173993
+ridge R2 tg_hdl_ratio,414,-0.014513505425845397
+ridge R2 tg_hdl_ratio,415,0.000871030009274909
+ridge R2 tg_hdl_ratio,416,-0.014432636143221655
+ridge R2 tg_hdl_ratio,417,-0.007572631070599245
+ridge R2 tg_hdl_ratio,418,-0.011693253733940034
+ridge R2 tg_hdl_ratio,419,-0.01157890247915394
+ridge R2 tg_hdl_ratio,420,-0.007719068525917638
+ridge R2 tg_hdl_ratio,421,-0.005369366648308116
+ridge R2 tg_hdl_ratio,422,-0.0073198768572617645
+ridge R2 tg_hdl_ratio,423,-0.006109713422920882
+ridge R2 tg_hdl_ratio,424,-0.009838022744376174
+ridge R2 tg_hdl_ratio,425,-0.013277223846734909
+ridge R2 tg_hdl_ratio,426,-0.013125197823572021
+ridge R2 tg_hdl_ratio,427,-0.008680939903056295
+ridge R2 tg_hdl_ratio,428,-0.014270168481703482
+ridge R2 tg_hdl_ratio,429,-0.006299145616934565
+ridge R2 tg_hdl_ratio,430,-0.009397799615014746
+ridge R2 tg_hdl_ratio,431,-0.012816589015027802
+ridge R2 tg_hdl_ratio,432,-0.004046678444326268
+ridge R2 tg_hdl_ratio,433,-0.013242277924644608
+ridge R2 tg_hdl_ratio,434,-0.010659979138171183
+ridge R2 tg_hdl_ratio,435,-0.014176086210752059
+ridge R2 tg_hdl_ratio,436,-0.011031068647571418
+ridge R2 tg_hdl_ratio,437,-0.003406876952748439
+ridge R2 tg_hdl_ratio,438,0.0006329004108068803
+ridge R2 tg_hdl_ratio,439,-0.007917602678518154
+ridge R2 tg_hdl_ratio,440,-0.009774786904792387
+ridge R2 tg_hdl_ratio,441,-0.001486190744370397
+ridge R2 tg_hdl_ratio,442,-0.009598673948793213
+ridge R2 tg_hdl_ratio,443,-0.004666873643962344
+ridge R2 tg_hdl_ratio,444,-0.005945696008062384
+ridge R2 tg_hdl_ratio,445,0.0036792634284105175
+ridge R2 tg_hdl_ratio,446,-0.0047977364225184616
+ridge R2 tg_hdl_ratio,447,-0.005608463296240318
+ridge R2 tg_hdl_ratio,448,-0.005507918461551853
+ridge R2 tg_hdl_ratio,449,-0.0061144185793888806
+ridge R2 tg_hdl_ratio,450,-0.0036459725444208946
+ridge R2 tg_hdl_ratio,451,-0.013770789770504388
+ridge R2 tg_hdl_ratio,452,-0.015370760769085168
+ridge R2 tg_hdl_ratio,453,-0.0065572691463477994
+ridge R2 tg_hdl_ratio,454,-0.007216008570536614
+ridge R2 tg_hdl_ratio,455,-0.012875622072754167
+ridge R2 tg_hdl_ratio,456,-0.008206247028936797
+ridge R2 tg_hdl_ratio,457,-0.00967934716200003
+ridge R2 tg_hdl_ratio,458,-0.013079248307364288
+ridge R2 tg_hdl_ratio,459,0.0025125065784588063
+ridge R2 tg_hdl_ratio,460,-0.010035613617826566
+ridge R2 tg_hdl_ratio,461,-0.007322579394027473
+ridge R2 tg_hdl_ratio,462,-0.01384503661837555
+ridge R2 tg_hdl_ratio,463,-0.010088228880087424
+ridge R2 tg_hdl_ratio,464,-0.015909590699954457
+ridge R2 tg_hdl_ratio,465,-0.009854971941143598
+ridge R2 tg_hdl_ratio,466,-0.010935497179529463
+ridge R2 tg_hdl_ratio,467,-0.011295177684800484
+ridge R2 tg_hdl_ratio,468,-0.010781390449265293
+ridge R2 tg_hdl_ratio,469,0.0005262231853856436
+ridge R2 tg_hdl_ratio,470,-0.00741099052240024
+ridge R2 tg_hdl_ratio,471,-0.0028853326071447416
+ridge R2 tg_hdl_ratio,472,-0.005108288358568913
+ridge R2 tg_hdl_ratio,473,-0.005915190449031993
+ridge R2 tg_hdl_ratio,474,-0.009256338952865928
+ridge R2 tg_hdl_ratio,475,-0.004378271784631016
+ridge R2 tg_hdl_ratio,476,-0.0031605516301775882
+ridge R2 tg_hdl_ratio,477,-0.011708189394345592
+ridge R2 tg_hdl_ratio,478,-0.009240723899416103
+ridge R2 tg_hdl_ratio,479,-0.011771918602905052
+ridge R2 tg_hdl_ratio,480,-0.004937530412878255
+ridge R2 tg_hdl_ratio,481,-0.01258244880917414
+ridge R2 tg_hdl_ratio,482,-0.006620749856466324
+ridge R2 tg_hdl_ratio,483,-0.005211989157951402
+ridge R2 tg_hdl_ratio,484,-0.006641379163466743
+ridge R2 tg_hdl_ratio,485,-0.004861517752476452
+ridge R2 tg_hdl_ratio,486,-0.007690735261862702
+ridge R2 tg_hdl_ratio,487,-0.011438726959162704
+ridge R2 tg_hdl_ratio,488,-0.013315304091092717
+ridge R2 tg_hdl_ratio,489,-0.009315386802577263
+ridge R2 tg_hdl_ratio,490,-0.001794014529411303
+ridge R2 tg_hdl_ratio,491,-0.013301714537437226
+ridge R2 tg_hdl_ratio,492,-0.004079878244794832
+ridge R2 tg_hdl_ratio,493,-0.008482024453972725
+ridge R2 tg_hdl_ratio,494,0.0032307436443475
+ridge R2 tg_hdl_ratio,495,-0.013503815497769134
+ridge R2 tg_hdl_ratio,496,-0.002116589138737801
+ridge R2 tg_hdl_ratio,497,-0.014353089208832603
+ridge R2 tg_hdl_ratio,498,-0.006759610753059642
+ridge R2 tg_hdl_ratio,499,-0.01283342792123121
+ridge R2 tg_hdl_ratio,500,-0.007380861376015346
+ridge R2 tg_hdl_ratio,501,-0.010865433848708195
+ridge R2 tg_hdl_ratio,502,-0.00106592854933929
+ridge R2 tg_hdl_ratio,503,0.00010826988990308983
+ridge R2 tg_hdl_ratio,504,-0.010460707252813783
+ridge R2 tg_hdl_ratio,505,-0.00516285715153475
+ridge R2 tg_hdl_ratio,506,-0.01365693912953625
+ridge R2 tg_hdl_ratio,507,-0.00428839369057421
+ridge R2 tg_hdl_ratio,508,-0.013769202868292307
+ridge R2 tg_hdl_ratio,509,-0.0051786664881083855
+ridge R2 tg_hdl_ratio,510,-0.0008942105088514118
+ridge R2 tg_hdl_ratio,511,-0.010415171709011073
+ridge R2 tg_hdl_ratio,512,-0.01143498600587356
+ridge R2 tg_hdl_ratio,513,-0.010307516512583437
+ridge R2 tg_hdl_ratio,514,-0.009776708523598687
+ridge R2 tg_hdl_ratio,515,0.00815651699196529
+ridge R2 tg_hdl_ratio,516,-0.005572855626338358
+ridge R2 tg_hdl_ratio,517,-0.017025513707376927
+ridge R2 tg_hdl_ratio,518,0.00013823508015797792
+ridge R2 tg_hdl_ratio,519,-0.0014935372937894265
+ridge R2 tg_hdl_ratio,520,-0.0048185097843738145
+ridge R2 tg_hdl_ratio,521,0.007664139806860759
+ridge R2 tg_hdl_ratio,522,-0.013746672683156547
+ridge R2 tg_hdl_ratio,523,-0.0036345782726425746
+ridge R2 tg_hdl_ratio,524,-0.011955736966101194
+ridge R2 tg_hdl_ratio,525,-0.002614424207141308
+ridge R2 tg_hdl_ratio,526,-0.007498581874978649
+ridge R2 tg_hdl_ratio,527,-0.01036266214586723
+ridge R2 tg_hdl_ratio,528,-0.003681630324137597
+ridge R2 tg_hdl_ratio,529,-0.014256054756074388
+ridge R2 tg_hdl_ratio,530,-0.013850789335202895
+ridge R2 tg_hdl_ratio,531,-0.0080081479196914
+ridge R2 tg_hdl_ratio,532,-0.007725982382325247
+ridge R2 tg_hdl_ratio,533,-0.011995934630727456
+ridge R2 tg_hdl_ratio,534,-0.010281856558011615
+ridge R2 tg_hdl_ratio,535,-0.011684417670645875
+ridge R2 tg_hdl_ratio,536,0.0016737356306255613
+ridge R2 tg_hdl_ratio,537,-0.005142780839776595
+ridge R2 tg_hdl_ratio,538,-0.009376018310452316
+ridge R2 tg_hdl_ratio,539,-0.013944184739688614
+ridge R2 tg_hdl_ratio,540,-0.00654309488867022
+ridge R2 tg_hdl_ratio,541,-0.0002777571085543773
+ridge R2 tg_hdl_ratio,542,-0.012109444542135028
+ridge R2 tg_hdl_ratio,543,-0.007630859007394575
+ridge R2 tg_hdl_ratio,544,-0.0039054579523201127
+ridge R2 tg_hdl_ratio,545,0.005049859432114001
+ridge R2 tg_hdl_ratio,546,-0.007065727026653423
+ridge R2 tg_hdl_ratio,547,-0.00035048225401368427
+ridge R2 tg_hdl_ratio,548,-0.008740720224039489
+ridge R2 tg_hdl_ratio,549,-0.012686834889904963
+ridge R2 tg_hdl_ratio,550,-0.012931662300402547
+ridge R2 tg_hdl_ratio,551,-0.008302421023570039
+ridge R2 tg_hdl_ratio,552,-0.00770910143714576
+ridge R2 tg_hdl_ratio,553,-0.010242621155108322
+ridge R2 tg_hdl_ratio,554,-0.008776170972798703
+ridge R2 tg_hdl_ratio,555,-0.013300971978071008
+ridge R2 tg_hdl_ratio,556,-0.007004278844739309
+ridge R2 tg_hdl_ratio,557,-0.009150629542375555
+ridge R2 tg_hdl_ratio,558,-0.003486247137696852
+ridge R2 tg_hdl_ratio,559,-0.012693226016431414
+ridge R2 tg_hdl_ratio,560,-0.008463636791467
+ridge R2 tg_hdl_ratio,561,-0.009878155031531444
+ridge R2 tg_hdl_ratio,562,-0.00919172720562944
+ridge R2 tg_hdl_ratio,563,-0.01267511559139245
+ridge R2 tg_hdl_ratio,564,-0.006098011619236621
+ridge R2 tg_hdl_ratio,565,-0.011295858127247316
+ridge R2 tg_hdl_ratio,566,-0.013970282963004399
+ridge R2 tg_hdl_ratio,567,-0.00995695896221327
+ridge R2 tg_hdl_ratio,568,-0.004308630560262872
+ridge R2 tg_hdl_ratio,569,-0.012951151395791394
+ridge R2 tg_hdl_ratio,570,-0.0018032489487369574
+ridge R2 tg_hdl_ratio,571,-0.008773508172571276
+ridge R2 tg_hdl_ratio,572,-0.011655458230230842
+ridge R2 tg_hdl_ratio,573,-0.004368274334215494
+ridge R2 tg_hdl_ratio,574,-0.015027980189770362
+ridge R2 tg_hdl_ratio,575,-0.003713130385869734
+ridge R2 tg_hdl_ratio,576,-0.008887255573647446
+ridge R2 tg_hdl_ratio,577,-0.009046980358624612
+ridge R2 tg_hdl_ratio,578,-0.009180059244065841
+ridge R2 tg_hdl_ratio,579,-0.00906707298970666
+ridge R2 tg_hdl_ratio,580,-0.014396610322851
+ridge R2 tg_hdl_ratio,581,-0.007182450989368316
+ridge R2 tg_hdl_ratio,582,-0.012521356431866915
+ridge R2 tg_hdl_ratio,583,-0.014254430093733061
+ridge R2 tg_hdl_ratio,584,-0.008771005812798549
+ridge R2 tg_hdl_ratio,585,-0.00929053951379899
+ridge R2 tg_hdl_ratio,586,-0.01931375774845967
+ridge R2 tg_hdl_ratio,587,-0.011228998702078385
+ridge R2 tg_hdl_ratio,588,-0.008879146510735847
+ridge R2 tg_hdl_ratio,589,-0.0013741536138094368
+ridge R2 tg_hdl_ratio,590,0.00692158430958445
+ridge R2 tg_hdl_ratio,591,-0.008066779216055364
+ridge R2 tg_hdl_ratio,592,-0.007607679096394815
+ridge R2 tg_hdl_ratio,593,-0.011742875143413434
+ridge R2 tg_hdl_ratio,594,-0.010504706402673536
+ridge R2 tg_hdl_ratio,595,-0.003992648077530525
+ridge R2 tg_hdl_ratio,596,-0.00956641581376716
+ridge R2 tg_hdl_ratio,597,-0.007827268272505128
+ridge R2 tg_hdl_ratio,598,-0.006745404286228274
+ridge R2 tg_hdl_ratio,599,-0.00736192704121974
+ridge R2 tg_hdl_ratio,600,-0.011262318112142511
+ridge R2 tg_hdl_ratio,601,-0.0027602700453233098
+ridge R2 tg_hdl_ratio,602,-0.01011908281587992
+ridge R2 tg_hdl_ratio,603,-0.0013450861823181004
+ridge R2 tg_hdl_ratio,604,-0.0062771445414813165
+ridge R2 tg_hdl_ratio,605,-0.005583220869108008
+ridge R2 tg_hdl_ratio,606,-0.008088217998065472
+ridge R2 tg_hdl_ratio,607,-0.0144261874473397
+ridge R2 tg_hdl_ratio,608,0.0025896506214000414
+ridge R2 tg_hdl_ratio,609,-0.009535776618348368
+ridge R2 tg_hdl_ratio,610,-0.009675902975061268
+ridge R2 tg_hdl_ratio,611,-0.00011594285396654413
+ridge R2 tg_hdl_ratio,612,-0.007454940772902763
+ridge R2 tg_hdl_ratio,613,-0.01265472987334082
+ridge R2 tg_hdl_ratio,614,-0.012646616825074952
+ridge R2 tg_hdl_ratio,615,-0.008664441871825579
+ridge R2 tg_hdl_ratio,616,-0.016516507774500644
+ridge R2 tg_hdl_ratio,617,-0.021162466162250926
+ridge R2 tg_hdl_ratio,618,-0.012260007540457751
+ridge R2 tg_hdl_ratio,619,-0.007386471221239255
+ridge R2 tg_hdl_ratio,620,-0.011836232562446591
+ridge R2 tg_hdl_ratio,621,-0.009565853456864115
+ridge R2 tg_hdl_ratio,622,-0.008228216416330536
+ridge R2 tg_hdl_ratio,623,-0.00834520395681615
+ridge R2 tg_hdl_ratio,624,0.002655056912590825
+ridge R2 tg_hdl_ratio,625,0.0020097727065465643
+ridge R2 tg_hdl_ratio,626,-0.0006111337457419541
+ridge R2 tg_hdl_ratio,627,-0.008682140503827762
+ridge R2 tg_hdl_ratio,628,-0.011373649875568326
+ridge R2 tg_hdl_ratio,629,-0.0013038968173084697
+ridge R2 tg_hdl_ratio,630,0.013878847821939266
+ridge R2 tg_hdl_ratio,631,-0.0017907522994380365
+ridge R2 tg_hdl_ratio,632,-0.0004435209592486
+ridge R2 tg_hdl_ratio,633,-0.01390360642984434
+ridge R2 tg_hdl_ratio,634,-0.011014688028866182
+ridge R2 tg_hdl_ratio,635,-0.01042600362924051
+ridge R2 tg_hdl_ratio,636,-0.012768082699095462
+ridge R2 tg_hdl_ratio,637,-0.013802479090085473
+ridge R2 tg_hdl_ratio,638,-0.0050758525679195365
+ridge R2 tg_hdl_ratio,639,-0.0034027938634360044
+ridge R2 tg_hdl_ratio,640,-0.007957389320390362
+ridge R2 tg_hdl_ratio,641,-0.00025909195900819526
+ridge R2 tg_hdl_ratio,642,-0.012390575137985138
+ridge R2 tg_hdl_ratio,643,-0.014669783732309982
+ridge R2 tg_hdl_ratio,644,-0.010906524441633092
+ridge R2 tg_hdl_ratio,645,-0.010493014484898922
+ridge R2 tg_hdl_ratio,646,-0.005203749408341007
+ridge R2 tg_hdl_ratio,647,-0.0078910219883217
+ridge R2 tg_hdl_ratio,648,-0.008940515717215547
+ridge R2 tg_hdl_ratio,649,-0.005306536245050175
+ridge R2 tg_hdl_ratio,650,-0.007196756531172133
+ridge R2 tg_hdl_ratio,651,-0.00430136657766389
+ridge R2 tg_hdl_ratio,652,-0.008484344560420576
+ridge R2 tg_hdl_ratio,653,-0.011537863558154449
+ridge R2 tg_hdl_ratio,654,0.009396522757801007
+ridge R2 tg_hdl_ratio,655,-0.009422264973901529
+ridge R2 tg_hdl_ratio,656,-0.009816473474018927
+ridge R2 tg_hdl_ratio,657,-0.008176571861827187
+ridge R2 tg_hdl_ratio,658,-0.005127355063376582
+ridge R2 tg_hdl_ratio,659,-0.01105403821667883
+ridge R2 tg_hdl_ratio,660,-0.006595944364225614
+ridge R2 tg_hdl_ratio,661,-0.013752660807918593
+ridge R2 tg_hdl_ratio,662,0.00634351694070423
+ridge R2 tg_hdl_ratio,663,-0.009873229737340727
+ridge R2 tg_hdl_ratio,664,-0.007748920668700698
+ridge R2 tg_hdl_ratio,665,-0.01100112527275443
+ridge R2 tg_hdl_ratio,666,-0.013034515387473578
+ridge R2 tg_hdl_ratio,667,-0.013400549448899124
+ridge R2 tg_hdl_ratio,668,-0.006032419601617267
+ridge R2 tg_hdl_ratio,669,-0.0007819131166497684
+ridge R2 tg_hdl_ratio,670,-0.0073314415502163666
+ridge R2 tg_hdl_ratio,671,-0.006667337690877684
+ridge R2 tg_hdl_ratio,672,-0.01349195437060291
+ridge R2 tg_hdl_ratio,673,-0.01041868794232692
+ridge R2 tg_hdl_ratio,674,-0.005169784874721639
+ridge R2 tg_hdl_ratio,675,-0.009398639933089425
+ridge R2 tg_hdl_ratio,676,-0.008566184784051023
+ridge R2 tg_hdl_ratio,677,-0.001686852150142082
+ridge R2 tg_hdl_ratio,678,0.003216483308756124
+ridge R2 tg_hdl_ratio,679,-0.0028343152231211644
+ridge R2 tg_hdl_ratio,680,-0.007509033412644861
+ridge R2 tg_hdl_ratio,681,0.0015766227372551178
+ridge R2 tg_hdl_ratio,682,-0.00705573016015415
+ridge R2 tg_hdl_ratio,683,-0.008789871659566462
+ridge R2 tg_hdl_ratio,684,-0.004066737643881879
+ridge R2 tg_hdl_ratio,685,-0.006564167131598131
+ridge R2 tg_hdl_ratio,686,-0.01103676779336804
+ridge R2 tg_hdl_ratio,687,-0.011652259745027038
+ridge R2 tg_hdl_ratio,688,-0.010606347824421825
+ridge R2 tg_hdl_ratio,689,-0.004195535167994979
+ridge R2 tg_hdl_ratio,690,-0.020409252242580278
+ridge R2 tg_hdl_ratio,691,-0.0109758202954926
+ridge R2 tg_hdl_ratio,692,-0.007830467232822436
+ridge R2 tg_hdl_ratio,693,-0.010796204550595156
+ridge R2 tg_hdl_ratio,694,-0.007354529603478044
+ridge R2 tg_hdl_ratio,695,0.0032771250567182886
+ridge R2 tg_hdl_ratio,696,-0.004134215339723912
+ridge R2 tg_hdl_ratio,697,-0.002061752211262924
+ridge R2 tg_hdl_ratio,698,-0.007785356268672494
+ridge R2 tg_hdl_ratio,699,-0.004966726220497764
+ridge R2 tg_hdl_ratio,700,-0.005032401605201242
+ridge R2 tg_hdl_ratio,701,0.00018861234036360308
+ridge R2 tg_hdl_ratio,702,-0.008189750141713859
+ridge R2 tg_hdl_ratio,703,-0.013395777947814214
+ridge R2 tg_hdl_ratio,704,-0.009580095793473742
+ridge R2 tg_hdl_ratio,705,-0.005293472208444783
+ridge R2 tg_hdl_ratio,706,-0.0014483105226363868
+ridge R2 tg_hdl_ratio,707,-0.009097981240833386
+ridge R2 tg_hdl_ratio,708,-0.004133171424967941
+ridge R2 tg_hdl_ratio,709,-0.011491922644812025
+ridge R2 tg_hdl_ratio,710,-0.0023855253363149753
+ridge R2 tg_hdl_ratio,711,-0.00835073493621108
+ridge R2 tg_hdl_ratio,712,0.0008155697671289319
+ridge R2 tg_hdl_ratio,713,-0.0062499015121715296
+ridge R2 tg_hdl_ratio,714,-0.011474362783513437
+ridge R2 tg_hdl_ratio,715,-0.0005502459127393333
+ridge R2 tg_hdl_ratio,716,-0.013327657060290043
+ridge R2 tg_hdl_ratio,717,-4.136202174853665e-05
+ridge R2 tg_hdl_ratio,718,-0.0012525901028688224
+ridge R2 tg_hdl_ratio,719,-0.008477976237001528
+ridge R2 tg_hdl_ratio,720,-0.001540409947807353
+ridge R2 tg_hdl_ratio,721,-0.0053984038589982575
+ridge R2 tg_hdl_ratio,722,-0.0025799475139824946
+ridge R2 tg_hdl_ratio,723,-0.0037445779801847934
+ridge R2 tg_hdl_ratio,724,0.001985575469962253
+ridge R2 tg_hdl_ratio,725,-0.012192189718616353
+ridge R2 tg_hdl_ratio,726,-0.01272333814875215
+ridge R2 tg_hdl_ratio,727,-0.011686576993890307
+ridge R2 tg_hdl_ratio,728,-0.012179587455149132
+ridge R2 tg_hdl_ratio,729,-0.004683191301997125
+ridge R2 tg_hdl_ratio,730,-0.010961533276423907
+ridge R2 tg_hdl_ratio,731,-4.70390871056825e-05
+ridge R2 tg_hdl_ratio,732,-0.011548717390992502
+ridge R2 tg_hdl_ratio,733,-0.009670787941429726
+ridge R2 tg_hdl_ratio,734,-0.0058366837948213846
+ridge R2 tg_hdl_ratio,735,-0.009963227790309892
+ridge R2 tg_hdl_ratio,736,-0.011577640900146458
+ridge R2 tg_hdl_ratio,737,-0.002617288528039552
+ridge R2 tg_hdl_ratio,738,-0.009071800459029555
+ridge R2 tg_hdl_ratio,739,-0.0065649382908032905
+ridge R2 tg_hdl_ratio,740,-0.0067206472670764406
+ridge R2 tg_hdl_ratio,741,0.005961167009155055
+ridge R2 tg_hdl_ratio,742,-0.0069817534081262345
+ridge R2 tg_hdl_ratio,743,-0.004511257736302232
+ridge R2 tg_hdl_ratio,744,-0.009689026459642092
+ridge R2 tg_hdl_ratio,745,-0.004424484275008966
+ridge R2 tg_hdl_ratio,746,0.008937193428187107
+ridge R2 tg_hdl_ratio,747,-0.0027908177605340256
+ridge R2 tg_hdl_ratio,748,-0.008113796571832976
+ridge R2 tg_hdl_ratio,749,-0.01031534691588476
+ridge R2 tg_hdl_ratio,750,-0.013920650766753973
+ridge R2 tg_hdl_ratio,751,-0.0082967562942442
+ridge R2 tg_hdl_ratio,752,-0.0058740589174044455
+ridge R2 tg_hdl_ratio,753,-0.005706538002373751
+ridge R2 tg_hdl_ratio,754,-0.006007115126707152
+ridge R2 tg_hdl_ratio,755,0.006976175967253417
+ridge R2 tg_hdl_ratio,756,-0.011329438962789817
+ridge R2 tg_hdl_ratio,757,-0.010977148163658468
+ridge R2 tg_hdl_ratio,758,-0.002381800522382127
+ridge R2 tg_hdl_ratio,759,-0.010960955369876846
+ridge R2 tg_hdl_ratio,760,-0.0018539940249668874
+ridge R2 tg_hdl_ratio,761,-0.008180073537714883
+ridge R2 tg_hdl_ratio,762,-0.0019512403546246837
+ridge R2 tg_hdl_ratio,763,-0.009433424438108684
+ridge R2 tg_hdl_ratio,764,-0.012189765393199048
+ridge R2 tg_hdl_ratio,765,-0.014468916274292587
+ridge R2 tg_hdl_ratio,766,-0.00792914964773117
+ridge R2 tg_hdl_ratio,767,0.007897727911849839
+ridge R2 tg_hdl_ratio,768,-0.0037388664733593036
+ridge R2 tg_hdl_ratio,769,-0.00626102409097129
+ridge R2 tg_hdl_ratio,770,-0.01142274275531796
+ridge R2 tg_hdl_ratio,771,-0.0023671681806372025
+ridge R2 tg_hdl_ratio,772,-0.00185009857377616
+ridge R2 tg_hdl_ratio,773,0.003959662900106076
+ridge R2 tg_hdl_ratio,774,-0.022853631169310162
+ridge R2 tg_hdl_ratio,775,-0.010455702909004438
+ridge R2 tg_hdl_ratio,776,-0.007809088128613029
+ridge R2 tg_hdl_ratio,777,-0.005794897965287982
+ridge R2 tg_hdl_ratio,778,-0.010850318300392736
+ridge R2 tg_hdl_ratio,779,0.0032842083045016013
+ridge R2 tg_hdl_ratio,780,0.007968142850529047
+ridge R2 tg_hdl_ratio,781,-0.00830605604815804
+ridge R2 tg_hdl_ratio,782,-0.007657883705276092
+ridge R2 tg_hdl_ratio,783,-0.003721302444787078
+ridge R2 tg_hdl_ratio,784,-0.009752600460827487
+ridge R2 tg_hdl_ratio,785,-0.011364486744312563
+ridge R2 tg_hdl_ratio,786,-0.00591745106569741
+ridge R2 tg_hdl_ratio,787,-0.008677111838810037
+ridge R2 tg_hdl_ratio,788,-0.0026174662430800133
+ridge R2 tg_hdl_ratio,789,-0.007237435953270088
+ridge R2 tg_hdl_ratio,790,-0.00859924755814978
+ridge R2 tg_hdl_ratio,791,-0.008658578748289791
+ridge R2 tg_hdl_ratio,792,-0.005498391642174916
+ridge R2 tg_hdl_ratio,793,-0.008526110721418956
+ridge R2 tg_hdl_ratio,794,-0.003963686039813341
+ridge R2 tg_hdl_ratio,795,-0.011077760754822474
+ridge R2 tg_hdl_ratio,796,-0.00809339795812658
+ridge R2 tg_hdl_ratio,797,-0.010522560110251877
+ridge R2 tg_hdl_ratio,798,0.004218339074037458
+ridge R2 tg_hdl_ratio,799,-0.009212620088935086
+ridge R2 tg_hdl_ratio,800,-0.006220009368144153
+ridge R2 tg_hdl_ratio,801,-0.001259567965376851
+ridge R2 tg_hdl_ratio,802,-0.003387997399847409
+ridge R2 tg_hdl_ratio,803,-0.007146205213125034
+ridge R2 tg_hdl_ratio,804,-0.012027502777181676
+ridge R2 tg_hdl_ratio,805,-0.015598500921125469
+ridge R2 tg_hdl_ratio,806,0.001545894853784091
+ridge R2 tg_hdl_ratio,807,0.0017840422214140395
+ridge R2 tg_hdl_ratio,808,-0.006882855617612371
+ridge R2 tg_hdl_ratio,809,-0.01111779995780382
+ridge R2 tg_hdl_ratio,810,-0.010732027539449351
+ridge R2 tg_hdl_ratio,811,-0.013709028539760304
+ridge R2 tg_hdl_ratio,812,-0.00984752252462795
+ridge R2 tg_hdl_ratio,813,-0.01119445511906969
+ridge R2 tg_hdl_ratio,814,-0.011644203994484181
+ridge R2 tg_hdl_ratio,815,-0.007892690005721903
+ridge R2 tg_hdl_ratio,816,-0.006828953549005368
+ridge R2 tg_hdl_ratio,817,-0.015787125116395684
+ridge R2 tg_hdl_ratio,818,-0.009247382948845084
+ridge R2 tg_hdl_ratio,819,-0.00510210155066626
+ridge R2 tg_hdl_ratio,820,-0.0070898837496040645
+ridge R2 tg_hdl_ratio,821,-0.010644704159136875
+ridge R2 tg_hdl_ratio,822,0.012648369688792904
+ridge R2 tg_hdl_ratio,823,-0.004387440334224335
+ridge R2 tg_hdl_ratio,824,-0.010978067021103932
+ridge R2 tg_hdl_ratio,825,0.0034042287115181313
+ridge R2 tg_hdl_ratio,826,-0.010842888067625456
+ridge R2 tg_hdl_ratio,827,-0.01298443740679689
+ridge R2 tg_hdl_ratio,828,-0.0020130443062698067
+ridge R2 tg_hdl_ratio,829,-0.0021674715433883662
+ridge R2 tg_hdl_ratio,830,-0.007103383189967172
+ridge R2 tg_hdl_ratio,831,-0.008825565148627534
+ridge R2 tg_hdl_ratio,832,-0.011418502022986665
+ridge R2 tg_hdl_ratio,833,-0.010283478851907724
+ridge R2 tg_hdl_ratio,834,-0.0036028483058239136
+ridge R2 tg_hdl_ratio,835,-0.007578786613351207
+ridge R2 tg_hdl_ratio,836,-0.0019131693099412317
+ridge R2 tg_hdl_ratio,837,-0.00451929671352258
+ridge R2 tg_hdl_ratio,838,-0.010736489164177687
+ridge R2 tg_hdl_ratio,839,-0.00581367414416345
+ridge R2 tg_hdl_ratio,840,-0.017736970189061507
+ridge R2 tg_hdl_ratio,841,-0.009994905597233927
+ridge R2 tg_hdl_ratio,842,-0.008379474211009041
+ridge R2 tg_hdl_ratio,843,0.002868045482763093
+ridge R2 tg_hdl_ratio,844,-0.011570327108576084
+ridge R2 tg_hdl_ratio,845,-0.007157068106900422
+ridge R2 tg_hdl_ratio,846,-0.01128035526055271
+ridge R2 tg_hdl_ratio,847,0.00014982839216648447
+ridge R2 tg_hdl_ratio,848,-0.009012016882908203
+ridge R2 tg_hdl_ratio,849,-0.0009412193339437547
+ridge R2 tg_hdl_ratio,850,-0.013603229255300109
+ridge R2 tg_hdl_ratio,851,-0.004253529952834345
+ridge R2 tg_hdl_ratio,852,-0.01882419141734548
+ridge R2 tg_hdl_ratio,853,-0.01062048097412216
+ridge R2 tg_hdl_ratio,854,-0.0009159788471446717
+ridge R2 tg_hdl_ratio,855,0.0026581743565938787
+ridge R2 tg_hdl_ratio,856,0.00304170716513541
+ridge R2 tg_hdl_ratio,857,-0.0016258052727444738
+ridge R2 tg_hdl_ratio,858,-0.0063636290247695015
+ridge R2 tg_hdl_ratio,859,-0.008106926089313626
+ridge R2 tg_hdl_ratio,860,-0.003337881430381495
+ridge R2 tg_hdl_ratio,861,-0.013541304352603811
+ridge R2 tg_hdl_ratio,862,-0.0006750464491360741
+ridge R2 tg_hdl_ratio,863,-0.007324113657917408
+ridge R2 tg_hdl_ratio,864,-0.006078403250455278
+ridge R2 tg_hdl_ratio,865,-0.015017771562072957
+ridge R2 tg_hdl_ratio,866,-0.0006278143580054074
+ridge R2 tg_hdl_ratio,867,-0.012857476383476785
+ridge R2 tg_hdl_ratio,868,-0.010353209667308905
+ridge R2 tg_hdl_ratio,869,-0.00807580209879788
+ridge R2 tg_hdl_ratio,870,-0.006675130204985447
+ridge R2 tg_hdl_ratio,871,-0.012667132795428193
+ridge R2 tg_hdl_ratio,872,-0.01205638876304893
+ridge R2 tg_hdl_ratio,873,-0.017984013308923075
+ridge R2 tg_hdl_ratio,874,-0.013501012423500658
+ridge R2 tg_hdl_ratio,875,0.00500414197535981
+ridge R2 tg_hdl_ratio,876,-0.008790834151440885
+ridge R2 tg_hdl_ratio,877,-0.003163107697525147
+ridge R2 tg_hdl_ratio,878,-0.014144726805801033
+ridge R2 tg_hdl_ratio,879,0.0007073974991887999
+ridge R2 tg_hdl_ratio,880,0.011308833354402692
+ridge R2 tg_hdl_ratio,881,0.002649410737065372
+ridge R2 tg_hdl_ratio,882,-0.005798314029652918
+ridge R2 tg_hdl_ratio,883,-0.005645269978522327
+ridge R2 tg_hdl_ratio,884,-0.0046991886737650646
+ridge R2 tg_hdl_ratio,885,-0.01164589201385513
+ridge R2 tg_hdl_ratio,886,-0.008485504530668209
+ridge R2 tg_hdl_ratio,887,-0.00862478726485394
+ridge R2 tg_hdl_ratio,888,0.0018071788715064985
+ridge R2 tg_hdl_ratio,889,-0.009449759919389455
+ridge R2 tg_hdl_ratio,890,-0.011244895757793971
+ridge R2 tg_hdl_ratio,891,-0.011215628469202876
+ridge R2 tg_hdl_ratio,892,-0.008425661020100561
+ridge R2 tg_hdl_ratio,893,0.006070628443680004
+ridge R2 tg_hdl_ratio,894,-0.005867991017658669
+ridge R2 tg_hdl_ratio,895,-0.005622710216939053
+ridge R2 tg_hdl_ratio,896,-0.0038922174463202897
+ridge R2 tg_hdl_ratio,897,-0.0068577682727641864
+ridge R2 tg_hdl_ratio,898,-0.005396727863489215
+ridge R2 tg_hdl_ratio,899,-0.007085699118530631
+ridge R2 tg_hdl_ratio,900,-0.008535168897903622
+ridge R2 tg_hdl_ratio,901,-0.009253542660502712
+ridge R2 tg_hdl_ratio,902,-0.007736271875246059
+ridge R2 tg_hdl_ratio,903,-0.00998413748296989
+ridge R2 tg_hdl_ratio,904,-0.011002564425107941
+ridge R2 tg_hdl_ratio,905,-0.002387169613292217
+ridge R2 tg_hdl_ratio,906,-0.013032326500515445
+ridge R2 tg_hdl_ratio,907,-0.0054795849042401645
+ridge R2 tg_hdl_ratio,908,-0.01691152778080718
+ridge R2 tg_hdl_ratio,909,-0.0010820224479157758
+ridge R2 tg_hdl_ratio,910,-0.005024446723075338
+ridge R2 tg_hdl_ratio,911,-0.012523105878921692
+ridge R2 tg_hdl_ratio,912,-0.006469398419756134
+ridge R2 tg_hdl_ratio,913,-0.00738331412887705
+ridge R2 tg_hdl_ratio,914,-0.0093659133065489
+ridge R2 tg_hdl_ratio,915,-0.0017139942930479712
+ridge R2 tg_hdl_ratio,916,-0.005051463085102625
+ridge R2 tg_hdl_ratio,917,-0.011386148001174323
+ridge R2 tg_hdl_ratio,918,-0.0019492133294483072
+ridge R2 tg_hdl_ratio,919,-0.004855631380451975
+ridge R2 tg_hdl_ratio,920,-0.01198045140806836
+ridge R2 tg_hdl_ratio,921,-0.01229253871506808
+ridge R2 tg_hdl_ratio,922,-0.006414933321084115
+ridge R2 tg_hdl_ratio,923,-0.007947571865635883
+ridge R2 tg_hdl_ratio,924,-0.017315240304041746
+ridge R2 tg_hdl_ratio,925,-0.005569985098615504
+ridge R2 tg_hdl_ratio,926,-0.008746519891981608
+ridge R2 tg_hdl_ratio,927,-0.006565387347696516
+ridge R2 tg_hdl_ratio,928,-0.0032501323443641095
+ridge R2 tg_hdl_ratio,929,-0.00561981269124745
+ridge R2 tg_hdl_ratio,930,-0.016772770761764866
+ridge R2 tg_hdl_ratio,931,-0.01085844805093883
+ridge R2 tg_hdl_ratio,932,-0.0026208524151332124
+ridge R2 tg_hdl_ratio,933,-0.010835752595081738
+ridge R2 tg_hdl_ratio,934,-0.005815954205693918
+ridge R2 tg_hdl_ratio,935,-0.005083617498078619
+ridge R2 tg_hdl_ratio,936,-0.0001116747433180798
+ridge R2 tg_hdl_ratio,937,-0.007985865672579084
+ridge R2 tg_hdl_ratio,938,-0.008001317174786582
+ridge R2 tg_hdl_ratio,939,-0.005490836990774461
+ridge R2 tg_hdl_ratio,940,-0.0012433734811045927
+ridge R2 tg_hdl_ratio,941,-0.012349858420085402
+ridge R2 tg_hdl_ratio,942,-0.0032586409511219383
+ridge R2 tg_hdl_ratio,943,-0.00795392532042749
+ridge R2 tg_hdl_ratio,944,-0.010102033776411723
+ridge R2 tg_hdl_ratio,945,0.0060425048362137135
+ridge R2 tg_hdl_ratio,946,0.001599911594375114
+ridge R2 tg_hdl_ratio,947,-0.007328644811059215
+ridge R2 tg_hdl_ratio,948,-0.0033865063141098606
+ridge R2 tg_hdl_ratio,949,-0.008087197256344547
+ridge R2 tg_hdl_ratio,950,-0.012149310957978443
+ridge R2 tg_hdl_ratio,951,0.0005232590172618012
+ridge R2 tg_hdl_ratio,952,-0.008330717237442276
+ridge R2 tg_hdl_ratio,953,-0.00023811265070561305
+ridge R2 tg_hdl_ratio,954,-0.012863986775917935
+ridge R2 tg_hdl_ratio,955,-0.00904418488786729
+ridge R2 tg_hdl_ratio,956,-0.007833533733745845
+ridge R2 tg_hdl_ratio,957,-0.006155302471897661
+ridge R2 tg_hdl_ratio,958,-0.016453711049665642
+ridge R2 tg_hdl_ratio,959,-0.012434856611458045
+ridge R2 tg_hdl_ratio,960,-0.008481526870463885
+ridge R2 tg_hdl_ratio,961,-0.015308239076444519
+ridge R2 tg_hdl_ratio,962,-0.012865791388943615
+ridge R2 tg_hdl_ratio,963,-0.0026762330807599266
+ridge R2 tg_hdl_ratio,964,-0.002820024526178022
+ridge R2 tg_hdl_ratio,965,-0.006874104849147633
+ridge R2 tg_hdl_ratio,966,0.004475797477927923
+ridge R2 tg_hdl_ratio,967,-0.006542790428811118
+ridge R2 tg_hdl_ratio,968,-0.001408785265752499
+ridge R2 tg_hdl_ratio,969,0.0004897966875748727
+ridge R2 tg_hdl_ratio,970,-0.0060763488368527074
+ridge R2 tg_hdl_ratio,971,-0.00019748487658732827
+ridge R2 tg_hdl_ratio,972,-0.010230274023999675
+ridge R2 tg_hdl_ratio,973,-0.010408910648875613
+ridge R2 tg_hdl_ratio,974,-0.011667655746290695
+ridge R2 tg_hdl_ratio,975,-0.010461315110423586
+ridge R2 tg_hdl_ratio,976,-0.005605927405160305
+ridge R2 tg_hdl_ratio,977,-0.004618253292751229
+ridge R2 tg_hdl_ratio,978,-0.01382198863379358
+ridge R2 tg_hdl_ratio,979,-0.004871464892181265
+ridge R2 tg_hdl_ratio,980,-0.008352733919110955
+ridge R2 tg_hdl_ratio,981,-0.01175499846588357
+ridge R2 tg_hdl_ratio,982,-0.013084156444515438
+ridge R2 tg_hdl_ratio,983,-0.00837182730421282
+ridge R2 tg_hdl_ratio,984,-0.006071177124595373
+ridge R2 tg_hdl_ratio,985,-0.007323777674278942
+ridge R2 tg_hdl_ratio,986,-0.004727744609986706
+ridge R2 tg_hdl_ratio,987,-0.013267775308439145
+ridge R2 tg_hdl_ratio,988,0.0031471816495656224
+ridge R2 tg_hdl_ratio,989,-0.010689706730948378
+ridge R2 tg_hdl_ratio,990,-0.007030491661663918
+ridge R2 tg_hdl_ratio,991,-0.004753178178168671
+ridge R2 tg_hdl_ratio,992,-0.007678474837613303
+ridge R2 tg_hdl_ratio,993,-0.009695464347692084
+ridge R2 tg_hdl_ratio,994,-0.009467070751706608
+ridge R2 tg_hdl_ratio,995,-0.008511333215678096
+ridge R2 tg_hdl_ratio,996,-0.010411262838068813
+ridge R2 tg_hdl_ratio,997,-0.010328617982128252
+ridge R2 tg_hdl_ratio,998,-0.006237050125545762
+ridge R2 tg_hdl_ratio,999,-0.00047637100118924636
+ridge R2 waist_to_hip_ratio_baseline,0,-0.012427299245794776
+ridge R2 waist_to_hip_ratio_baseline,1,-0.01089662495141308
+ridge R2 waist_to_hip_ratio_baseline,2,-0.01896442765901285
+ridge R2 waist_to_hip_ratio_baseline,3,-0.008966006162459017
+ridge R2 waist_to_hip_ratio_baseline,4,-0.0004890204057359515
+ridge R2 waist_to_hip_ratio_baseline,5,-0.015120020231562226
+ridge R2 waist_to_hip_ratio_baseline,6,-0.01776022612739192
+ridge R2 waist_to_hip_ratio_baseline,7,-0.004426888973939835
+ridge R2 waist_to_hip_ratio_baseline,8,-0.010312385244058753
+ridge R2 waist_to_hip_ratio_baseline,9,-0.02029558920085539
+ridge R2 waist_to_hip_ratio_baseline,10,-0.011335551287299017
+ridge R2 waist_to_hip_ratio_baseline,11,0.001040570604769142
+ridge R2 waist_to_hip_ratio_baseline,12,-0.027150085093213372
+ridge R2 waist_to_hip_ratio_baseline,13,-0.0017453499905839553
+ridge R2 waist_to_hip_ratio_baseline,14,0.005821185597531975
+ridge R2 waist_to_hip_ratio_baseline,15,0.008188865680869184
+ridge R2 waist_to_hip_ratio_baseline,16,-0.010138190464043406
+ridge R2 waist_to_hip_ratio_baseline,17,-0.012351383227797275
+ridge R2 waist_to_hip_ratio_baseline,18,-0.008744374148838219
+ridge R2 waist_to_hip_ratio_baseline,19,7.847502037394705e-05
+ridge R2 waist_to_hip_ratio_baseline,20,-0.010105916286760719
+ridge R2 waist_to_hip_ratio_baseline,21,-0.01788736170483496
+ridge R2 waist_to_hip_ratio_baseline,22,-0.014902125650557707
+ridge R2 waist_to_hip_ratio_baseline,23,0.0015387198170613292
+ridge R2 waist_to_hip_ratio_baseline,24,-0.023102494610628854
+ridge R2 waist_to_hip_ratio_baseline,25,-0.00809266260983943
+ridge R2 waist_to_hip_ratio_baseline,26,-0.005985426120127535
+ridge R2 waist_to_hip_ratio_baseline,27,0.009119054818247707
+ridge R2 waist_to_hip_ratio_baseline,28,-0.02207063917024432
+ridge R2 waist_to_hip_ratio_baseline,29,-0.021252574931602597
+ridge R2 waist_to_hip_ratio_baseline,30,-0.006281790989866698
+ridge R2 waist_to_hip_ratio_baseline,31,-0.020949291428023376
+ridge R2 waist_to_hip_ratio_baseline,32,-0.019232482084353908
+ridge R2 waist_to_hip_ratio_baseline,33,-0.021756834432081096
+ridge R2 waist_to_hip_ratio_baseline,34,-0.014385071385173198
+ridge R2 waist_to_hip_ratio_baseline,35,-0.0049163656735913275
+ridge R2 waist_to_hip_ratio_baseline,36,-0.014576237006828974
+ridge R2 waist_to_hip_ratio_baseline,37,-0.006770675533767312
+ridge R2 waist_to_hip_ratio_baseline,38,-0.010719177644095579
+ridge R2 waist_to_hip_ratio_baseline,39,-0.0039530937809129085
+ridge R2 waist_to_hip_ratio_baseline,40,-0.013866521179028757
+ridge R2 waist_to_hip_ratio_baseline,41,-0.017091514574999023
+ridge R2 waist_to_hip_ratio_baseline,42,-0.008682373778341024
+ridge R2 waist_to_hip_ratio_baseline,43,-0.02149943038247537
+ridge R2 waist_to_hip_ratio_baseline,44,-0.011793246393437817
+ridge R2 waist_to_hip_ratio_baseline,45,-0.012920992067934511
+ridge R2 waist_to_hip_ratio_baseline,46,-0.008284754722462262
+ridge R2 waist_to_hip_ratio_baseline,47,-0.019958057507520444
+ridge R2 waist_to_hip_ratio_baseline,48,-0.0063852449219898855
+ridge R2 waist_to_hip_ratio_baseline,49,-0.0050036300746694184
+ridge R2 waist_to_hip_ratio_baseline,50,-0.013580721588139166
+ridge R2 waist_to_hip_ratio_baseline,51,-0.02010198571215538
+ridge R2 waist_to_hip_ratio_baseline,52,-0.02148632300669684
+ridge R2 waist_to_hip_ratio_baseline,53,-0.014249428796439423
+ridge R2 waist_to_hip_ratio_baseline,54,-0.019633742090083395
+ridge R2 waist_to_hip_ratio_baseline,55,-0.014985811089939016
+ridge R2 waist_to_hip_ratio_baseline,56,-0.016562893802913647
+ridge R2 waist_to_hip_ratio_baseline,57,-0.008727387457888813
+ridge R2 waist_to_hip_ratio_baseline,58,-0.0156713265646089
+ridge R2 waist_to_hip_ratio_baseline,59,-0.017771058642086945
+ridge R2 waist_to_hip_ratio_baseline,60,-0.013085877558844938
+ridge R2 waist_to_hip_ratio_baseline,61,-0.015240072409203886
+ridge R2 waist_to_hip_ratio_baseline,62,-0.004295920352316962
+ridge R2 waist_to_hip_ratio_baseline,63,-0.018726773477597547
+ridge R2 waist_to_hip_ratio_baseline,64,-0.015368151991147272
+ridge R2 waist_to_hip_ratio_baseline,65,-0.01173655111831362
+ridge R2 waist_to_hip_ratio_baseline,66,-0.005795683440855681
+ridge R2 waist_to_hip_ratio_baseline,67,-0.009968212121528097
+ridge R2 waist_to_hip_ratio_baseline,68,-0.02688842614438891
+ridge R2 waist_to_hip_ratio_baseline,69,-0.020625056189771174
+ridge R2 waist_to_hip_ratio_baseline,70,-0.01840164934535915
+ridge R2 waist_to_hip_ratio_baseline,71,-0.019483901839823625
+ridge R2 waist_to_hip_ratio_baseline,72,-0.010245135939408012
+ridge R2 waist_to_hip_ratio_baseline,73,-0.01586668484658693
+ridge R2 waist_to_hip_ratio_baseline,74,0.008796684033695046
+ridge R2 waist_to_hip_ratio_baseline,75,-0.011832954781921368
+ridge R2 waist_to_hip_ratio_baseline,76,-0.0240697879867513
+ridge R2 waist_to_hip_ratio_baseline,77,-0.011446945012158372
+ridge R2 waist_to_hip_ratio_baseline,78,-0.017125868391266286
+ridge R2 waist_to_hip_ratio_baseline,79,-0.01935817153967978
+ridge R2 waist_to_hip_ratio_baseline,80,-0.025015913039151627
+ridge R2 waist_to_hip_ratio_baseline,81,-0.01049019731491585
+ridge R2 waist_to_hip_ratio_baseline,82,-0.012395245547043965
+ridge R2 waist_to_hip_ratio_baseline,83,-0.008689146022496486
+ridge R2 waist_to_hip_ratio_baseline,84,-0.006295757341816088
+ridge R2 waist_to_hip_ratio_baseline,85,-0.012453711465252537
+ridge R2 waist_to_hip_ratio_baseline,86,-0.02012539597222629
+ridge R2 waist_to_hip_ratio_baseline,87,-0.009336337555382102
+ridge R2 waist_to_hip_ratio_baseline,88,-0.007512537875181913
+ridge R2 waist_to_hip_ratio_baseline,89,-0.01729669235693665
+ridge R2 waist_to_hip_ratio_baseline,90,-0.02047384228274529
+ridge R2 waist_to_hip_ratio_baseline,91,-0.02309354479251935
+ridge R2 waist_to_hip_ratio_baseline,92,-0.0193457049734862
+ridge R2 waist_to_hip_ratio_baseline,93,-0.00408098790139011
+ridge R2 waist_to_hip_ratio_baseline,94,-0.0030025203019012903
+ridge R2 waist_to_hip_ratio_baseline,95,-0.004214020901731619
+ridge R2 waist_to_hip_ratio_baseline,96,-0.009136535685828173
+ridge R2 waist_to_hip_ratio_baseline,97,-0.0021044946683326238
+ridge R2 waist_to_hip_ratio_baseline,98,-0.0025465355451688154
+ridge R2 waist_to_hip_ratio_baseline,99,-0.006746442442985057
+ridge R2 waist_to_hip_ratio_baseline,100,-0.014513433152553823
+ridge R2 waist_to_hip_ratio_baseline,101,-0.012761017158565036
+ridge R2 waist_to_hip_ratio_baseline,102,-0.0021023185680641987
+ridge R2 waist_to_hip_ratio_baseline,103,-0.0038416461008021763
+ridge R2 waist_to_hip_ratio_baseline,104,-0.007406720719197013
+ridge R2 waist_to_hip_ratio_baseline,105,0.0019312732350106332
+ridge R2 waist_to_hip_ratio_baseline,106,-0.01555960085245589
+ridge R2 waist_to_hip_ratio_baseline,107,-0.013441111315923182
+ridge R2 waist_to_hip_ratio_baseline,108,-0.024998168561689793
+ridge R2 waist_to_hip_ratio_baseline,109,-0.02092774368910022
+ridge R2 waist_to_hip_ratio_baseline,110,0.0001772527721858319
+ridge R2 waist_to_hip_ratio_baseline,111,-0.013077675099434805
+ridge R2 waist_to_hip_ratio_baseline,112,-0.012897841533655807
+ridge R2 waist_to_hip_ratio_baseline,113,-0.014963222689523326
+ridge R2 waist_to_hip_ratio_baseline,114,-0.010411993092303007
+ridge R2 waist_to_hip_ratio_baseline,115,-0.007303359698249912
+ridge R2 waist_to_hip_ratio_baseline,116,-0.016966143607785922
+ridge R2 waist_to_hip_ratio_baseline,117,-0.01555106623231639
+ridge R2 waist_to_hip_ratio_baseline,118,-0.007836264661896575
+ridge R2 waist_to_hip_ratio_baseline,119,-0.009667505887364536
+ridge R2 waist_to_hip_ratio_baseline,120,-0.021116419303930822
+ridge R2 waist_to_hip_ratio_baseline,121,-0.013750501626851985
+ridge R2 waist_to_hip_ratio_baseline,122,0.006419749613544967
+ridge R2 waist_to_hip_ratio_baseline,123,-0.006417088016333672
+ridge R2 waist_to_hip_ratio_baseline,124,-0.024195342083503935
+ridge R2 waist_to_hip_ratio_baseline,125,-0.0162615120871894
+ridge R2 waist_to_hip_ratio_baseline,126,-0.014823614455158562
+ridge R2 waist_to_hip_ratio_baseline,127,-0.019395965006535176
+ridge R2 waist_to_hip_ratio_baseline,128,-0.011834413074011119
+ridge R2 waist_to_hip_ratio_baseline,129,-0.00791691246248516
+ridge R2 waist_to_hip_ratio_baseline,130,-0.012098839725756871
+ridge R2 waist_to_hip_ratio_baseline,131,-0.007437080680172681
+ridge R2 waist_to_hip_ratio_baseline,132,0.006836424231141169
+ridge R2 waist_to_hip_ratio_baseline,133,-0.012670369616504251
+ridge R2 waist_to_hip_ratio_baseline,134,-0.006470331780322525
+ridge R2 waist_to_hip_ratio_baseline,135,-0.022448751781225962
+ridge R2 waist_to_hip_ratio_baseline,136,-0.017812097447659436
+ridge R2 waist_to_hip_ratio_baseline,137,-0.008283599654096419
+ridge R2 waist_to_hip_ratio_baseline,138,-0.010390874633194214
+ridge R2 waist_to_hip_ratio_baseline,139,-0.026807632973734563
+ridge R2 waist_to_hip_ratio_baseline,140,-0.009177619024774764
+ridge R2 waist_to_hip_ratio_baseline,141,-0.024407181201023365
+ridge R2 waist_to_hip_ratio_baseline,142,-0.0019043685394057874
+ridge R2 waist_to_hip_ratio_baseline,143,-0.015848709971870933
+ridge R2 waist_to_hip_ratio_baseline,144,-0.015449057877140904
+ridge R2 waist_to_hip_ratio_baseline,145,-0.015014431386319416
+ridge R2 waist_to_hip_ratio_baseline,146,-0.0022149690608159744
+ridge R2 waist_to_hip_ratio_baseline,147,0.0025137261709295977
+ridge R2 waist_to_hip_ratio_baseline,148,-0.017665165686597373
+ridge R2 waist_to_hip_ratio_baseline,149,-0.01622939357464559
+ridge R2 waist_to_hip_ratio_baseline,150,0.011592732287675989
+ridge R2 waist_to_hip_ratio_baseline,151,-0.007350558913342242
+ridge R2 waist_to_hip_ratio_baseline,152,-0.008562149065484137
+ridge R2 waist_to_hip_ratio_baseline,153,-0.01420346810995654
+ridge R2 waist_to_hip_ratio_baseline,154,0.008373013608632851
+ridge R2 waist_to_hip_ratio_baseline,155,-0.012611923636858036
+ridge R2 waist_to_hip_ratio_baseline,156,-0.013186545945014672
+ridge R2 waist_to_hip_ratio_baseline,157,0.005542581121246504
+ridge R2 waist_to_hip_ratio_baseline,158,-0.008818907530659947
+ridge R2 waist_to_hip_ratio_baseline,159,-0.022790520278177295
+ridge R2 waist_to_hip_ratio_baseline,160,-0.007286478861619594
+ridge R2 waist_to_hip_ratio_baseline,161,-0.019650415930602794
+ridge R2 waist_to_hip_ratio_baseline,162,-0.02260577555200194
+ridge R2 waist_to_hip_ratio_baseline,163,-0.00962239875597648
+ridge R2 waist_to_hip_ratio_baseline,164,-0.01034334416064664
+ridge R2 waist_to_hip_ratio_baseline,165,-0.018577643280382805
+ridge R2 waist_to_hip_ratio_baseline,166,-0.0165497562190835
+ridge R2 waist_to_hip_ratio_baseline,167,-0.0013688266746603173
+ridge R2 waist_to_hip_ratio_baseline,168,-0.018950493404520374
+ridge R2 waist_to_hip_ratio_baseline,169,-0.02353576137616198
+ridge R2 waist_to_hip_ratio_baseline,170,-0.015794210953663512
+ridge R2 waist_to_hip_ratio_baseline,171,0.01385814451280476
+ridge R2 waist_to_hip_ratio_baseline,172,-0.00900008692490295
+ridge R2 waist_to_hip_ratio_baseline,173,-0.0009131961243074027
+ridge R2 waist_to_hip_ratio_baseline,174,-0.007111880853849284
+ridge R2 waist_to_hip_ratio_baseline,175,-0.015439608297742602
+ridge R2 waist_to_hip_ratio_baseline,176,-0.010697799274824504
+ridge R2 waist_to_hip_ratio_baseline,177,-0.0064818838749785
+ridge R2 waist_to_hip_ratio_baseline,178,-0.014735908849105472
+ridge R2 waist_to_hip_ratio_baseline,179,-0.008340098569224796
+ridge R2 waist_to_hip_ratio_baseline,180,-0.02555028492431788
+ridge R2 waist_to_hip_ratio_baseline,181,-0.02073359571647515
+ridge R2 waist_to_hip_ratio_baseline,182,-0.0017901940884386125
+ridge R2 waist_to_hip_ratio_baseline,183,-0.006984911515847125
+ridge R2 waist_to_hip_ratio_baseline,184,-0.02112735628798368
+ridge R2 waist_to_hip_ratio_baseline,185,-0.023872407603247714
+ridge R2 waist_to_hip_ratio_baseline,186,-0.003765542147634582
+ridge R2 waist_to_hip_ratio_baseline,187,-0.01058493497102142
+ridge R2 waist_to_hip_ratio_baseline,188,-0.0042517332912954675
+ridge R2 waist_to_hip_ratio_baseline,189,-0.021096718587377605
+ridge R2 waist_to_hip_ratio_baseline,190,-0.019330227306227687
+ridge R2 waist_to_hip_ratio_baseline,191,-0.010771317589710172
+ridge R2 waist_to_hip_ratio_baseline,192,-0.016073786543128632
+ridge R2 waist_to_hip_ratio_baseline,193,-0.01328705027311572
+ridge R2 waist_to_hip_ratio_baseline,194,-0.012449996927958562
+ridge R2 waist_to_hip_ratio_baseline,195,-0.016350921093311932
+ridge R2 waist_to_hip_ratio_baseline,196,-0.020165164135089286
+ridge R2 waist_to_hip_ratio_baseline,197,-0.019456545516598922
+ridge R2 waist_to_hip_ratio_baseline,198,-0.003114648016511179
+ridge R2 waist_to_hip_ratio_baseline,199,-0.019956327853820177
+C1/C2/C3 balanced_accuracy,0,0.3718223263586167
+C1/C2/C3 balanced_accuracy,1,0.35367141334883273
+C1/C2/C3 balanced_accuracy,2,0.30599874067616
+C1/C2/C3 balanced_accuracy,3,0.3166351835706675
+C1/C2/C3 balanced_accuracy,4,0.29067131647776806
+C1/C2/C3 balanced_accuracy,5,0.3170562699796571
+C1/C2/C3 balanced_accuracy,6,0.3145076528141044
+C1/C2/C3 balanced_accuracy,7,0.3407914971423036
+C1/C2/C3 balanced_accuracy,8,0.30452781410442703
+C1/C2/C3 balanced_accuracy,9,0.33015596241402695
+C1/C2/C3 balanced_accuracy,10,0.3085325244599438
+C1/C2/C3 balanced_accuracy,11,0.2824975176789693
+C1/C2/C3 balanced_accuracy,12,0.3676147922115664
+C1/C2/C3 balanced_accuracy,13,0.3378036302431464
+C1/C2/C3 balanced_accuracy,14,0.34761061464690496
+C1/C2/C3 balanced_accuracy,15,0.3603806427395137
+C1/C2/C3 balanced_accuracy,16,0.3176980407827182
+C1/C2/C3 balanced_accuracy,17,0.32536084471568344
+C1/C2/C3 balanced_accuracy,18,0.3567912670735251
+C1/C2/C3 balanced_accuracy,19,0.27889421679744264
+C1/C2/C3 balanced_accuracy,20,0.33437863266492296
+C1/C2/C3 balanced_accuracy,21,0.33803793713067903
+C1/C2/C3 balanced_accuracy,22,0.29534776712196065
+C1/C2/C3 balanced_accuracy,23,0.3878835488714521
+C1/C2/C3 balanced_accuracy,24,0.3540858398721302
+C1/C2/C3 balanced_accuracy,25,0.32597204058897605
+C1/C2/C3 balanced_accuracy,26,0.380916400271239
+C1/C2/C3 balanced_accuracy,27,0.3055134771868643
+C1/C2/C3 balanced_accuracy,28,0.33552837111304856
+C1/C2/C3 balanced_accuracy,29,0.3610387605347283
+C1/C2/C3 balanced_accuracy,30,0.3314628136200717
+C1/C2/C3 balanced_accuracy,31,0.3375375375375375
+C1/C2/C3 balanced_accuracy,32,0.34874521699118466
+C1/C2/C3 balanced_accuracy,33,0.3134124043398237
+C1/C2/C3 balanced_accuracy,34,0.3137021093674319
+C1/C2/C3 balanced_accuracy,35,0.3640962535115761
+C1/C2/C3 balanced_accuracy,36,0.32023848445219416
+C1/C2/C3 balanced_accuracy,37,0.34090865058606995
+C1/C2/C3 balanced_accuracy,38,0.31838673350770125
+C1/C2/C3 balanced_accuracy,39,0.3389309672575802
+C1/C2/C3 balanced_accuracy,40,0.3099713624915238
+C1/C2/C3 balanced_accuracy,41,0.28795620216991186
+C1/C2/C3 balanced_accuracy,42,0.3575114428945074
+C1/C2/C3 balanced_accuracy,43,0.34283154121863796
+C1/C2/C3 balanced_accuracy,44,0.3096492662016856
+C1/C2/C3 balanced_accuracy,45,0.3772649665794827
+C1/C2/C3 balanced_accuracy,46,0.28544784704058895
+C1/C2/C3 balanced_accuracy,47,0.29027959411023924
+C1/C2/C3 balanced_accuracy,48,0.35096447253705315
+C1/C2/C3 balanced_accuracy,49,0.35084005376344085
+C1/C2/C3 balanced_accuracy,50,0.336194056960186
+C1/C2/C3 balanced_accuracy,51,0.31206710743001065
+C1/C2/C3 balanced_accuracy,52,0.3690621064613
+C1/C2/C3 balanced_accuracy,53,0.3090565363750848
+C1/C2/C3 balanced_accuracy,54,0.35668168168168163
+C1/C2/C3 balanced_accuracy,55,0.33187693742129226
+C1/C2/C3 balanced_accuracy,56,0.3455060907681875
+C1/C2/C3 balanced_accuracy,57,0.3172369950595757
+C1/C2/C3 balanced_accuracy,58,0.29110965804514194
+C1/C2/C3 balanced_accuracy,59,0.32307771481158576
+C1/C2/C3 balanced_accuracy,60,0.3614916327617941
+C1/C2/C3 balanced_accuracy,61,0.31518817204301075
+C1/C2/C3 balanced_accuracy,62,0.3345817591785334
+C1/C2/C3 balanced_accuracy,63,0.33092911459846946
+C1/C2/C3 balanced_accuracy,64,0.3435435435435436
+C1/C2/C3 balanced_accuracy,65,0.36214006345054733
+C1/C2/C3 balanced_accuracy,66,0.3208184999515645
+C1/C2/C3 balanced_accuracy,67,0.2461427152959411
+C1/C2/C3 balanced_accuracy,68,0.3515980698440376
+C1/C2/C3 balanced_accuracy,69,0.3119887024120895
+C1/C2/C3 balanced_accuracy,70,0.3355746875908166
+C1/C2/C3 balanced_accuracy,71,0.2820612951661339
+C1/C2/C3 balanced_accuracy,72,0.33477792308437465
+C1/C2/C3 balanced_accuracy,73,0.33067119538893736
+C1/C2/C3 balanced_accuracy,74,0.32627688172043007
+C1/C2/C3 balanced_accuracy,75,0.3330097234331105
+C1/C2/C3 balanced_accuracy,76,0.31345206093189965
+C1/C2/C3 balanced_accuracy,77,0.27829270803061124
+C1/C2/C3 balanced_accuracy,78,0.35697956020536664
+C1/C2/C3 balanced_accuracy,79,0.273740676160031
+C1/C2/C3 balanced_accuracy,80,0.31097276712196065
+C1/C2/C3 balanced_accuracy,81,0.31943445461590625
+C1/C2/C3 balanced_accuracy,82,0.3717439213406955
+C1/C2/C3 balanced_accuracy,83,0.32212414026930153
+C1/C2/C3 balanced_accuracy,84,0.3021520512447932
+C1/C2/C3 balanced_accuracy,85,0.35342953840937713
+C1/C2/C3 balanced_accuracy,86,0.3524357018308631
+C1/C2/C3 balanced_accuracy,87,0.32335985178727117
+C1/C2/C3 balanced_accuracy,88,0.34315272934224544
+C1/C2/C3 balanced_accuracy,89,0.3221789329652233
+C1/C2/C3 balanced_accuracy,90,0.3354814491911266
+C1/C2/C3 balanced_accuracy,91,0.30011745616584323
+C1/C2/C3 balanced_accuracy,92,0.38983217088055794
+C1/C2/C3 balanced_accuracy,93,0.355798035939165
+C1/C2/C3 balanced_accuracy,94,0.34419318512060454
+C1/C2/C3 balanced_accuracy,95,0.2865343165746392
+C1/C2/C3 balanced_accuracy,96,0.30874321902547713
+C1/C2/C3 balanced_accuracy,97,0.2955351520875715
+C1/C2/C3 balanced_accuracy,98,0.32293028916012784
+C1/C2/C3 balanced_accuracy,99,0.3357393684006587
+C1/C2/C3 balanced_accuracy,100,0.36182008621524747
+C1/C2/C3 balanced_accuracy,101,0.3500659934127676
+C1/C2/C3 balanced_accuracy,102,0.3246975806451613
+C1/C2/C3 balanced_accuracy,103,0.257340707643127
+C1/C2/C3 balanced_accuracy,104,0.3402281313571636
+C1/C2/C3 balanced_accuracy,105,0.3232115179695825
+C1/C2/C3 balanced_accuracy,106,0.33294766540734283
+C1/C2/C3 balanced_accuracy,107,0.35746331008427784
+C1/C2/C3 balanced_accuracy,108,0.34492728615712487
+C1/C2/C3 balanced_accuracy,109,0.341697847040589
+C1/C2/C3 balanced_accuracy,110,0.32982750896057345
+C1/C2/C3 balanced_accuracy,111,0.37763186573670443
+C1/C2/C3 balanced_accuracy,112,0.3488699384868739
+C1/C2/C3 balanced_accuracy,113,0.32204634069553423
+C1/C2/C3 balanced_accuracy,114,0.35934109512738543
+C1/C2/C3 balanced_accuracy,115,0.31239556088346415
+C1/C2/C3 balanced_accuracy,116,0.292203392909038
+C1/C2/C3 balanced_accuracy,117,0.36473741887048333
+C1/C2/C3 balanced_accuracy,118,0.3294830112370435
+C1/C2/C3 balanced_accuracy,119,0.30925209483677224
+C1/C2/C3 balanced_accuracy,120,0.29299349752978787
+C1/C2/C3 balanced_accuracy,121,0.35041805918822044
+C1/C2/C3 balanced_accuracy,122,0.328318742129226
+C1/C2/C3 balanced_accuracy,123,0.3136312724014337
+C1/C2/C3 balanced_accuracy,124,0.34205112370434954
+C1/C2/C3 balanced_accuracy,125,0.32182747263392425
+C1/C2/C3 balanced_accuracy,126,0.34879910152087573
+C1/C2/C3 balanced_accuracy,127,0.32361080838903417
+C1/C2/C3 balanced_accuracy,128,0.3262929259905067
+C1/C2/C3 balanced_accuracy,129,0.3230071805676644
+C1/C2/C3 balanced_accuracy,130,0.3259484282669766
+C1/C2/C3 balanced_accuracy,131,0.2884196696696697
+C1/C2/C3 balanced_accuracy,132,0.3004068584713746
+C1/C2/C3 balanced_accuracy,133,0.31750278504310764
+C1/C2/C3 balanced_accuracy,134,0.3692715901385257
+C1/C2/C3 balanced_accuracy,135,0.3271208708708709
+C1/C2/C3 balanced_accuracy,136,0.3102141455972101
+C1/C2/C3 balanced_accuracy,137,0.3603412888695147
+C1/C2/C3 balanced_accuracy,138,0.3146493267461009
+C1/C2/C3 balanced_accuracy,139,0.3095654121863799
+C1/C2/C3 balanced_accuracy,140,0.3083908505279473
+C1/C2/C3 balanced_accuracy,141,0.34632767848493656
+C1/C2/C3 balanced_accuracy,142,0.3821766322774387
+C1/C2/C3 balanced_accuracy,143,0.30343407924053084
+C1/C2/C3 balanced_accuracy,144,0.304090077981207
+C1/C2/C3 balanced_accuracy,145,0.3289211590622881
+C1/C2/C3 balanced_accuracy,146,0.38815902596144536
+C1/C2/C3 balanced_accuracy,147,0.3476490603506733
+C1/C2/C3 balanced_accuracy,148,0.31836281846362496
+C1/C2/C3 balanced_accuracy,149,0.32888119974813523
+C1/C2/C3 balanced_accuracy,150,0.2917108640898964
+C1/C2/C3 balanced_accuracy,151,0.3372796183280054
+C1/C2/C3 balanced_accuracy,152,0.34710991233168653
+C1/C2/C3 balanced_accuracy,153,0.31187185169040005
+C1/C2/C3 balanced_accuracy,154,0.33131326891407537
+C1/C2/C3 balanced_accuracy,155,0.32058358761987793
+C1/C2/C3 balanced_accuracy,156,0.2972001235106074
+C1/C2/C3 balanced_accuracy,157,0.31798714036617265
+C1/C2/C3 balanced_accuracy,158,0.307211445316284
+C1/C2/C3 balanced_accuracy,159,0.3273406470987116
+C1/C2/C3 balanced_accuracy,160,0.35444517097742906
+C1/C2/C3 balanced_accuracy,161,0.3266280393296523
+C1/C2/C3 balanced_accuracy,162,0.30008022135038265
+C1/C2/C3 balanced_accuracy,163,0.3483298823016565
+C1/C2/C3 balanced_accuracy,164,0.36877966676353774
+C1/C2/C3 balanced_accuracy,165,0.3074533202557396
+C1/C2/C3 balanced_accuracy,166,0.3276061343601666
+C1/C2/C3 balanced_accuracy,167,0.29704422164099586
+C1/C2/C3 balanced_accuracy,168,0.30538845296909817
+C1/C2/C3 balanced_accuracy,169,0.3850382640705221
+C1/C2/C3 balanced_accuracy,170,0.3649241983919403
+C1/C2/C3 balanced_accuracy,171,0.31949772352998157
+C1/C2/C3 balanced_accuracy,172,0.3477123292647486
+C1/C2/C3 balanced_accuracy,173,0.3239374455100262
+C1/C2/C3 balanced_accuracy,174,0.34645300542477964
+C1/C2/C3 balanced_accuracy,175,0.36844394798023833
+C1/C2/C3 balanced_accuracy,176,0.34267594207110336
+C1/C2/C3 balanced_accuracy,177,0.3289750435919791
+C1/C2/C3 balanced_accuracy,178,0.340994623655914
+C1/C2/C3 balanced_accuracy,179,0.31468020439794636
+C1/C2/C3 balanced_accuracy,180,0.3117310859246343
+C1/C2/C3 balanced_accuracy,181,0.33256502470212146
+C1/C2/C3 balanced_accuracy,182,0.3100185871355226
+C1/C2/C3 balanced_accuracy,183,0.34570164922987506
+C1/C2/C3 balanced_accuracy,184,0.35880860699409084
+C1/C2/C3 balanced_accuracy,185,0.32343765136103847
+C1/C2/C3 balanced_accuracy,186,0.304474232296813
+C1/C2/C3 balanced_accuracy,187,0.3053651433691756
+C1/C2/C3 balanced_accuracy,188,0.35348342293906804
+C1/C2/C3 balanced_accuracy,189,0.3121370362297782
+C1/C2/C3 balanced_accuracy,190,0.3369596410927056
+C1/C2/C3 balanced_accuracy,191,0.37592723772159253
+C1/C2/C3 balanced_accuracy,192,0.2890441853143466
+C1/C2/C3 balanced_accuracy,193,0.346383379347089
+C1/C2/C3 balanced_accuracy,194,0.33469951806645354
+C1/C2/C3 balanced_accuracy,195,0.3069456553327521
+C1/C2/C3 balanced_accuracy,196,0.3493700353579386
+C1/C2/C3 balanced_accuracy,197,0.3547182262908069
+C1/C2/C3 balanced_accuracy,198,0.31503893005909134
+C1/C2/C3 balanced_accuracy,199,0.3436688704833866
+C1/C2/C3 macro_auroc,0,0.5293636531409035
+C1/C2/C3 macro_auroc,1,0.5177146733349404
+C1/C2/C3 macro_auroc,2,0.445332491619897
+C1/C2/C3 macro_auroc,3,0.4702043009882706
+C1/C2/C3 macro_auroc,4,0.4483398305088
+C1/C2/C3 macro_auroc,5,0.49915112184795607
+C1/C2/C3 macro_auroc,6,0.48093942664902567
+C1/C2/C3 macro_auroc,7,0.48414854211068
+C1/C2/C3 macro_auroc,8,0.4896277029516951
+C1/C2/C3 macro_auroc,9,0.4927846746810598
+C1/C2/C3 macro_auroc,10,0.4868748401171607
+C1/C2/C3 macro_auroc,11,0.4622330046275535
+C1/C2/C3 macro_auroc,12,0.5427060770608251
+C1/C2/C3 macro_auroc,13,0.511102040442167
+C1/C2/C3 macro_auroc,14,0.5046134588158205
+C1/C2/C3 macro_auroc,15,0.5366065600209735
+C1/C2/C3 macro_auroc,16,0.49389064499470137
+C1/C2/C3 macro_auroc,17,0.4722366529075679
+C1/C2/C3 macro_auroc,18,0.5343785423977488
+C1/C2/C3 macro_auroc,19,0.4416833503730801
+C1/C2/C3 macro_auroc,20,0.4889512571535914
+C1/C2/C3 macro_auroc,21,0.47686455845386116
+C1/C2/C3 macro_auroc,22,0.431586997740336
+C1/C2/C3 macro_auroc,23,0.5488859004338384
+C1/C2/C3 macro_auroc,24,0.5219875682567996
+C1/C2/C3 macro_auroc,25,0.4878916748748694
+C1/C2/C3 macro_auroc,26,0.519573128724604
+C1/C2/C3 macro_auroc,27,0.48822780310877567
+C1/C2/C3 macro_auroc,28,0.4968778598855878
+C1/C2/C3 macro_auroc,29,0.5256325178610127
+C1/C2/C3 macro_auroc,30,0.45627434800883654
+C1/C2/C3 macro_auroc,31,0.49188920905664585
+C1/C2/C3 macro_auroc,32,0.5091902376719709
+C1/C2/C3 macro_auroc,33,0.48129405040784734
+C1/C2/C3 macro_auroc,34,0.46150912272822375
+C1/C2/C3 macro_auroc,35,0.5252409164360339
+C1/C2/C3 macro_auroc,36,0.4733156529870257
+C1/C2/C3 macro_auroc,37,0.5045939064434359
+C1/C2/C3 macro_auroc,38,0.49525398616645955
+C1/C2/C3 macro_auroc,39,0.5096866271193977
+C1/C2/C3 macro_auroc,40,0.4924896975708375
+C1/C2/C3 macro_auroc,41,0.4556052254237877
+C1/C2/C3 macro_auroc,42,0.5156661062488352
+C1/C2/C3 macro_auroc,43,0.5052259642346625
+C1/C2/C3 macro_auroc,44,0.4742249262363372
+C1/C2/C3 macro_auroc,45,0.53212030628597
+C1/C2/C3 macro_auroc,46,0.4637857005540802
+C1/C2/C3 macro_auroc,47,0.47867025546520914
+C1/C2/C3 macro_auroc,48,0.5288267862610779
+C1/C2/C3 macro_auroc,49,0.4799124675291225
+C1/C2/C3 macro_auroc,50,0.5094835320790374
+C1/C2/C3 macro_auroc,51,0.49373203965675305
+C1/C2/C3 macro_auroc,52,0.5305164042962546
+C1/C2/C3 macro_auroc,53,0.4561157823464193
+C1/C2/C3 macro_auroc,54,0.5162093416149722
+C1/C2/C3 macro_auroc,55,0.4836440057860288
+C1/C2/C3 macro_auroc,56,0.5050772978311634
+C1/C2/C3 macro_auroc,57,0.4341194304245555
+C1/C2/C3 macro_auroc,58,0.470947874341404
+C1/C2/C3 macro_auroc,59,0.5192767463301587
+C1/C2/C3 macro_auroc,60,0.5097916666229332
+C1/C2/C3 macro_auroc,61,0.4687638078812981
+C1/C2/C3 macro_auroc,62,0.5082763954072663
+C1/C2/C3 macro_auroc,63,0.48404979209133997
+C1/C2/C3 macro_auroc,64,0.5094289584520196
+C1/C2/C3 macro_auroc,65,0.5197853691598914
+C1/C2/C3 macro_auroc,66,0.4836261459602256
+C1/C2/C3 macro_auroc,67,0.42626843119385277
+C1/C2/C3 macro_auroc,68,0.50168665229271
+C1/C2/C3 macro_auroc,69,0.494656180378862
+C1/C2/C3 macro_auroc,70,0.5217838388954793
+C1/C2/C3 macro_auroc,71,0.46504985738787497
+C1/C2/C3 macro_auroc,72,0.47959960000562324
+C1/C2/C3 macro_auroc,73,0.48518356108934646
+C1/C2/C3 macro_auroc,74,0.5006468789346483
+C1/C2/C3 macro_auroc,75,0.48392101513927804
+C1/C2/C3 macro_auroc,76,0.48329141374804435
+C1/C2/C3 macro_auroc,77,0.4448495052990952
+C1/C2/C3 macro_auroc,78,0.5204468853443325
+C1/C2/C3 macro_auroc,79,0.4486709674352208
+C1/C2/C3 macro_auroc,80,0.4573681641114034
+C1/C2/C3 macro_auroc,81,0.46139061955132304
+C1/C2/C3 macro_auroc,82,0.5254984872251782
+C1/C2/C3 macro_auroc,83,0.466085762111178
+C1/C2/C3 macro_auroc,84,0.5044679964500548
+C1/C2/C3 macro_auroc,85,0.5196091915274655
+C1/C2/C3 macro_auroc,86,0.5203572373849997
+C1/C2/C3 macro_auroc,87,0.4717179985994891
+C1/C2/C3 macro_auroc,88,0.5128946097992123
+C1/C2/C3 macro_auroc,89,0.4892512688032171
+C1/C2/C3 macro_auroc,90,0.4933082018658628
+C1/C2/C3 macro_auroc,91,0.4866335145935916
+C1/C2/C3 macro_auroc,92,0.5354896414297955
+C1/C2/C3 macro_auroc,93,0.514544991766132
+C1/C2/C3 macro_auroc,94,0.5168566498558363
+C1/C2/C3 macro_auroc,95,0.4603683437237634
+C1/C2/C3 macro_auroc,96,0.4744623313708703
+C1/C2/C3 macro_auroc,97,0.40576819909803935
+C1/C2/C3 macro_auroc,98,0.4653095317643705
+C1/C2/C3 macro_auroc,99,0.5097389926707909
+C1/C2/C3 macro_auroc,100,0.5043998230483877
+C1/C2/C3 macro_auroc,101,0.49734021338714296
+C1/C2/C3 macro_auroc,102,0.4674525411437684
+C1/C2/C3 macro_auroc,103,0.4614247832685492
+C1/C2/C3 macro_auroc,104,0.4929221556894247
+C1/C2/C3 macro_auroc,105,0.5151518227437448
+C1/C2/C3 macro_auroc,106,0.5365988573661962
+C1/C2/C3 macro_auroc,107,0.48234809188555633
+C1/C2/C3 macro_auroc,108,0.4904417726754579
+C1/C2/C3 macro_auroc,109,0.515989923561971
+C1/C2/C3 macro_auroc,110,0.4781290885960958
+C1/C2/C3 macro_auroc,111,0.5808772085114183
+C1/C2/C3 macro_auroc,112,0.5077790786814508
+C1/C2/C3 macro_auroc,113,0.4595822150626864
+C1/C2/C3 macro_auroc,114,0.508228597276784
+C1/C2/C3 macro_auroc,115,0.4763413720025313
+C1/C2/C3 macro_auroc,116,0.45747418920968325
+C1/C2/C3 macro_auroc,117,0.5339581590863095
+C1/C2/C3 macro_auroc,118,0.47209593845757497
+C1/C2/C3 macro_auroc,119,0.4901253631155278
+C1/C2/C3 macro_auroc,120,0.47207910265975855
+C1/C2/C3 macro_auroc,121,0.5047058713693394
+C1/C2/C3 macro_auroc,122,0.5009877809524551
+C1/C2/C3 macro_auroc,123,0.48672543933805174
+C1/C2/C3 macro_auroc,124,0.5046839395488163
+C1/C2/C3 macro_auroc,125,0.5120886543579641
+C1/C2/C3 macro_auroc,126,0.506467122805062
+C1/C2/C3 macro_auroc,127,0.5007680250572073
+C1/C2/C3 macro_auroc,128,0.45867819522145864
+C1/C2/C3 macro_auroc,129,0.4756082342018649
+C1/C2/C3 macro_auroc,130,0.4772530793682159
+C1/C2/C3 macro_auroc,131,0.4860002699302311
+C1/C2/C3 macro_auroc,132,0.44334648333453747
+C1/C2/C3 macro_auroc,133,0.4799517393798194
+C1/C2/C3 macro_auroc,134,0.5485393483597952
+C1/C2/C3 macro_auroc,135,0.47435738097106284
+C1/C2/C3 macro_auroc,136,0.4566703219227925
+C1/C2/C3 macro_auroc,137,0.5333171054338216
+C1/C2/C3 macro_auroc,138,0.47774094377535326
+C1/C2/C3 macro_auroc,139,0.4678123992684931
+C1/C2/C3 macro_auroc,140,0.4676130280647104
+C1/C2/C3 macro_auroc,141,0.5029114680914969
+C1/C2/C3 macro_auroc,142,0.5150944408083783
+C1/C2/C3 macro_auroc,143,0.48279361286856437
+C1/C2/C3 macro_auroc,144,0.4586527557367422
+C1/C2/C3 macro_auroc,145,0.5080224379143242
+C1/C2/C3 macro_auroc,146,0.5442483043497148
+C1/C2/C3 macro_auroc,147,0.49538850338981405
+C1/C2/C3 macro_auroc,148,0.49206867126287485
+C1/C2/C3 macro_auroc,149,0.489517734420618
+C1/C2/C3 macro_auroc,150,0.42489594367053685
+C1/C2/C3 macro_auroc,151,0.4983607744955562
+C1/C2/C3 macro_auroc,152,0.5153395327069668
+C1/C2/C3 macro_auroc,153,0.48036926021546167
+C1/C2/C3 macro_auroc,154,0.4853367774180639
+C1/C2/C3 macro_auroc,155,0.4719094746057997
+C1/C2/C3 macro_auroc,156,0.4471373174554521
+C1/C2/C3 macro_auroc,157,0.48009093974877565
+C1/C2/C3 macro_auroc,158,0.4917104677193809
+C1/C2/C3 macro_auroc,159,0.45613711516618083
+C1/C2/C3 macro_auroc,160,0.5207833206576616
+C1/C2/C3 macro_auroc,161,0.5024159811600096
+C1/C2/C3 macro_auroc,162,0.47990260310705407
+C1/C2/C3 macro_auroc,163,0.511099061277125
+C1/C2/C3 macro_auroc,164,0.5254739615926708
+C1/C2/C3 macro_auroc,165,0.4896232089420978
+C1/C2/C3 macro_auroc,166,0.4865401838925396
+C1/C2/C3 macro_auroc,167,0.42083374858701306
+C1/C2/C3 macro_auroc,168,0.4484179049858146
+C1/C2/C3 macro_auroc,169,0.5449107875434086
+C1/C2/C3 macro_auroc,170,0.4882752024266063
+C1/C2/C3 macro_auroc,171,0.494163328397405
+C1/C2/C3 macro_auroc,172,0.4897948612547192
+C1/C2/C3 macro_auroc,173,0.4844186770523553
+C1/C2/C3 macro_auroc,174,0.5041887250843174
+C1/C2/C3 macro_auroc,175,0.5346471997066375
+C1/C2/C3 macro_auroc,176,0.5082238191041367
+C1/C2/C3 macro_auroc,177,0.5032214677840475
+C1/C2/C3 macro_auroc,178,0.5019871450872241
+C1/C2/C3 macro_auroc,179,0.4548611550856358
+C1/C2/C3 macro_auroc,180,0.48390367696031156
+C1/C2/C3 macro_auroc,181,0.4997436926432619
+C1/C2/C3 macro_auroc,182,0.46711302434600666
+C1/C2/C3 macro_auroc,183,0.5151847976028703
+C1/C2/C3 macro_auroc,184,0.5190786502368866
+C1/C2/C3 macro_auroc,185,0.4924481455095218
+C1/C2/C3 macro_auroc,186,0.476858885449559
+C1/C2/C3 macro_auroc,187,0.4821018375060288
+C1/C2/C3 macro_auroc,188,0.5213795129468068
+C1/C2/C3 macro_auroc,189,0.45879181846364164
+C1/C2/C3 macro_auroc,190,0.5030845573726282
+C1/C2/C3 macro_auroc,191,0.5404506297539792
+C1/C2/C3 macro_auroc,192,0.45631530237642864
+C1/C2/C3 macro_auroc,193,0.49745360255164517
+C1/C2/C3 macro_auroc,194,0.5003445014360434
+C1/C2/C3 macro_auroc,195,0.482646595522971
+C1/C2/C3 macro_auroc,196,0.5024778897340388
+C1/C2/C3 macro_auroc,197,0.5208396689806792
+C1/C2/C3 macro_auroc,198,0.4992212720034492
+C1/C2/C3 macro_auroc,199,0.5023533327784221

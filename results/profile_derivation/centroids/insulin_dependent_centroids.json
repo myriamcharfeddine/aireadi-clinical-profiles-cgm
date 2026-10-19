@@ -1,0 +1,48 @@
+{
+  "canonical_stratum": "insulin_dependent",
+  "selected_k": 3,
+  "factors": [
+    "participants_age",
+    "bmi_baseline",
+    "hba1c_percent_baseline",
+    "c_peptide_ngml_baseline",
+    "tg_hdl_ratio",
+    "waist_to_hip_ratio_baseline"
+  ],
+  "log_transformed": [
+    "hba1c_percent_baseline",
+    "c_peptide_ngml_baseline",
+    "tg_hdl_ratio"
+  ],
+  "centroids_by_display_cluster": {
+    "1": [
+      0.10035364327487709,
+      -0.610585080367349,
+      -0.49308218162915235,
+      -0.912485450456457,
+      -0.5890921788257016,
+      -0.3262743325254907
+    ],
+    "2": [
+      0.3180118132694109,
+      -0.14007974333873402,
+      0.19411995485721578,
+      0.42189113939590855,
+      0.44057011974450344,
+      0.5148449026013089
+    ],
+    "3": [
+      -0.9729291735244467,
+      1.4326001826344048,
+      0.38880034392681556,
+      0.5628599955012223,
+      -0.057125527806606034,
+      -0.7087168488444515
+    ]
+  },
+  "kmeans_original_to_display_map": {
+    "0": 1,
+    "1": 2,
+    "2": 3
+  }
+}

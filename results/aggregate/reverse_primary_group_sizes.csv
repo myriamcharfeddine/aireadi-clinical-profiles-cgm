@@ -1,0 +1,5 @@
+partition,split,G1,G2,G3
+extended_window_full,train,131,139,55
+extended_window_full,val,34,19,16
+extended_window_full,test,23,24,17
+extended_window_full,all,188,182,88

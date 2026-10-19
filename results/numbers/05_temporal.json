@@ -1,0 +1,40 @@
+{
+  "c2_minus_rest_cv": {
+    "A": [
+      -2.327849934685151,
+      -3.474654607238175,
+      -1.2110782093400916
+    ],
+    "B": [
+      -2.3087883223150527,
+      -3.468828097098582,
+      -1.1622041113910169
+    ]
+  },
+  "heldout_ari": [
+    0.42,
+    0.3,
+    0.58
+  ],
+  "heldout_ari_rounded_because_n_masked": true,
+  "heldout_kappa": [
+    0.63,
+    0.52,
+    0.74
+  ],
+  "profile_ari_window_a": 0.029965058668839806,
+  "profile_ari_window_b": 0.03559332499547253,
+  "runtime_s": 86.0,
+  "shown_counts": {
+    "days3": {
+      "all eligible": "NR",
+      "held-out": "NR",
+      "train": "319"
+    },
+    "days4": {
+      "all eligible": "389",
+      "held-out": "110",
+      "train": "279"
+    }
+  }
+}

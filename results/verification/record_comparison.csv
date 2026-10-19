@@ -1,0 +1,191 @@
+comparison,column,kind,rows_new,rows_record,rows_matched,values_compared,max_abs_difference,match
+"01 labels, margins and CGM metrics (participant level)",label,deterministic,3130,3130,3130,3130,0.0,True
+"01 labels, margins and CGM metrics (participant level)",nearest_distance,deterministic,3130,3130,3130,3130,8.881784197001252e-16,True
+"01 labels, margins and CGM metrics (participant level)",relative_margin,deterministic,3130,3130,3130,3130,4.440892098500626e-16,True
+"01 labels, margins and CGM metrics (participant level)",n_readings,deterministic,3130,3130,3130,3130,0.0,True
+"01 labels, margins and CGM metrics (participant level)",mean_glucose,deterministic,3130,3130,3130,3130,5.684341886080802e-14,True
+"01 labels, margins and CGM metrics (participant level)",time_in_range_pct,deterministic,3130,3130,3130,3130,1.4210854715202004e-14,True
+"01 labels, margins and CGM metrics (participant level)",coefficient_of_variation_pct,deterministic,3130,3130,3130,3130,7.105427357601002e-15,True
+"02 Kruskal-Wallis, all strata",kruskal_h,deterministic,24,24,24,24,0.0,True
+"02 Kruskal-Wallis, all strata",p_value,deterministic,24,24,24,24,0.0,True
+"02 Kruskal-Wallis, all strata",eta_squared,deterministic,24,24,24,24,0.0,True
+"02 pairwise differences (1,000 resamples)",mean_diff_a_minus_b,deterministic,48,48,48,48,1.4210854715202004e-14,True
+"02 pairwise differences (1,000 resamples)",ci_low,bootstrap/permutation,48,48,48,48,1.4210854715202004e-14,True
+"02 pairwise differences (1,000 resamples)",ci_high,bootstrap/permutation,48,48,48,48,1.1102230246251565e-14,True
+02 C2 versus rest,mean_diff,deterministic,2,2,2,2,3.552713678800501e-15,True
+02 C2 versus rest,ci_low,bootstrap/permutation,2,2,2,2,3.9968028886505635e-15,True
+02 C2 versus rest,ci_high,bootstrap/permutation,2,2,2,2,3.552713678800501e-15,True
+02 C2 versus rest,eta_squared,deterministic,2,2,2,2,0.0,True
+02 C2 versus rest,p_value,deterministic,2,2,2,2,0.0,True
+"02 eta squared, 2,000-resample CIs (Table 2)",eta_squared,deterministic,9,9,9,9,0.0,True
+"02 eta squared, 2,000-resample CIs (Table 2)",ci_low,bootstrap/permutation,9,9,9,9,0.0,True
+"02 eta squared, 2,000-resample CIs (Table 2)",ci_high,bootstrap/permutation,9,9,9,9,0.0,True
+02 ANOVA,anova_eta_squared,deterministic,9,6,6,6,0.0,True
+02 ANOVA,anova_p,deterministic,9,6,6,6,0.0,True
+02 Dunn tests,z,deterministic,18,18,18,18,0.0,True
+02 Dunn tests,p_raw,deterministic,18,18,18,18,1.3234889800848443e-23,True
+02 sensitivity subsets,eta_squared,deterministic,30,36,30,30,0.0,True
+02 sensitivity subsets,p_value,deterministic,30,36,30,30,2.6469779601696886e-23,True
+02 split dependence,difference,deterministic,6,6,6,6,0.0,True
+02 split dependence,null_q025,bootstrap/permutation,6,6,6,6,0.0,True
+02 split dependence,null_q975,bootstrap/permutation,6,6,6,6,0.0,True
+02 split dependence,p_two_sided,bootstrap/permutation,6,6,6,6,0.0,True
+02 GLP-1/GIP contrasts,mean_diff,deterministic,8,8,8,8,0.0,True
+02 GLP-1/GIP contrasts,ci_low,bootstrap/permutation,8,8,8,8,8.881784197001252e-16,True
+02 GLP-1/GIP contrasts,ci_high,bootstrap/permutation,8,8,8,8,0.0,True
+03 silhouette by k,silhouette_k2,deterministic,4,4,4,4,0.0,True
+03 silhouette by k,silhouette_k3,deterministic,4,4,4,4,0.0,True
+03 silhouette by k,silhouette_k4,deterministic,4,4,4,4,0.0,True
+03 silhouette by k,silhouette_k5,deterministic,4,4,4,4,0.0,True
+03 silhouette by k,silhouette_k6,deterministic,4,4,4,4,0.0,True
+03 silhouette by k,train_silhouette_k3,deterministic,4,4,4,4,0.0,True
+03 silhouette by k,silhouette_selected_k,deterministic,4,4,4,4,0.0,True
+03 refit stability (primary),stability_mean,bootstrap/permutation,1,1,1,1,0.0,True
+03 refit stability (primary),stability_q025,bootstrap/permutation,1,1,1,1,0.0,True
+03 refit stability (primary),stability_q975,bootstrap/permutation,1,1,1,1,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",n,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_mean_glucose,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_time_in_range_pct,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_coefficient_of_variation_pct,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",median_mean_glucose,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",median_time_in_range_pct,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",median_coefficient_of_variation_pct,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_tbr_70_pct,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_tar_180_pct,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_tar_250_pct,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_sd_glucose,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_mage,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_acf_1h,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_acf_3h,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_profile_pc1,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_profile_pc2,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_profile_pc3,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_profile_pc4,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",median_tbr_70_pct,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",median_tar_180_pct,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",median_tar_250_pct,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",median_sd_glucose,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",median_mage,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",median_acf_1h,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",median_acf_3h,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_acf_24h,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",z_circadian_power_share,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",median_acf_24h,deterministic,3,12,3,3,0.0,True
+"03 primary CGM groups (sizes, medians, centroids)",median_circadian_power_share,deterministic,3,12,3,3,0.0,True
+03 primary contingency (Fig 2A),C1,deterministic,3,56,3,3,0.0,True
+03 primary contingency (Fig 2A),C2,deterministic,3,56,3,3,0.0,True
+03 primary contingency (Fig 2A),C3,deterministic,3,56,3,3,0.0,True
+03 B3 clinical differences,n,deterministic,90,90,90,90,0.0,True
+03 B3 clinical differences,eta_squared,deterministic,90,90,90,90,0.0,True
+03 B3 clinical differences,ci_low,bootstrap/permutation,90,90,90,24,0.0,True
+03 B3 clinical differences,ci_high,bootstrap/permutation,90,90,90,24,0.0,True
+03 B3 clinical differences,p_value,deterministic,90,90,90,72,0.0,True
+03 forward versus reverse (Table 3),eta_squared,deterministic,12,12,12,12,0.0,True
+03 forward versus reverse (Table 3),ci_low,bootstrap/permutation,12,12,12,12,0.0,True
+03 forward versus reverse (Table 3),ci_high,bootstrap/permutation,12,12,12,12,0.0,True
+03 forward versus reverse (Table 3),n,deterministic,12,12,12,12,0.0,True
+03 B4 agreement,value,deterministic,15,15,15,15,0.0,True
+03 B4 agreement,ci_low,bootstrap/permutation,15,15,15,12,0.0,True
+03 B4 agreement,ci_high,bootstrap/permutation,15,15,15,12,0.0,True
+03 B4 agreement,perm_p,bootstrap/permutation,15,15,15,12,0.0,True
+03 B4 agreement,perm_p_within_split,bootstrap/permutation,15,15,15,12,0.0,True
+03 B4 agreement,null_mean,bootstrap/permutation,15,15,15,15,0.0,True
+03 B4 agreement,null_q975,bootstrap/permutation,15,15,15,15,0.0,True
+03 B5 prediction,value,deterministic,54,54,54,54,3.0010716134398763e-16,True
+03 B5 prediction,ci_low,bootstrap/permutation,54,54,54,54,3.9898639947466563e-16,True
+03 B5 prediction,ci_high,bootstrap/permutation,54,54,54,54,4.0245584642661925e-16,True
+03 B5 prediction,perm_p,bootstrap/permutation,54,54,54,32,0.0,True
+03 B5 prediction,n_permutations,bootstrap/permutation,54,54,54,54,0.0,True
+03 B5 permutation null draws (Fig 2C),value,deterministic,3200,3200,3200,3200,5.065392549852277e-16,True
+"04 S1 forward, other strata",eta_squared,deterministic,18,18,18,18,0.0,True
+"04 S1 forward, other strata",ci_low,bootstrap/permutation,18,18,18,18,0.0,True
+"04 S1 forward, other strata",ci_high,bootstrap/permutation,18,18,18,18,0.0,True
+"04 S1 forward, other strata",p_value,deterministic,18,18,18,18,0.0,True
+"04 S1 forward, other strata",p_holm,deterministic,18,18,18,18,0.0,True
+04 S3 specificity,n_c2,deterministic,48,48,48,48,0.0,True
+04 S3 specificity,n_rest,deterministic,48,48,48,48,0.0,True
+04 S3 specificity,eta_squared,deterministic,48,48,48,48,0.0,True
+04 S3 specificity,eta_ci_low,bootstrap/permutation,48,48,48,48,0.0,True
+04 S3 specificity,eta_ci_high,bootstrap/permutation,48,48,48,48,0.0,True
+04 S3 specificity,p_value,deterministic,48,48,48,48,0.0,True
+04 S3 specificity,mean_diff_c2_minus_rest,deterministic,48,48,48,48,0.0,True
+04 S3 specificity,diff_ci_low,bootstrap/permutation,48,48,48,48,3.9968028886505635e-15,True
+04 S3 specificity,diff_ci_high,bootstrap/permutation,48,48,48,48,0.0,True
+04 S3 specificity,p_holm,deterministic,48,48,48,4,0.0,True
+04 S3 assignment,n,deterministic,2,2,2,2,0.0,True
+04 S3 assignment,assigned_C2,deterministic,2,2,2,2,0.0,True
+04 S3 assignment,out_of_range,deterministic,2,2,2,2,0.0,True
+04 S2 clinical differences,n,deterministic,36,48,36,36,0.0,True
+04 S2 clinical differences,eta_squared,deterministic,36,48,36,36,0.0,True
+04 S2 clinical differences,ci_low,bootstrap/permutation,36,48,36,36,0.0,True
+04 S2 clinical differences,ci_high,bootstrap/permutation,36,48,36,36,0.0,True
+04 S2 clinical differences,p_value,deterministic,36,48,36,36,0.0,True
+04 S2 clinical differences,p_holm,deterministic,36,48,36,18,0.0,True
+04 S2 agreement,value,deterministic,18,24,18,18,0.0,True
+04 S2 agreement,ci_low,bootstrap/permutation,18,24,18,18,0.0,True
+04 S2 agreement,ci_high,bootstrap/permutation,18,24,18,18,0.0,True
+04 S2 agreement,perm_p,bootstrap/permutation,18,24,18,18,0.0,True
+04 S2 agreement,null_mean,bootstrap/permutation,18,24,18,18,0.0,True
+04 S2 agreement,null_q975,bootstrap/permutation,18,24,18,18,0.0,True
+04 S2 agreement,p_holm,deterministic,18,24,18,3,0.0,True
+04 S2 prediction,value,deterministic,24,24,24,24,6.494804694057166e-15,True
+04 S2 prediction,ci_low,bootstrap/permutation,24,24,24,24,1.8790524691780774e-14,True
+04 S2 prediction,ci_high,bootstrap/permutation,24,24,24,24,4.884981308350689e-15,True
+04 S2 prediction,perm_p,bootstrap/permutation,24,24,24,24,0.0,True
+04 S2 prediction,n_permutations,bootstrap/permutation,24,24,24,24,0.0,True
+04 S2 prediction,hba1c_alone,deterministic,24,24,24,6,0.0,True
+04 S2 prediction,hba1c_plus_cgm,deterministic,24,24,24,6,3.629435701657524e-05,False
+04 S2 prediction,gain_over_hba1c,deterministic,24,24,24,6,3.6294357016491974e-05,False
+04 S2 prediction,gain_ci_low,bootstrap/permutation,24,24,24,6,0.00010758547008540842,False
+04 S2 prediction,gain_ci_high,bootstrap/permutation,24,24,24,6,7.921642798409956e-05,False
+04 S2 prediction,p_holm,deterministic,24,24,24,21,0.0,True
+04 B6 pooled agreement (Fig 2D),n,deterministic,36,36,36,36,0.0,True
+04 B6 pooled agreement (Fig 2D),value,deterministic,36,36,36,36,0.0,True
+04 B6 pooled agreement (Fig 2D),ci_low,bootstrap/permutation,36,36,36,27,0.0,True
+04 B6 pooled agreement (Fig 2D),ci_high,bootstrap/permutation,36,36,36,27,0.0,True
+04 B6 pooled agreement (Fig 2D),perm_p,bootstrap/permutation,36,36,36,36,0.0,True
+04 B6 pooled agreement (Fig 2D),null_mean,bootstrap/permutation,36,36,36,36,0.0,True
+04 B6 pooled agreement (Fig 2D),null_q975,bootstrap/permutation,36,36,36,36,0.0,True
+05 held-out agreement between windows (unrounded),value,deterministic,8,96,8,8,5.551115123125783e-17,True
+05 held-out agreement between windows (unrounded),ci_low,bootstrap/permutation,8,96,8,8,0.0,True
+05 held-out agreement between windows (unrounded),ci_high,bootstrap/permutation,8,96,8,8,0.0,True
+05 held-out agreement between windows (unrounded),null_mean,bootstrap/permutation,8,96,8,8,9.71445146547012e-17,True
+05 held-out agreement between windows (unrounded),null_q975,bootstrap/permutation,8,96,8,8,8.673617379884035e-17,True
+05 held-out agreement between windows (unrounded),p_permutation,bootstrap/permutation,8,96,8,8,9.90960785651751e-17,True
+05 held-out agreement as tracked (rounded),value,deterministic,8,96,8,8,0.0,True
+05 held-out agreement as tracked (rounded),ci_low,bootstrap/permutation,8,96,8,8,0.0,True
+05 held-out agreement as tracked (rounded),ci_high,bootstrap/permutation,8,96,8,8,0.0,True
+05 held-out agreement as tracked (rounded),null_mean,bootstrap/permutation,8,96,8,8,0.0,True
+05 held-out agreement as tracked (rounded),null_q975,bootstrap/permutation,8,96,8,8,0.0,True
+05 ICC between windows,icc,deterministic,32,188,32,32,0.0,True
+05 ICC between windows,ci_low,bootstrap/permutation,32,188,32,32,0.0,True
+05 ICC between windows,ci_high,bootstrap/permutation,32,188,32,32,0.0,True
+05 ICC between windows,analytic_ci_low,bootstrap/permutation,32,188,32,32,0.0,True
+05 ICC between windows,analytic_ci_high,bootstrap/permutation,32,188,32,32,0.0,True
+05 agreement with profiles per window,A_value,deterministic,6,54,6,6,0.0,True
+05 agreement with profiles per window,A_ci_low,bootstrap/permutation,6,54,6,6,0.0,True
+05 agreement with profiles per window,A_ci_high,bootstrap/permutation,6,54,6,6,0.0,True
+05 agreement with profiles per window,A_null_mean,bootstrap/permutation,6,54,6,6,0.0,True
+05 agreement with profiles per window,A_null_q975,bootstrap/permutation,6,54,6,6,0.0,True
+05 agreement with profiles per window,A_p_permutation,bootstrap/permutation,6,54,6,6,0.0,True
+05 agreement with profiles per window,B_value,deterministic,6,54,6,6,0.0,True
+05 agreement with profiles per window,B_ci_low,bootstrap/permutation,6,54,6,6,0.0,True
+05 agreement with profiles per window,B_ci_high,bootstrap/permutation,6,54,6,6,0.0,True
+05 agreement with profiles per window,B_null_mean,bootstrap/permutation,6,54,6,6,0.0,True
+05 agreement with profiles per window,B_null_q975,bootstrap/permutation,6,54,6,6,0.0,True
+05 agreement with profiles per window,B_p_permutation,bootstrap/permutation,6,54,6,6,0.0,True
+05 agreement with profiles per window,difference_A_minus_B,deterministic,6,54,6,6,0.0,True
+05 agreement with profiles per window,difference_ci_low,bootstrap/permutation,6,54,6,6,0.0,True
+05 agreement with profiles per window,difference_ci_high,bootstrap/permutation,6,54,6,6,0.0,True
+05 C2 minus rest CV per window,A_difference,deterministic,2,18,2,2,3.552713678800501e-15,True
+05 C2 minus rest CV per window,A_ci_low,bootstrap/permutation,2,18,2,2,3.1086244689504383e-15,True
+05 C2 minus rest CV per window,A_ci_high,bootstrap/permutation,2,18,2,2,3.552713678800501e-15,True
+05 C2 minus rest CV per window,B_difference,deterministic,2,18,2,2,0.0,True
+05 C2 minus rest CV per window,B_ci_low,bootstrap/permutation,2,18,2,2,0.0,True
+05 C2 minus rest CV per window,B_ci_high,bootstrap/permutation,2,18,2,2,3.774758283725532e-15,True
+05 C2 minus rest CV per window,change_A_minus_B,deterministic,2,18,2,2,3.608224830031759e-15,True
+05 C2 minus rest CV per window,change_ci_low,bootstrap/permutation,2,18,2,2,0.0,True
+05 C2 minus rest CV per window,change_ci_high,bootstrap/permutation,2,18,2,2,3.219646771412954e-15,True
+"05 C2 minus rest CV, full record",difference,deterministic,2,7,2,2,0.0,True
+"05 C2 minus rest CV, full record",ci_low,bootstrap/permutation,2,7,2,2,0.0,True
+"05 C2 minus rest CV, full record",ci_high,bootstrap/permutation,2,7,2,2,0.0,True

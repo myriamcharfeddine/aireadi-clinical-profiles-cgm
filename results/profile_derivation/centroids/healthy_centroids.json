@@ -1,0 +1,40 @@
+{
+  "canonical_stratum": "healthy",
+  "selected_k": 2,
+  "factors": [
+    "participants_age",
+    "bmi_baseline",
+    "hba1c_percent_baseline",
+    "c_peptide_ngml_baseline",
+    "tg_hdl_ratio",
+    "waist_to_hip_ratio_baseline"
+  ],
+  "log_transformed": [
+    "bmi_baseline",
+    "hba1c_percent_baseline",
+    "c_peptide_ngml_baseline",
+    "tg_hdl_ratio"
+  ],
+  "centroids_by_display_cluster": {
+    "1": [
+      -0.062162580820587586,
+      -0.41627551808741675,
+      -0.2107007069944596,
+      -0.4373082713088007,
+      -0.4488951801238356,
+      -0.4501555466247139
+    ],
+    "2": [
+      0.10203237403655009,
+      0.6832660227917634,
+      0.3458397811357223,
+      0.7177887487689285,
+      0.7368072611687791,
+      0.7388760006667712
+    ]
+  },
+  "kmeans_original_to_display_map": {
+    "0": 1,
+    "1": 2
+  }
+}

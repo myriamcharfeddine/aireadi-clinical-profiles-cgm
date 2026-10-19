@@ -1,0 +1,900 @@
+{
+  "healthy": {
+    "status": "primary",
+    "selected_k": 2,
+    "reasoning": [
+      "Feasible candidates: [2, 3]. Within silhouette tolerance of best (0.2218): [2].",
+      "Gap-statistic one-standard-error rule retains: [2].",
+      "Highest bootstrap stability (0.8721) among remaining candidates: [2]. Smaller-k tiebreak selects k=2."
+    ],
+    "candidates": {
+      "2": {
+        "canonical_stratum": "healthy",
+        "k": 2,
+        "train_n": 383,
+        "log_transformed_factors": [
+          "bmi_baseline",
+          "hba1c_percent_baseline",
+          "c_peptide_ngml_baseline",
+          "tg_hdl_ratio"
+        ],
+        "cluster_sizes": [
+          238,
+          145
+        ],
+        "smallest_cluster_n": 145,
+        "smallest_cluster_fraction": 0.3785900783289817,
+        "silhouette": 0.22179492676167967,
+        "gap_statistic": 1.58743372991208,
+        "gap_standard_error": 0.01674931592531705,
+        "log_within_cluster_ss": 7.4868591068280015,
+        "within_cluster_ss": 1784.4385498336574,
+        "bootstrap_n": 1000,
+        "bootstrap_mean_ari": 0.8721161948951089,
+        "bootstrap_median_ari": 0.8776538537637029,
+        "bootstrap_std_ari": 0.07056677836195989,
+        "bootstrap_ci_low": 0.7192366937391519,
+        "bootstrap_ci_high": 0.9791003861763482,
+        "cluster_size_stability_mean_fraction": [
+          0.6191801566579623,
+          0.3808198433420367
+        ],
+        "cluster_size_stability_std_fraction": [
+          0.03303039477307173,
+          0.03303039477307175
+        ],
+        "centroid_stability_mean_distance": [
+          0.13389660938690826,
+          0.21415713911759734
+        ],
+        "centroid_stability_std_distance": [
+          0.0569762441687104,
+          0.08554687514481027
+        ],
+        "initialization_sensitivity": {
+          "mean_ari_vs_reference": 0.9461548732736115,
+          "std_ari_vs_reference": 0.13917471628267478,
+          "min_ari_vs_reference": -0.00203922757053822,
+          "n_restarts": 50
+        },
+        "site_association": {
+          "cramers_v": 0.13255299649445637,
+          "p_value": 0.03457197651306954,
+          "strong": false
+        },
+        "missingness_association": {
+          "applicable": false,
+          "note": "Complete-case primary strategy retains only participants with zero missing final factors"
+        },
+        "minimum_size_feasible": true,
+        "bootstrap_feasible": true,
+        "feasible": true
+      },
+      "3": {
+        "canonical_stratum": "healthy",
+        "k": 3,
+        "train_n": 383,
+        "log_transformed_factors": [
+          "bmi_baseline",
+          "hba1c_percent_baseline",
+          "c_peptide_ngml_baseline",
+          "tg_hdl_ratio"
+        ],
+        "cluster_sizes": [
+          140,
+          141,
+          102
+        ],
+        "smallest_cluster_n": 102,
+        "smallest_cluster_fraction": 0.26631853785900783,
+        "silhouette": 0.16124948115535753,
+        "gap_statistic": 1.5124039237812106,
+        "gap_standard_error": 0.025854162610884985,
+        "log_within_cluster_ss": 7.366566384997665,
+        "within_cluster_ss": 1582.1025888483055,
+        "bootstrap_n": 1000,
+        "bootstrap_mean_ari": 0.673778866700658,
+        "bootstrap_median_ari": 0.7051852856117113,
+        "bootstrap_std_ari": 0.1820765474871711,
+        "bootstrap_ci_low": 0.22111308714029262,
+        "bootstrap_ci_high": 0.9220085908630646,
+        "cluster_size_stability_mean_fraction": [
+          0.3404386422976504,
+          0.39375718015665745,
+          0.2658041775456912
+        ],
+        "cluster_size_stability_std_fraction": [
+          0.043811124527978786,
+          0.04422404705999782,
+          0.03958435008226215
+        ],
+        "centroid_stability_mean_distance": [
+          0.5478913236025305,
+          0.3437503478302708,
+          0.4055587145855503
+        ],
+        "centroid_stability_std_distance": [
+          0.49066097031065087,
+          0.2584921491020622,
+          0.2197051977984067
+        ],
+        "initialization_sensitivity": {
+          "mean_ari_vs_reference": 0.5716695720973031,
+          "std_ari_vs_reference": 0.2593729239215683,
+          "min_ari_vs_reference": 0.22764485066482504,
+          "n_restarts": 50
+        },
+        "site_association": {
+          "cramers_v": 0.14162558806415484,
+          "p_value": 0.004002355982905509,
+          "strong": false
+        },
+        "missingness_association": {
+          "applicable": false,
+          "note": "Complete-case primary strategy retains only participants with zero missing final factors"
+        },
+        "minimum_size_feasible": true,
+        "bootstrap_feasible": true,
+        "feasible": true
+      },
+      "4": {
+        "canonical_stratum": "healthy",
+        "k": 4,
+        "train_n": 383,
+        "log_transformed_factors": [
+          "bmi_baseline",
+          "hba1c_percent_baseline",
+          "c_peptide_ngml_baseline",
+          "tg_hdl_ratio"
+        ],
+        "cluster_sizes": [
+          132,
+          91,
+          87,
+          73
+        ],
+        "smallest_cluster_n": 73,
+        "smallest_cluster_fraction": 0.1906005221932115,
+        "silhouette": 0.15643630514335694,
+        "gap_statistic": 1.4443922861801974,
+        "gap_standard_error": 0.019487250534365192,
+        "log_within_cluster_ss": 7.279797633072952,
+        "within_cluster_ss": 1450.7153478221528,
+        "bootstrap_n": 1000,
+        "bootstrap_mean_ari": 0.5405969547335868,
+        "bootstrap_median_ari": 0.534211224281927,
+        "bootstrap_std_ari": 0.17879178823479475,
+        "bootstrap_ci_low": 0.26059750405913384,
+        "bootstrap_ci_high": 0.8851400739352836,
+        "cluster_size_stability_mean_fraction": [
+          0.33274151436031313,
+          0.2810496083550912,
+          0.2010913838120102,
+          0.18511749347258483
+        ],
+        "cluster_size_stability_std_fraction": [
+          0.042051616245899294,
+          0.04724920334365529,
+          0.039216090401042424,
+          0.0719608775999343
+        ],
+        "centroid_stability_mean_distance": [
+          0.4275985985793407,
+          0.7295279873387351,
+          0.6749161855417468,
+          1.4519846456992185
+        ],
+        "centroid_stability_std_distance": [
+          0.2611359127369992,
+          0.4252721819182994,
+          0.3294181697464575,
+          1.6086550891544094
+        ],
+        "initialization_sensitivity": {
+          "mean_ari_vs_reference": 0.48516481766787417,
+          "std_ari_vs_reference": 0.18255077049367086,
+          "min_ari_vs_reference": 0.27932822921092226,
+          "n_restarts": 50
+        },
+        "site_association": {
+          "cramers_v": 0.14253285988754744,
+          "p_value": 0.01630980943124033,
+          "strong": false
+        },
+        "missingness_association": {
+          "applicable": false,
+          "note": "Complete-case primary strategy retains only participants with zero missing final factors"
+        },
+        "minimum_size_feasible": true,
+        "bootstrap_feasible": false,
+        "feasible": false
+      }
+    }
+  },
+  "pre_diabetes": {
+    "status": "primary",
+    "selected_k": 2,
+    "reasoning": [
+      "Feasible candidates: [2, 3]. Within silhouette tolerance of best (0.2001): [2, 3].",
+      "Gap-statistic one-standard-error rule retains: [2, 3].",
+      "Highest bootstrap stability (0.8477) among remaining candidates: [2]. Smaller-k tiebreak selects k=2."
+    ],
+    "candidates": {
+      "2": {
+        "canonical_stratum": "pre_diabetes",
+        "k": 2,
+        "train_n": 288,
+        "log_transformed_factors": [
+          "bmi_baseline",
+          "hba1c_percent_baseline",
+          "c_peptide_ngml_baseline",
+          "tg_hdl_ratio",
+          "waist_to_hip_ratio_baseline"
+        ],
+        "cluster_sizes": [
+          160,
+          128
+        ],
+        "smallest_cluster_n": 128,
+        "smallest_cluster_fraction": 0.4444444444444444,
+        "silhouette": 0.20009319965855132,
+        "gap_statistic": 1.23954598584496,
+        "gap_standard_error": 0.022478734801767382,
+        "log_within_cluster_ss": 7.205454616228558,
+        "within_cluster_ss": 1346.7568073912191,
+        "bootstrap_n": 1000,
+        "bootstrap_mean_ari": 0.8476784069578914,
+        "bootstrap_median_ari": 0.9181068921859059,
+        "bootstrap_std_ari": 0.15886419056465031,
+        "bootstrap_ci_low": 0.40543083684407516,
+        "bootstrap_ci_high": 0.986110195361791,
+        "cluster_size_stability_mean_fraction": [
+          0.5286249999999991,
+          0.4713750000000009
+        ],
+        "cluster_size_stability_std_fraction": [
+          0.051489246080189864,
+          0.05148924608018985
+        ],
+        "centroid_stability_mean_distance": [
+          0.20293403254498202,
+          0.22180342590776297
+        ],
+        "centroid_stability_std_distance": [
+          0.12783979026157688,
+          0.1116055826996165
+        ],
+        "initialization_sensitivity": {
+          "mean_ari_vs_reference": 0.9917241930552833,
+          "std_ari_vs_reference": 0.016719654886857133,
+          "min_ari_vs_reference": 0.9586209652764158,
+          "n_restarts": 50
+        },
+        "site_association": {
+          "cramers_v": 0.1108775688204821,
+          "p_value": 0.17027980579514387,
+          "strong": false
+        },
+        "missingness_association": {
+          "applicable": true,
+          "mean_missing_factors_by_cluster": {
+            "0": 0.21875,
+            "1": 0.0390625
+          },
+          "kruskal_h": 5.376010448858592,
+          "kruskal_p": 0.020415512255284398
+        },
+        "minimum_size_feasible": true,
+        "bootstrap_feasible": true,
+        "feasible": true
+      },
+      "3": {
+        "canonical_stratum": "pre_diabetes",
+        "k": 3,
+        "train_n": 288,
+        "log_transformed_factors": [
+          "bmi_baseline",
+          "hba1c_percent_baseline",
+          "c_peptide_ngml_baseline",
+          "tg_hdl_ratio",
+          "waist_to_hip_ratio_baseline"
+        ],
+        "cluster_sizes": [
+          73,
+          108,
+          107
+        ],
+        "smallest_cluster_n": 73,
+        "smallest_cluster_fraction": 0.2534722222222222,
+        "silhouette": 0.18732695517546374,
+        "gap_statistic": 1.2099104253955044,
+        "gap_standard_error": 0.02403258389806005,
+        "log_within_cluster_ss": 7.075667545219073,
+        "within_cluster_ss": 1182.8660791306932,
+        "bootstrap_n": 1000,
+        "bootstrap_mean_ari": 0.6582316531388526,
+        "bootstrap_median_ari": 0.6590568113985561,
+        "bootstrap_std_ari": 0.14411581718547697,
+        "bootstrap_ci_low": 0.3752380073219098,
+        "bootstrap_ci_high": 0.9201942104690725,
+        "cluster_size_stability_mean_fraction": [
+          0.267625,
+          0.3881423611111114,
+          0.3442326388888882
+        ],
+        "cluster_size_stability_std_fraction": [
+          0.06362490676989258,
+          0.03699510534430128,
+          0.05660014013401015
+        ],
+        "centroid_stability_mean_distance": [
+          0.6215227790392633,
+          0.308969370453207,
+          0.5353498006511468
+        ],
+        "centroid_stability_std_distance": [
+          0.3174619879140117,
+          0.14594160285173857,
+          0.2616192411311324
+        ],
+        "initialization_sensitivity": {
+          "mean_ari_vs_reference": 0.769552926155085,
+          "std_ari_vs_reference": 0.14488546435197458,
+          "min_ari_vs_reference": 0.2575759961708484,
+          "n_restarts": 50
+        },
+        "site_association": {
+          "cramers_v": 0.10708593764400152,
+          "p_value": 0.15828015665238332,
+          "strong": false
+        },
+        "missingness_association": {
+          "applicable": true,
+          "mean_missing_factors_by_cluster": {
+            "0": 0.0958904109589041,
+            "1": 0.07407407407407407,
+            "2": 0.2336448598130841
+          },
+          "kruskal_h": 2.329099159310905,
+          "kruskal_p": 0.3120631899915016
+        },
+        "minimum_size_feasible": true,
+        "bootstrap_feasible": true,
+        "feasible": true
+      },
+      "4": {
+        "canonical_stratum": "pre_diabetes",
+        "k": 4,
+        "train_n": 288,
+        "log_transformed_factors": [
+          "bmi_baseline",
+          "hba1c_percent_baseline",
+          "c_peptide_ngml_baseline",
+          "tg_hdl_ratio",
+          "waist_to_hip_ratio_baseline"
+        ],
+        "cluster_sizes": [
+          84,
+          97,
+          51,
+          56
+        ],
+        "smallest_cluster_n": 51,
+        "smallest_cluster_fraction": 0.17708333333333334,
+        "silhouette": 0.16513580286305413,
+        "gap_statistic": 1.1742134474319164,
+        "gap_standard_error": 0.02301889171330612,
+        "log_within_cluster_ss": 6.994061284751914,
+        "within_cluster_ss": 1089.402518296901,
+        "bootstrap_n": 1000,
+        "bootstrap_mean_ari": 0.5040418299158849,
+        "bootstrap_median_ari": 0.49560127034285373,
+        "bootstrap_std_ari": 0.12558185290753235,
+        "bootstrap_ci_low": 0.292196432246505,
+        "bootstrap_ci_high": 0.7964156214792547,
+        "cluster_size_stability_mean_fraction": [
+          0.2526284722222223,
+          0.32933680555555567,
+          0.21645833333333356,
+          0.2015763888888889
+        ],
+        "cluster_size_stability_std_fraction": [
+          0.07541757154286928,
+          0.04302779133389505,
+          0.10089555842556366,
+          0.06443170497711116
+        ],
+        "centroid_stability_mean_distance": [
+          0.8145898784369857,
+          0.40285864448110464,
+          1.7343634508330052,
+          0.9036205309558163
+        ],
+        "centroid_stability_std_distance": [
+          0.37205660303915555,
+          0.1990329734690146,
+          1.4883995331700084,
+          0.4305438093910943
+        ],
+        "initialization_sensitivity": {
+          "mean_ari_vs_reference": 0.5225108358931657,
+          "std_ari_vs_reference": 0.12018497687371096,
+          "min_ari_vs_reference": 0.3604112084349758,
+          "n_restarts": 50
+        },
+        "site_association": {
+          "cramers_v": 0.15614754231252412,
+          "p_value": 0.029147802721989014,
+          "strong": false
+        },
+        "missingness_association": {
+          "applicable": true,
+          "mean_missing_factors_by_cluster": {
+            "0": 0.25,
+            "1": 0.020618556701030927,
+            "2": 0.19607843137254902,
+            "3": 0.125
+          },
+          "kruskal_h": 4.180798831800058,
+          "kruskal_p": 0.2425913307873643
+        },
+        "minimum_size_feasible": true,
+        "bootstrap_feasible": false,
+        "feasible": false
+      }
+    }
+  },
+  "t2d_oral_non_insulin": {
+    "status": "primary",
+    "selected_k": 3,
+    "reasoning": [
+      "Feasible candidates: [2, 3, 4]. Within silhouette tolerance of best (0.1857): [2, 3].",
+      "Gap-statistic one-standard-error rule retains: [3].",
+      "Highest bootstrap stability (0.7495) among remaining candidates: [3]. Smaller-k tiebreak selects k=3."
+    ],
+    "candidates": {
+      "2": {
+        "canonical_stratum": "t2d_oral_non_insulin",
+        "k": 2,
+        "train_n": 325,
+        "log_transformed_factors": [
+          "hba1c_percent_baseline",
+          "c_peptide_ngml_baseline",
+          "tg_hdl_ratio"
+        ],
+        "cluster_sizes": [
+          185,
+          140
+        ],
+        "smallest_cluster_n": 140,
+        "smallest_cluster_fraction": 0.4307692307692308,
+        "silhouette": 0.18186246216114638,
+        "gap_statistic": 1.0230957967170342,
+        "gap_standard_error": 0.025896999005094474,
+        "log_within_cluster_ss": 7.362057234494727,
+        "within_cluster_ss": 1575.0338353919444,
+        "bootstrap_n": 1000,
+        "bootstrap_mean_ari": 0.6787439273427738,
+        "bootstrap_median_ari": 0.7150266369408569,
+        "bootstrap_std_ari": 0.1923618089477044,
+        "bootstrap_ci_low": 0.3358096772494492,
+        "bootstrap_ci_high": 0.9392001477330879,
+        "cluster_size_stability_mean_fraction": [
+          0.5500523076923071,
+          0.44994769230769327
+        ],
+        "cluster_size_stability_std_fraction": [
+          0.03808503931114897,
+          0.03808503931114897
+        ],
+        "centroid_stability_mean_distance": [
+          0.31379136905515687,
+          0.3890557363013215
+        ],
+        "centroid_stability_std_distance": [
+          0.17441890752518996,
+          0.20515962514777106
+        ],
+        "initialization_sensitivity": {
+          "mean_ari_vs_reference": 0.7315083470460223,
+          "std_ari_vs_reference": 0.23673527743601322,
+          "min_ari_vs_reference": 0.029667485434284675,
+          "n_restarts": 50
+        },
+        "site_association": {
+          "cramers_v": 0.15712611873465596,
+          "p_value": 0.018098969190190953,
+          "strong": false
+        },
+        "missingness_association": {
+          "applicable": true,
+          "mean_missing_factors_by_cluster": {
+            "0": 0.07567567567567568,
+            "1": 0.32142857142857145
+          },
+          "kruskal_h": 6.289131342648583,
+          "kruskal_p": 0.012148057467101016
+        },
+        "minimum_size_feasible": true,
+        "bootstrap_feasible": true,
+        "feasible": true
+      },
+      "3": {
+        "canonical_stratum": "t2d_oral_non_insulin",
+        "k": 3,
+        "train_n": 325,
+        "log_transformed_factors": [
+          "hba1c_percent_baseline",
+          "c_peptide_ngml_baseline",
+          "tg_hdl_ratio"
+        ],
+        "cluster_sizes": [
+          69,
+          110,
+          146
+        ],
+        "smallest_cluster_n": 69,
+        "smallest_cluster_fraction": 0.2123076923076923,
+        "silhouette": 0.18569776781579386,
+        "gap_statistic": 1.0520762969649642,
+        "gap_standard_error": 0.020417575419842324,
+        "log_within_cluster_ss": 7.20454792359469,
+        "within_cluster_ss": 1345.5362663257597,
+        "bootstrap_n": 1000,
+        "bootstrap_mean_ari": 0.7495397723072565,
+        "bootstrap_median_ari": 0.7838769154452013,
+        "bootstrap_std_ari": 0.12562074320221425,
+        "bootstrap_ci_low": 0.502408680420226,
+        "bootstrap_ci_high": 0.9319485895640599,
+        "cluster_size_stability_mean_fraction": [
+          0.22526153846153887,
+          0.34394769230769223,
+          0.4307907692307692
+        ],
+        "cluster_size_stability_std_fraction": [
+          0.029536866952159763,
+          0.03852999664046822,
+          0.04179107511237065
+        ],
+        "centroid_stability_mean_distance": [
+          0.5348913707541677,
+          0.3445070482318415,
+          0.2792867789407639
+        ],
+        "centroid_stability_std_distance": [
+          0.23511162085135617,
+          0.1426610281910071,
+          0.1524085801051736
+        ],
+        "initialization_sensitivity": {
+          "mean_ari_vs_reference": 0.8727233130076867,
+          "std_ari_vs_reference": 0.1355669315969218,
+          "min_ari_vs_reference": 0.2741817339042581,
+          "n_restarts": 50
+        },
+        "site_association": {
+          "cramers_v": 0.11963604969007748,
+          "p_value": 0.05394951830443489,
+          "strong": false
+        },
+        "missingness_association": {
+          "applicable": true,
+          "mean_missing_factors_by_cluster": {
+            "0": 0.30434782608695654,
+            "1": 0.2545454545454545,
+            "2": 0.0684931506849315
+          },
+          "kruskal_h": 4.823596277528192,
+          "kruskal_p": 0.08965393932250913
+        },
+        "minimum_size_feasible": true,
+        "bootstrap_feasible": true,
+        "feasible": true
+      },
+      "4": {
+        "canonical_stratum": "t2d_oral_non_insulin",
+        "k": 4,
+        "train_n": 325,
+        "log_transformed_factors": [
+          "hba1c_percent_baseline",
+          "c_peptide_ngml_baseline",
+          "tg_hdl_ratio"
+        ],
+        "cluster_sizes": [
+          101,
+          85,
+          60,
+          79
+        ],
+        "smallest_cluster_n": 60,
+        "smallest_cluster_fraction": 0.18461538461538463,
+        "silhouette": 0.15461327856188153,
+        "gap_statistic": 1.0572607855432414,
+        "gap_standard_error": 0.02138255717294209,
+        "log_within_cluster_ss": 7.1041536348332786,
+        "within_cluster_ss": 1217.0131579845201,
+        "bootstrap_n": 1000,
+        "bootstrap_mean_ari": 0.6526173895753092,
+        "bootstrap_median_ari": 0.6750162921487171,
+        "bootstrap_std_ari": 0.15350570426017862,
+        "bootstrap_ci_low": 0.3663259482934753,
+        "bootstrap_ci_high": 0.9012347396095066,
+        "cluster_size_stability_mean_fraction": [
+          0.29467076923076907,
+          0.27389538461538465,
+          0.1932676923076923,
+          0.23816615384615392
+        ],
+        "cluster_size_stability_std_fraction": [
+          0.05534354850943377,
+          0.04010939710987422,
+          0.01968980888126859,
+          0.06907954936414512
+        ],
+        "centroid_stability_mean_distance": [
+          0.48890847322702663,
+          0.39837724805202035,
+          0.5615489452621177,
+          0.8037155754424435
+        ],
+        "centroid_stability_std_distance": [
+          0.2897334710053564,
+          0.237703746338898,
+          0.2576876596126442,
+          0.6697810121608293
+        ],
+        "initialization_sensitivity": {
+          "mean_ari_vs_reference": 0.7613893950934031,
+          "std_ari_vs_reference": 0.21500192807735335,
+          "min_ari_vs_reference": 0.3746611037428148,
+          "n_restarts": 50
+        },
+        "site_association": {
+          "cramers_v": 0.11432601523097635,
+          "p_value": 0.20398276775973878,
+          "strong": false
+        },
+        "missingness_association": {
+          "applicable": true,
+          "mean_missing_factors_by_cluster": {
+            "0": 0.07920792079207921,
+            "1": 0.32941176470588235,
+            "2": 0.35,
+            "3": 0.02531645569620253
+          },
+          "kruskal_h": 10.364450740537444,
+          "kruskal_p": 0.015709169648287398
+        },
+        "minimum_size_feasible": true,
+        "bootstrap_feasible": true,
+        "feasible": true
+      }
+    }
+  },
+  "insulin_dependent": {
+    "status": "exploratory",
+    "selected_k": 3,
+    "reasoning": [
+      "No candidate satisfies the full feasibility criteria (minimum cluster size, minimum cluster fraction, minimum bootstrap ARI).",
+      "Among candidates clearing the minimum cluster-size floor [2, 3], the most stable (highest bootstrap ARI=0.4427) is retained as an exploratory, nonviable candidate: k=3. Subtype marked near_continuum_or_underpowered: no k reaches the preregistered stability bar, so this partition is exploratory only and excluded from headline pooled conclusions."
+    ],
+    "candidates": {
+      "2": {
+        "canonical_stratum": "insulin_dependent",
+        "k": 2,
+        "train_n": 116,
+        "log_transformed_factors": [
+          "hba1c_percent_baseline",
+          "c_peptide_ngml_baseline",
+          "tg_hdl_ratio"
+        ],
+        "cluster_sizes": [
+          52,
+          64
+        ],
+        "smallest_cluster_n": 52,
+        "smallest_cluster_fraction": 0.4482758620689655,
+        "silhouette": 0.16543781675952623,
+        "gap_statistic": 1.0127688237306387,
+        "gap_standard_error": 0.026999480336609063,
+        "log_within_cluster_ss": 6.344345585277196,
+        "within_cluster_ss": 569.2647325703989,
+        "bootstrap_n": 1000,
+        "bootstrap_mean_ari": 0.39265526296111114,
+        "bootstrap_median_ari": 0.4242621290504497,
+        "bootstrap_std_ari": 0.29938728957664085,
+        "bootstrap_ci_low": -0.004489595792102848,
+        "bootstrap_ci_high": 0.8983510804870201,
+        "cluster_size_stability_mean_fraction": [
+          0.5618103448275852,
+          0.43818965517241526
+        ],
+        "cluster_size_stability_std_fraction": [
+          0.12157801011816326,
+          0.12157801011816323
+        ],
+        "centroid_stability_mean_distance": [
+          0.6921394760492082,
+          0.8010004796413744
+        ],
+        "centroid_stability_std_distance": [
+          0.3713877010179591,
+          0.5049502216296908
+        ],
+        "initialization_sensitivity": {
+          "mean_ari_vs_reference": 0.5224350372703622,
+          "std_ari_vs_reference": 0.37545779044652927,
+          "min_ari_vs_reference": -0.004132512346636056,
+          "n_restarts": 50
+        },
+        "site_association": {
+          "cramers_v": 0.03601206159474958,
+          "p_value": 0.9275409099990003,
+          "strong": false
+        },
+        "missingness_association": {
+          "applicable": true,
+          "mean_missing_factors_by_cluster": {
+            "0": 0.15384615384615385,
+            "1": 0.21875
+          },
+          "kruskal_h": 0.005159386628466466,
+          "kruskal_p": 0.9427380968684881
+        },
+        "minimum_size_feasible": true,
+        "bootstrap_feasible": false,
+        "feasible": false
+      },
+      "3": {
+        "canonical_stratum": "insulin_dependent",
+        "k": 3,
+        "train_n": 116,
+        "log_transformed_factors": [
+          "hba1c_percent_baseline",
+          "c_peptide_ngml_baseline",
+          "tg_hdl_ratio"
+        ],
+        "cluster_sizes": [
+          39,
+          55,
+          22
+        ],
+        "smallest_cluster_n": 22,
+        "smallest_cluster_fraction": 0.1896551724137931,
+        "silhouette": 0.1700196872148325,
+        "gap_statistic": 1.018455300597398,
+        "gap_standard_error": 0.03938837299541539,
+        "log_within_cluster_ss": 6.194966845054769,
+        "within_cluster_ss": 490.27518968148553,
+        "bootstrap_n": 1000,
+        "bootstrap_mean_ari": 0.4427383942428055,
+        "bootstrap_median_ari": 0.4371003442823589,
+        "bootstrap_std_ari": 0.17372124374730966,
+        "bootstrap_ci_low": 0.17036335819672388,
+        "bootstrap_ci_high": 0.788741895547516,
+        "cluster_size_stability_mean_fraction": [
+          0.3703189655172422,
+          0.3978793103448271,
+          0.2318017241379316
+        ],
+        "cluster_size_stability_std_fraction": [
+          0.087407142402814,
+          0.09117500833521931,
+          0.06158559069921547
+        ],
+        "centroid_stability_mean_distance": [
+          0.6798423871016679,
+          0.7548431969455892,
+          1.194550390087771
+        ],
+        "centroid_stability_std_distance": [
+          0.3953535137656316,
+          0.34840312993440153,
+          0.5522613382984604
+        ],
+        "initialization_sensitivity": {
+          "mean_ari_vs_reference": 0.502553485164315,
+          "std_ari_vs_reference": 0.24742585084018728,
+          "min_ari_vs_reference": 0.1609410407314795,
+          "n_restarts": 50
+        },
+        "site_association": {
+          "cramers_v": 0.12240565731905535,
+          "p_value": 0.48152327060695443,
+          "strong": false
+        },
+        "missingness_association": {
+          "applicable": true,
+          "mean_missing_factors_by_cluster": {
+            "0": 0.1282051282051282,
+            "1": 0.2545454545454545,
+            "2": 0.13636363636363635
+          },
+          "kruskal_h": 0.45841494633456736,
+          "kruskal_p": 0.7951635412915371
+        },
+        "minimum_size_feasible": true,
+        "bootstrap_feasible": false,
+        "feasible": false
+      },
+      "4": {
+        "canonical_stratum": "insulin_dependent",
+        "k": 4,
+        "train_n": 116,
+        "log_transformed_factors": [
+          "hba1c_percent_baseline",
+          "c_peptide_ngml_baseline",
+          "tg_hdl_ratio"
+        ],
+        "cluster_sizes": [
+          15,
+          44,
+          14,
+          43
+        ],
+        "smallest_cluster_n": 14,
+        "smallest_cluster_fraction": 0.1206896551724138,
+        "silhouette": 0.1861478361987325,
+        "gap_statistic": 0.9839243480133417,
+        "gap_standard_error": 0.035922942245609726,
+        "log_within_cluster_ss": 6.083589490134274,
+        "within_cluster_ss": 439.6563567589742,
+        "bootstrap_n": 1000,
+        "bootstrap_mean_ari": 0.49434561012357675,
+        "bootstrap_median_ari": 0.4770414893811774,
+        "bootstrap_std_ari": 0.1676699713631025,
+        "bootstrap_ci_low": 0.20623243701000427,
+        "bootstrap_ci_high": 0.826266139583981,
+        "cluster_size_stability_mean_fraction": [
+          0.16926724137931023,
+          0.3409224137931047,
+          0.15424137931034504,
+          0.3355689655172417
+        ],
+        "cluster_size_stability_std_fraction": [
+          0.06070420106368804,
+          0.06694235628090038,
+          0.07948132868661993,
+          0.0744155982327149
+        ],
+        "centroid_stability_mean_distance": [
+          1.455311825937772,
+          0.580418556915872,
+          1.7249835549668595,
+          0.7248089516534868
+        ],
+        "centroid_stability_std_distance": [
+          0.767523849927191,
+          0.2695193386570557,
+          1.0379278717803528,
+          0.3535386530522148
+        ],
+        "initialization_sensitivity": {
+          "mean_ari_vs_reference": 0.4796102618070068,
+          "std_ari_vs_reference": 0.16642004014549683,
+          "min_ari_vs_reference": 0.14973766513597822,
+          "n_restarts": 50
+        },
+        "site_association": {
+          "cramers_v": 0.14944238580913166,
+          "p_value": 0.5207841241758944,
+          "strong": false
+        },
+        "missingness_association": {
+          "applicable": true,
+          "mean_missing_factors_by_cluster": {
+            "0": 0.0,
+            "1": 0.18181818181818182,
+            "2": 0.0,
+            "3": 0.32558139534883723
+          },
+          "kruskal_h": 3.464489943826949,
+          "kruskal_p": 0.32539694382043893
+        },
+        "minimum_size_feasible": false,
+        "bootstrap_feasible": false,
+        "feasible": false
+      }
+    }
+  }
+}

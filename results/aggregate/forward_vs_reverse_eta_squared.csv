@@ -1,0 +1,13 @@
+direction,window,variable,hba1c_flag,eta_squared,ci_low,ci_high,n
+forward: CGM metric across C1/C2/C3,window_48h,mean_glucose,False,0.0678742344805947,0.0288665801517131,0.1201467540524303,458
+forward: CGM metric across C1/C2/C3,window_48h,time_in_range_pct,False,0.0636955456347986,0.0253548938060636,0.1162322538761714,458
+forward: CGM metric across C1/C2/C3,window_48h,coefficient_of_variation_pct,False,0.0415491872432779,0.0145500781682218,0.0867631247553041,458
+forward: CGM metric across C1/C2/C3,window_full,mean_glucose,False,0.0570234500103352,0.0205651278104586,0.1090295346958115,458
+forward: CGM metric across C1/C2/C3,window_full,time_in_range_pct,False,0.0783775386187296,0.0382416358573956,0.1330281859953222,458
+forward: CGM metric across C1/C2/C3,window_full,coefficient_of_variation_pct,False,0.0518804940453909,0.0226932140359955,0.0997927036420872,458
+"reverse: clinical variable across G1/G2/G3 (extended, full record)",window_full,participants_age,False,0.061242623608154294,0.02425903219409967,0.11299420326788676,458
+"reverse: clinical variable across G1/G2/G3 (extended, full record)",window_full,bmi_baseline,False,0.02035539111772158,0.0014074746675825122,0.05998096761095586,458
+"reverse: clinical variable across G1/G2/G3 (extended, full record)",window_full,hba1c_percent_baseline,True,0.42178077089834876,0.34259237808663895,0.4968488841558128,428
+"reverse: clinical variable across G1/G2/G3 (extended, full record)",window_full,c_peptide_ngml_baseline,False,0.0019250670912424241,0.0,0.029294144404449624,433
+"reverse: clinical variable across G1/G2/G3 (extended, full record)",window_full,tg_hdl_ratio,False,0.024849447963277208,0.003680873058236823,0.06860653284186566,435
+"reverse: clinical variable across G1/G2/G3 (extended, full record)",window_full,waist_to_hip_ratio_baseline,False,0.02778606627304323,0.004454466585730864,0.06921574943761886,457

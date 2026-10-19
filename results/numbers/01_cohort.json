@@ -1,0 +1,61 @@
+{
+  "glp1_percent_by_profile": {
+    "C1": 32.29166666666667,
+    "C2": 56.75675675675676,
+    "C3": 34.193548387096776
+  },
+  "healthy_complete_case_n": 538,
+  "k": {
+    "healthy": 2,
+    "insulin_dependent": 3,
+    "pre_diabetes": 2,
+    "t2d_oral_non_insulin": 3
+  },
+  "kmeans_n_init": 100,
+  "masked_cells": 56,
+  "masked_cells_recoverable": 0,
+  "n_cohort": 1591,
+  "n_parquet": 1892,
+  "profile_counts": {
+    "healthy": {
+      "1": 325,
+      "2": 213
+    },
+    "insulin_dependent": {
+      "1": 53,
+      "2": 79,
+      "3": 32
+    },
+    "pre_diabetes": {
+      "1": 184,
+      "2": 221
+    },
+    "t2d_oral_non_insulin": {
+      "1": 192,
+      "2": 111,
+      "3": 155
+    }
+  },
+  "refit_centroid_max_abs_difference": {
+    "healthy": 0.0,
+    "insulin_dependent": 0.0,
+    "pre_diabetes": 0.0,
+    "t2d_oral_non_insulin": 0.0
+  },
+  "runtime_s": 15.5,
+  "stratum_n": {
+    "healthy": 564,
+    "insulin_dependent": 164,
+    "pre_diabetes": 405,
+    "t2d_oral_non_insulin": 458
+  },
+  "t2d_assigned_frozen_n": 133,
+  "t2d_n": 458,
+  "t2d_train_n": 325,
+  "table1_missing": {
+    "C-peptide, ng/mL": 25,
+    "HbA1c, %": 30,
+    "Triglyceride-to-HDL ratio (mg/dL)": 23,
+    "Waist-to-hip ratio": 1
+  }
+}

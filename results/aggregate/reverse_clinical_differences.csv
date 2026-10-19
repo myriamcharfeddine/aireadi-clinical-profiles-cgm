@@ -1,0 +1,91 @@
+partition,role,k,factor,hba1c_flag,subset,n,eta_squared,ci_low,ci_high,p_value
+kmeans3_extended_window_full,primary,3,participants_age,False,all,458,0.061242623608154294,0.02425903219409967,0.11299420326788676,3.2719913663902046e-07
+kmeans3_extended_window_full,primary,3,participants_age,False,train only,325,0.06462339869895754,,,1.1146698634056344e-05
+kmeans3_extended_window_full,primary,3,participants_age,False,validation and test only,133,0.0388175565529061,,,0.029506604010167508
+kmeans3_extended_window_full,primary,3,bmi_baseline,False,all,458,0.02035539111772158,0.0014074746675825122,0.05998096761095586,0.0035855210303099017
+kmeans3_extended_window_full,primary,3,bmi_baseline,False,train only,325,0.02047975692032234,,,0.01360604820461096
+kmeans3_extended_window_full,primary,3,bmi_baseline,False,validation and test only,133,0.0035165498705872814,,,0.2927091744436351
+kmeans3_extended_window_full,primary,3,hba1c_percent_baseline,True,all,428,0.42178077089834876,0.34259237808663895,0.4968488841558128,4.370991642575319e-40
+kmeans3_extended_window_full,primary,3,hba1c_percent_baseline,True,train only,302,0.38205303813463115,,,5.756232706503099e-26
+kmeans3_extended_window_full,primary,3,hba1c_percent_baseline,True,validation and test only,126,0.5010241807450353,,,1.52684602487051e-14
+kmeans3_extended_window_full,primary,3,c_peptide_ngml_baseline,False,all,433,0.0019250670912424241,0.0,0.029294144404449624,0.2431955505198979
+kmeans3_extended_window_full,primary,3,c_peptide_ngml_baseline,False,train only,307,0.0,,,0.38923581754088993
+kmeans3_extended_window_full,primary,3,c_peptide_ngml_baseline,False,validation and test only,126,0.0,,,0.6240038491790476
+kmeans3_extended_window_full,primary,3,tg_hdl_ratio,False,all,435,0.024849447963277208,0.003680873058236823,0.06860653284186566,0.0017164780031911292
+kmeans3_extended_window_full,primary,3,tg_hdl_ratio,False,train only,308,0.005546787126510421,,,0.15788552453804267
+kmeans3_extended_window_full,primary,3,tg_hdl_ratio,False,validation and test only,127,0.08219106886099264,,,0.0022522033632573764
+kmeans3_extended_window_full,primary,3,waist_to_hip_ratio_baseline,False,all,457,0.02778606627304323,0.004454466585730864,0.06921574943761886,0.000670533399282812
+kmeans3_extended_window_full,primary,3,waist_to_hip_ratio_baseline,False,train only,324,0.03893655729370873,,,0.0007106592869336634
+kmeans3_extended_window_full,primary,3,waist_to_hip_ratio_baseline,False,validation and test only,133,0.0,,,0.5460389929963388
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,participants_age,False,all,458,0.03122691255198764,0.005705496081553347,0.07024862470215104,9.47031840224661e-05
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,participants_age,False,train only,325,0.019401795052216196,,,0.007024162717654944
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,participants_age,False,validation and test only,133,0.05994752361866593,,,0.002925874268889713
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,bmi_baseline,False,all,458,0.01138891547007734,0.0,0.04033231946292883,0.012823154991765784
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,bmi_baseline,False,train only,325,0.006106866243593779,,,0.08468994983035373
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,bmi_baseline,False,validation and test only,133,0.01528152482581977,,,0.08316797023033941
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,hba1c_percent_baseline,True,all,428,0.3188771156978258,0.23925298331354689,0.4009146841106661,1.3059488777715466e-31
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,hba1c_percent_baseline,True,train only,302,0.3038434189074412,,,8.022666318292495e-22
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,hba1c_percent_baseline,True,validation and test only,126,0.3568528765625087,,,1.7344208497858573e-11
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,c_peptide_ngml_baseline,False,all,433,0.0,0.0,0.013728051527241996,0.5220023996710477
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,c_peptide_ngml_baseline,False,train only,307,0.0,,,0.6404177746958643
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,c_peptide_ngml_baseline,False,validation and test only,126,0.0,,,0.5982990744355916
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,tg_hdl_ratio,False,all,435,0.0,0.0,0.011031508451062263,0.663341723592901
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,tg_hdl_ratio,False,train only,308,0.00017217525396539437,,,0.30488937250864756
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,tg_hdl_ratio,False,validation and test only,127,0.038459794902183604,,,0.01595819704367778
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,waist_to_hip_ratio_baseline,False,all,457,0.01884990081520182,0.0009822684949616616,0.05383882295204299,0.0019706177190596886
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,waist_to_hip_ratio_baseline,False,train only,324,0.022724964208045186,,,0.003926625417794919
+kmeans_silk2_extended_window_full,"sensitivity, k = 2 (silhouette optimum)",2,waist_to_hip_ratio_baseline,False,validation and test only,133,0.0030153588264586685,,,0.2375605119349476
+kmeans3_extended_window_48h,secondary,3,participants_age,False,all,458,0.05594683257698995,0.02162132158187705,0.10910428304074477,1.0915581235854604e-06
+kmeans3_extended_window_48h,secondary,3,participants_age,False,train only,325,0.05901659575337206,,,2.749044917636571e-05
+kmeans3_extended_window_48h,secondary,3,participants_age,False,validation and test only,133,0.03794442303686723,,,0.03122964430140671
+kmeans3_extended_window_48h,secondary,3,bmi_baseline,False,all,458,0.008434912101543826,0.0,0.04002469163808368,0.05399075217506193
+kmeans3_extended_window_48h,secondary,3,bmi_baseline,False,train only,325,0.00017099338144329783,,,0.35788988116397424
+kmeans3_extended_window_48h,secondary,3,bmi_baseline,False,validation and test only,133,0.02735605641273607,,,0.06215377847423261
+kmeans3_extended_window_48h,secondary,3,hba1c_percent_baseline,True,all,428,0.3809630149118724,0.3038888588824395,0.461243316019887,2.555946688779503e-36
+kmeans3_extended_window_48h,secondary,3,hba1c_percent_baseline,True,train only,302,0.3350919590475607,,,6.44438533654513e-23
+kmeans3_extended_window_48h,secondary,3,hba1c_percent_baseline,True,validation and test only,126,0.477492248911879,,,6.491009034081094e-14
+kmeans3_extended_window_48h,secondary,3,c_peptide_ngml_baseline,False,all,433,0.005761352018766078,0.0,0.036244198628052296,0.10659798348986516
+kmeans3_extended_window_48h,secondary,3,c_peptide_ngml_baseline,False,train only,307,0.004540403698228475,,,0.18449344176347987
+kmeans3_extended_window_48h,secondary,3,c_peptide_ngml_baseline,False,validation and test only,126,0.0,,,0.4783270647012695
+kmeans3_extended_window_48h,secondary,3,tg_hdl_ratio,False,all,435,0.02377130208056513,0.002420488520796854,0.06635935038363132,0.0021665889743105867
+kmeans3_extended_window_48h,secondary,3,tg_hdl_ratio,False,train only,308,0.002889794205281463,,,0.236763478705714
+kmeans3_extended_window_48h,secondary,3,tg_hdl_ratio,False,validation and test only,127,0.0932982251809431,,,0.0011311845044800041
+kmeans3_extended_window_48h,secondary,3,waist_to_hip_ratio_baseline,False,all,457,0.04474765378602365,0.015940202146862925,0.09403609361008292,1.4264774099414827e-05
+kmeans3_extended_window_48h,secondary,3,waist_to_hip_ratio_baseline,False,train only,324,0.06701641097498777,,,7.841080129391483e-06
+kmeans3_extended_window_48h,secondary,3,waist_to_hip_ratio_baseline,False,validation and test only,133,0.002646461653624482,,,0.3097406305100239
+kmeans3_minimal_window_full,secondary,3,participants_age,False,all,458,0.0444628187266475,0.014355761723850046,0.09276723419360755,1.4882995172922167e-05
+kmeans3_minimal_window_full,secondary,3,participants_age,False,train only,325,0.03465146943344587,,,0.0013893954162667941
+kmeans3_minimal_window_full,secondary,3,participants_age,False,validation and test only,133,0.05874084076251131,,,0.008081686931711235
+kmeans3_minimal_window_full,secondary,3,bmi_baseline,False,all,458,0.007353594994551563,0.0,0.038145403634068945,0.06904872520143963
+kmeans3_minimal_window_full,secondary,3,bmi_baseline,False,train only,325,0.0015581861307403906,,,0.2862562280274603
+kmeans3_minimal_window_full,secondary,3,bmi_baseline,False,validation and test only,133,0.014692008039673965,,,0.1415672340319253
+kmeans3_minimal_window_full,secondary,3,hba1c_percent_baseline,True,all,428,0.3687356538930335,0.29800690762925175,0.44637882719675687,3.435463333217497e-35
+kmeans3_minimal_window_full,secondary,3,hba1c_percent_baseline,True,train only,302,0.3344233912137936,,,7.121797506936504e-23
+kmeans3_minimal_window_full,secondary,3,hba1c_percent_baseline,True,validation and test only,126,0.441321697367081,,,6.003375058610244e-13
+kmeans3_minimal_window_full,secondary,3,c_peptide_ngml_baseline,False,all,433,0.0023637762050034055,0.0,0.029768184628864634,0.22130534398359505
+kmeans3_minimal_window_full,secondary,3,c_peptide_ngml_baseline,False,train only,307,0.004290238051910647,,,0.19164392541703967
+kmeans3_minimal_window_full,secondary,3,c_peptide_ngml_baseline,False,validation and test only,126,0.0,,,0.7230521279835511
+kmeans3_minimal_window_full,secondary,3,tg_hdl_ratio,False,all,435,0.022625076407121667,0.0029507637631611583,0.062313111819363595,0.0027752442880230655
+kmeans3_minimal_window_full,secondary,3,tg_hdl_ratio,False,train only,308,0.028825684030413204,,,0.00453506068222979
+kmeans3_minimal_window_full,secondary,3,tg_hdl_ratio,False,validation and test only,127,0.04314985573747485,,,0.025342028506775152
+kmeans3_minimal_window_full,secondary,3,waist_to_hip_ratio_baseline,False,all,457,0.03671162713474264,0.011301482089622618,0.08297719037292209,8.840877225531683e-05
+kmeans3_minimal_window_full,secondary,3,waist_to_hip_ratio_baseline,False,train only,324,0.04742304982844585,,,0.00018201899695416066
+kmeans3_minimal_window_full,secondary,3,waist_to_hip_ratio_baseline,False,validation and test only,133,0.01821038882511026,,,0.1126268346110352
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,participants_age,False,all,458,0.04794628730896388,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,participants_age,False,train only,325,0.029458976713934378,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,participants_age,False,validation and test only,133,0.09128291693383117,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,bmi_baseline,False,all,458,0.012902495086267323,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,bmi_baseline,False,train only,325,0.0010916655049208264,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,bmi_baseline,False,validation and test only,133,0.02999130478473743,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,hba1c_percent_baseline,True,all,428,0.2937807680541181,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,hba1c_percent_baseline,True,train only,302,0.23973461622037281,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,hba1c_percent_baseline,True,validation and test only,126,0.4093888355352349,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,c_peptide_ngml_baseline,False,all,433,0.0,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,c_peptide_ngml_baseline,False,train only,307,0.0071989193122354534,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,c_peptide_ngml_baseline,False,validation and test only,126,0.008509675220921692,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,tg_hdl_ratio,False,all,435,0.0,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,tg_hdl_ratio,False,train only,308,0.004757033406552376,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,tg_hdl_ratio,False,validation and test only,127,0.04663005569971337,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,waist_to_hip_ratio_baseline,False,all,457,0.020108050248232794,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,waist_to_hip_ratio_baseline,False,train only,324,0.03301608437579159,,,
+kmeans3_minimal_window_48h,"secondary, small cluster, descriptive only",3,waist_to_hip_ratio_baseline,False,validation and test only,133,0.0,,,

@@ -1,0 +1,41 @@
+{
+  "canonical_stratum": "pre_diabetes",
+  "selected_k": 2,
+  "factors": [
+    "participants_age",
+    "bmi_baseline",
+    "hba1c_percent_baseline",
+    "c_peptide_ngml_baseline",
+    "tg_hdl_ratio",
+    "waist_to_hip_ratio_baseline"
+  ],
+  "log_transformed": [
+    "bmi_baseline",
+    "hba1c_percent_baseline",
+    "c_peptide_ngml_baseline",
+    "tg_hdl_ratio",
+    "waist_to_hip_ratio_baseline"
+  ],
+  "centroids_by_display_cluster": {
+    "2": [
+      -0.0982714958105384,
+      0.40242634560357754,
+      0.2243747490420334,
+      0.642425826008676,
+      0.5655109306253884,
+      0.3233373397021137
+    ],
+    "1": [
+      0.1228393697631732,
+      -0.5030329320044713,
+      -0.28046843630253226,
+      -0.8030322825108442,
+      -0.7068886632817357,
+      -0.40417167462764025
+    ]
+  },
+  "kmeans_original_to_display_map": {
+    "1": 1,
+    "0": 2
+  }
+}
