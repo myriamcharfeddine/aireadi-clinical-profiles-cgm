@@ -24,6 +24,10 @@ Columns: new file, then the record file(s) it was ported from, the record commit
 | `plotting/fig_reverse.py` | `reverse_direction/plot_reverse_figure.py` | ffefb30 | 58a096fdec1a |
 | `plotting/fig_strata.py` | `strata/plot_strata_figure.py` | 2ba9f4d | fe99b3ed9a0c |
 | `plotting/fig_temporal.py` | `temporal/plot_temporal_summary_v2.py` | 3706911 | 6805774e3662 |
+| `plotting/print_style.py` | `01_raw_cgm_differences/code/scripts/paper1_figure_style.py` | f2b7a8f | ce14382494f9 |
+| `plotting/print_forward.py` | `01_raw_cgm_differences/code/scripts/plot_fig1_raw_profiles_paper.py` | f2b7a8f | 4bfeca000ea1 |
+| `plotting/print_reverse.py` | `01_raw_cgm_differences/reverse_direction/plot_fig2_paper.py` | ffefb30 | ac5c55603e23 |
+| `plotting/print_strata.py` | `01_raw_cgm_differences/strata/plot_fig3_paper.py` | f2b7a8f | b248596e0017 |
 
 ## Analyses
 

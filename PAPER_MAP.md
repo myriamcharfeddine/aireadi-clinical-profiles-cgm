@@ -16,8 +16,13 @@ Each manuscript item, the script that produces it and the tracked output that ho
 | Fig 2 D | `04` (pooled cohort); combined with A to C by `06` | same file |
 | Fig 3 | `04` (other strata), `02` and `03` (non-insulin T2D reference); drawn by `06` | `results/figures/fig3_strata.{pdf,png}` |
 | Supplementary Fig S1 | `05` (temporal), `03` (refit-stability reference line); drawn by `06` | `results/figures/figS1_temporal.{pdf,png}` |
+| Fig 1, print version | same values as Fig 1; drawn by `06` | `results/figures/print/fig1_forward_print.{pdf,png}` |
+| Fig 2, print version | same values as Fig 2 (A to C from `03`, D from `04`); drawn by `06` | `results/figures/print/fig2_reverse_print.{pdf,png}` |
+| Fig 3, print version | same values as Fig 3; drawn by `06` | `results/figures/print/fig3_strata_print.{pdf,png}` |
 
-Each figure has a `_plotted.json` file next to it holding the plotted values. `tests/test_figures.py` checks those values against the source tables.
+Each figure has a `_plotted.json` file next to it holding the plotted values. `tests/test_figures.py` checks those values against the source tables. It also checks that each print version shows exactly the same values as its manuscript version.
+
+The print versions are the newer 16 cm, 8 pt redraws of Figures 1 to 3, ported from the record's `paper1_overleaf/figures/`. They contain no new numbers, so either version can go into the manuscript. Supplementary Fig S1 already uses the print style.
 
 ## Numbers quoted in the text
 

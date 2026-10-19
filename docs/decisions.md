@@ -41,6 +41,12 @@ Dated decisions that shape the analyses. The full pre-registered designs are in 
 - The canonical figures are the three in the manuscript, drawn from the same data and layout as `plot_phase0_raw_t2d_main_figure.py`, `plot_reverse_figure.py` and `plot_strata_figure.py`.
 - Fig S1 is the temporal v2 three-panel design.
 - The print redraws (`fig1_forward_cgm_by_profile`, `fig2_correspondence`, `figS_reverse_supplement`, `fig3_strata_summary`, `plot_fig2_paper`) stay in the record repository only.
+- **Updated 2026-10-19, after publication.** Each results section also gets the newer print version of its figure, as in the record's `paper1_overleaf/figures/`:
+  - `fig1_forward_print` (from `plot_fig1_raw_profiles_paper.py`);
+  - `fig2_reverse_print` (from `plot_fig2_paper.py`);
+  - `fig3_strata_print` (from `plot_fig3_paper.py`).
+
+  They are written to `results/figures/print/` by `analyses/06_figures_and_tables.py`, from the same saved outputs as the manuscript figures. `fig2_correspondence` and `figS_reverse_supplement` still stay in the record only.
 
 **D2. Tables.**
 - Table 1 uses the manuscript's format:
@@ -121,3 +127,20 @@ Data, panel layout, axes, marker shapes and every number are unchanged. Only lab
 | Fig 3 | Stratum labels | "T2D oral", "Insulin-treated" | "Non-insulin T2D", "Insulin-treated T2D" |
 | Fig 3C | Group labels, title, band note | "T2D centroids", "T2D oral (own profiles)", "largest in T2D", "half the T2D difference" | "non-insulin T2D" in running text and "Non-insulin T2D (own profiles)" as a label, with the long group labels wrapped onto two lines |
 | Fig S1 | Window-agreement row and full-record point | navy (C1 colour) | dark grey `#1A1A1A` |
+
+## Visual changes in the print versions (from the record's `paper1_overleaf/figures/`)
+
+Data, layout, axis ranges and marker shapes are unchanged. Only labels and colours changed.
+
+| Figure | Element | Record print version | Here |
+|---|---|---|---|
+| Fig 1 print | none | profile colours C1 to C3 | unchanged |
+| Fig 2 print | Panel A heatmap | white to navy (C1 colour) | white to grey `#6E6E6E` |
+| Fig 2 print | Panel B: CGM outcomes, clinical variables | navy (C1), red (C3) | dark grey `#1A1A1A`, mid grey `#6E6E6E` |
+| Fig 2 print | Panel C: CGM, HbA1c + CGM | red (C3), navy (C1) | mid grey, dark grey (HbA1c stays grey `#888888`) |
+| Fig 2 print | Panel D series | red, teal (C2), navy; "Clinical profile within T2D" | dark grey, mid grey, non-insulin T2D green `#009E73`; "Clinical profile within non-insulin T2D" |
+| Fig 2 print | Panel C combined model | point read from a rounded note in the record | read from the stored estimate (identical to 4 decimals) |
+| Fig 3 print | Stratum colours | orange, purple, near-black, brown | Okabe-Ito: `#0072B2`, `#E69F00`, `#009E73`, `#CC79A7` |
+| Fig 3 print | Stratum labels | "T2D, non-insulin", "Insulin-treated" | "Non-insulin T2D", "Insulin-treated T2D" |
+
+**Figure style isolation.** Each figure now starts from matplotlib's defaults, so seaborn's style, which is set for the Fig 1 violins, no longer carries over to the figures drawn after it. Before this fix it added white gridlines to the Fig 2 heatmap. Without it, Figs 2 and 3 look as they did when the record drew each one in its own process.

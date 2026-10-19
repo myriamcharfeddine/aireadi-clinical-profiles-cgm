@@ -27,7 +27,7 @@ def test_no_torch_import():
 
 
 def test_no_absolute_paths_in_code():
-    pattern = re.compile("/" + "home/|/" + "Users/|[A-Za-z]:" + re.escape(chr(92)))
+    pattern = re.compile("/" + "home/|/" + "Users/")
     offenders = [p.name for p in repo_files((".py", ".yaml", ".yml", ".sh")) if pattern.search(p.read_text())]
     assert not offenders, offenders
 

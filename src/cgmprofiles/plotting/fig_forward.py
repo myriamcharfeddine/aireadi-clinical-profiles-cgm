@@ -79,8 +79,9 @@ def draw(metrics: pd.DataFrame, effects: pd.DataFrame, title: str) -> tuple[plt.
     metrics = metrics.assign(cluster_label=pd.Categorical(metrics.label.map(names), categories=[names[c] for c in sorted(names)], ordered=True))
     effect = {(r.window, r.metric): r.eta_squared for r in effects.itertuples()}
     limits = _limits(metrics)
-    sns.set_style("whitegrid")
     style.setup_base()
+    sns.set_style("whitegrid")
+    style.setup_base_fonts()
     fig, axes = plt.subplots(2, 3, figsize=(FIGURE_SIZE_MM[0] / 25.4, FIGURE_SIZE_MM[1] / 25.4), facecolor="white")
     fig.subplots_adjust(left=0.085, right=0.985, bottom=0.13, top=0.84, wspace=0.28, hspace=0.40)
     plotted = {}

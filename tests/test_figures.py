@@ -71,3 +71,38 @@ def test_labels_and_colours_follow_conventions():
     cfg = get_config().colors
     strata, profiles = set(cfg.strata.raw.values()), set(cfg.profiles.raw.values())
     assert len(strata) == 4 and not strata & profiles
+
+
+PRINT_STEMS = ["fig1_forward_print", "fig2_reverse_print", "fig3_strata_print"]
+
+
+def plotted_print(stem: str) -> dict:
+    path = results_dir("figures", "print") / f"{stem}_plotted.json"
+    if not path.exists():
+        pytest.skip("print figures not generated yet")
+    return json.loads(path.read_text())
+
+
+@pytest.mark.parametrize("stem", PRINT_STEMS)
+def test_print_figure_files_exist(stem):
+    plotted_print(stem)
+    for suffix in (".pdf", ".png"):
+        assert (results_dir("figures", "print") / f"{stem}{suffix}").stat().st_size > 10_000
+
+
+def test_print_figures_show_the_same_values_as_the_manuscript_figures():
+    main1, print1 = plotted("fig1_forward"), plotted_print("fig1_forward_print")
+    for key, panel in print1.items():
+        for c in ("C1", "C2", "C3"):
+            assert panel[c]["n"] == main1[key][c]["n"] and panel[c]["median"] == pytest.approx(main1[key][c]["median"], abs=1e-12)
+    main2, print2 = plotted("fig2_reverse"), plotted_print("fig2_reverse_print")
+    assert print2["A"]["counts"] == main2["A"]["counts"]
+    for metric in ("balanced_accuracy", "macro_auroc"):
+        assert print2["C"][metric]["cgm"] == pytest.approx(main2["C"][metric]["cgm"], abs=1e-12)
+        assert print2["C"][metric]["both"] == pytest.approx(main2["C"][metric]["both"], abs=1e-12)
+    assert print2["D"]["diagnostic stratum (4)"] == main2["D"]["diagnostic stratum (4)"]
+    main3, print3 = plotted("fig3_strata"), plotted_print("fig3_strata_print")
+    for key, value in print3["C"].items():
+        assert value == pytest.approx(main3["C"][key], abs=1e-12)
+    for key, value in print3["A"].items():
+        assert value == pytest.approx(main3["A"][key], abs=1e-12)

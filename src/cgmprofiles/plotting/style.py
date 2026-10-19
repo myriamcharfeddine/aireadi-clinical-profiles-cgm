@@ -57,7 +57,15 @@ MIN_FONT_PT_PRINT = 7.0
 
 
 def setup_base() -> None:
-    """rcParams of the original summary figures (Figs 1 to 3)."""
+    """rcParams of the original summary figures (Figs 1 to 3), starting from matplotlib defaults so that
+    no style (such as seaborn's, set for Fig 1) carries over from a figure drawn earlier."""
+    plt.rcdefaults()
+    plt.rcParams.update({"font.family": FONT_FAMILY, "font.sans-serif": FONT_STACK, "mathtext.fontset": MATHTEXT,
+                         "figure.facecolor": "white", "axes.facecolor": "white"})
+
+
+def setup_base_fonts() -> None:
+    """Font settings of setup_base without resetting other rcParams (applied after a seaborn style)."""
     plt.rcParams.update({"font.family": FONT_FAMILY, "font.sans-serif": FONT_STACK, "mathtext.fontset": MATHTEXT,
                          "figure.facecolor": "white", "axes.facecolor": "white"})
 

@@ -3,8 +3,9 @@
 Question: none; this script draws. Fig 2 combines analyses 03 (panels A to C) and 04 (panel D).
 Inputs:   results/aggregate/*.csv (02 to 05); restricted/participant_metrics (Fig 1 points only).
 Outputs:  results/figures/fig1_forward, fig2_reverse, fig3_strata, figS1_temporal (.pdf, .png, _plotted.json);
+          results/figures/print/fig1_forward_print, fig2_reverse_print, fig3_strata_print (16 cm print versions, same values);
           results/tables/table2_forward, table3_bidirectional (.csv, .tex).
-Paper:    Fig 1, Fig 2, Fig 3, Supplementary Fig S1, Table 2, Table 3.
+Paper:    Fig 1, Fig 2, Fig 3 (manuscript and print versions), Supplementary Fig S1 (already in print style), Table 2, Table 3.
 """
 from __future__ import annotations
 
@@ -15,7 +16,7 @@ import pandas as pd
 from cgmprofiles import io, tables
 from cgmprofiles.cgm_metrics import METRICS, WINDOWS
 from cgmprofiles.config import get_config, results_dir
-from cgmprofiles.plotting import fig_forward, fig_reverse, fig_strata, fig_temporal, style
+from cgmprofiles.plotting import fig_forward, fig_reverse, fig_strata, fig_temporal, print_forward, print_reverse, print_strata, style
 from cgmprofiles.report import Timer, jsonable, read_aggregate, read_restricted
 
 CFG = get_config()
@@ -23,8 +24,8 @@ LABELS = CFG.labels.variables
 T2D_LONG = CFG.labels.strata_long["t2d_oral_non_insulin"]
 
 
-def save_figure(fig, plotted: dict, stem: str) -> None:
-    out = results_dir("figures")
+def save_figure(fig, plotted: dict, stem: str, subdir: str = "") -> None:
+    out = results_dir("figures", subdir) if subdir else results_dir("figures")
     style.save(fig, out, stem)
     (out / f"{stem}_plotted.json").write_text(json.dumps(jsonable({str(k): v for k, v in plotted.items()}), indent=1) + "\n")
 
@@ -69,6 +70,8 @@ def main() -> None:
     fig, plotted = fig_forward.draw(metrics[metrics.canonical_stratum == io.PRIMARY], kw[kw.canonical_stratum == io.PRIMARY],
                                     f"Raw CGM behavior across clinical profiles in {T2D_LONG}")
     save_figure(fig, plotted, "fig1_forward")
+    fig, plotted = print_forward.draw(metrics[metrics.canonical_stratum == io.PRIMARY])
+    save_figure(fig, plotted, "fig1_forward_print", "print")
 
     agreement = read_aggregate("reverse_agreement").set_index(["partition", "metric"])
     contingency = read_aggregate("reverse_primary_contingency").set_index("cgm_cluster")[["C1", "C2", "C3"]].astype(int)
@@ -76,6 +79,9 @@ def main() -> None:
                                     read_aggregate("reverse_prediction").fillna({"window": ""}), read_aggregate("reverse_prediction_null_draws"),
                                     read_aggregate("pooled_agreement"), CFG.criteria, int(contingency.to_numpy().sum()))
     save_figure(fig, plotted, "fig2_reverse")
+    fig, plotted = print_reverse.draw(contingency, agreement.loc[("kmeans3_extended_window_full", "ARI")], read_aggregate("forward_vs_reverse_eta_squared"),
+                                      read_aggregate("reverse_prediction").fillna({"window": ""}), read_aggregate("pooled_agreement"))
+    save_figure(fig, plotted, "fig2_reverse_print", "print")
 
     s1 = read_aggregate("strata_forward")
     eta = read_aggregate("forward_eta_squared_ci")
@@ -88,8 +94,11 @@ def main() -> None:
     cols = ["canonical_stratum", "factor", "eta_squared", "ci_low", "ci_high"]
     spec = read_aggregate("strata_specificity")
     spec = spec[(spec.variant == "primary (T2D scaler, all)") & (spec.metric == "coefficient_of_variation_pct")]
-    fig, plotted = fig_strata.draw(forward, pd.concat([s2[cols], fr[cols]]), spec, read_aggregate("forward_c2_vs_rest"), CFG.criteria.medium_eta)
+    reverse = pd.concat([s2[cols], fr[cols]])
+    fig, plotted = fig_strata.draw(forward, reverse, spec, read_aggregate("forward_c2_vs_rest"), CFG.criteria.medium_eta)
     save_figure(fig, plotted, "fig3_strata")
+    fig, plotted = print_strata.draw(forward, reverse, spec, read_aggregate("forward_c2_vs_rest"))
+    save_figure(fig, plotted, "fig3_strata_print", "print")
 
     primary, days4 = CFG.temporal.primary, "days4"
     t2 = read_aggregate("temporal_agreement")
