@@ -4,6 +4,7 @@ Question: none; this script draws. Fig 2 combines analyses 03 (panels A to C) an
 Inputs:   results/aggregate/*.csv (02 to 05); restricted/participant_metrics (Fig 1 points only).
 Outputs:  results/figures/fig1_forward, fig2_reverse, fig3_strata, figS1_temporal (.pdf, .png, _plotted.json);
           results/figures/print/fig1_forward_print, fig2_reverse_print, fig3_strata_print (16 cm print versions, same values);
+          results/figures/alternates/fig2_correspondence, figS_reverse_supplement (alternative Fig 2 layout, same values; with captions);
           results/tables/table2_forward, table3_bidirectional (.csv, .tex).
 Paper:    Fig 1, Fig 2, Fig 3 (manuscript and print versions), Supplementary Fig S1 (already in print style), Table 2, Table 3.
 """
@@ -16,7 +17,8 @@ import pandas as pd
 from cgmprofiles import io, tables
 from cgmprofiles.cgm_metrics import METRICS, WINDOWS
 from cgmprofiles.config import get_config, results_dir
-from cgmprofiles.plotting import fig_forward, fig_reverse, fig_strata, fig_temporal, print_forward, print_reverse, print_strata, style
+from cgmprofiles.plotting import (fig_forward, fig_reverse, fig_reverse_alternates, fig_strata, fig_temporal, print_forward, print_reverse,
+                                  print_strata, style)
 from cgmprofiles.report import Timer, jsonable, read_aggregate, read_restricted
 
 CFG = get_config()
@@ -82,6 +84,17 @@ def main() -> None:
     fig, plotted = print_reverse.draw(contingency, agreement.loc[("kmeans3_extended_window_full", "ARI")], read_aggregate("forward_vs_reverse_eta_squared"),
                                       read_aggregate("reverse_prediction").fillna({"window": ""}), read_aggregate("pooled_agreement"))
     save_figure(fig, plotted, "fig2_reverse_print", "print")
+    b3 = read_aggregate("reverse_clinical_differences")
+    b3 = b3[(b3.partition == "kmeans3_extended_window_full") & (b3.subset == "all")].set_index("factor")
+    b5 = read_aggregate("reverse_prediction").fillna({"window": ""})
+    fig, plotted = fig_reverse_alternates.draw_correspondence(contingency, read_aggregate("reverse_primary_groups"),
+                                                              agreement.loc[("kmeans3_extended_window_full", "ARI")], b3, b5)
+    save_figure(fig, plotted, "fig2_correspondence", "alternates")
+    fig, plotted = fig_reverse_alternates.draw_supplement(b5, read_aggregate("reverse_prediction_null_draws"), read_aggregate("pooled_agreement"), CFG.criteria.auroc)
+    save_figure(fig, plotted, "figS_reverse_supplement", "alternates")
+    alternates = results_dir("figures", "alternates")
+    (alternates / "fig2_correspondence_caption.tex").write_text(fig_reverse_alternates.CAPTION_CORRESPONDENCE + "\n")
+    (alternates / "figS_reverse_supplement_caption.tex").write_text(fig_reverse_alternates.CAPTION_SUPPLEMENT + "\n")
 
     s1 = read_aggregate("strata_forward")
     eta = read_aggregate("forward_eta_squared_ci")

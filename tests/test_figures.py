@@ -106,3 +106,37 @@ def test_print_figures_show_the_same_values_as_the_manuscript_figures():
         assert value == pytest.approx(main3["C"][key], abs=1e-12)
     for key, value in print3["A"].items():
         assert value == pytest.approx(main3["A"][key], abs=1e-12)
+
+
+ALTERNATE_STEMS = ["fig2_correspondence", "figS_reverse_supplement"]
+
+
+def plotted_alternate(stem: str) -> dict:
+    path = results_dir("figures", "alternates") / f"{stem}_plotted.json"
+    if not path.exists():
+        pytest.skip("alternate figures not generated yet")
+    return json.loads(path.read_text())
+
+
+@pytest.mark.parametrize("stem", ALTERNATE_STEMS)
+def test_alternate_figure_files_exist(stem):
+    plotted_alternate(stem)
+    folder = results_dir("figures", "alternates")
+    for suffix in (".pdf", ".png"):
+        assert (folder / f"{stem}{suffix}").stat().st_size > 10_000
+    assert (folder / f"{stem}_caption.tex").read_text().startswith("\\caption{")
+
+
+def test_alternate_figures_show_the_same_values_as_fig2():
+    main2, corr, supp = plotted("fig2_reverse"), plotted_alternate("fig2_correspondence"), plotted_alternate("figS_reverse_supplement")
+    assert corr["A"]["counts"] == main2["A"]["counts"]
+    assert corr["C"]["cgm"] == pytest.approx(main2["C"]["macro_auroc"]["cgm"], abs=1e-12)
+    assert corr["C"]["both"] == pytest.approx(main2["C"]["macro_auroc"]["both"], abs=1e-12)
+    hba1c = pd.read_csv(AGG / "forward_vs_reverse_eta_squared.csv").query("hba1c_flag").iloc[0]
+    assert corr["B"]["hba1c_percent_baseline"] == pytest.approx([hba1c.eta_squared, hba1c.ci_low, hba1c.ci_high], abs=1e-12)
+    r2 = pd.read_csv(AGG / "reverse_prediction.csv").query("direction == 'CGM to clinical variable' and feature_set == 'extended' and window == 'window_full'")
+    hb = r2.set_index("target").loc["hba1c_percent_baseline"]
+    assert corr["D"]["hba1c_percent_baseline"] == pytest.approx([hb.value, hb.ci_low, hb.ci_high], abs=1e-12)
+    for metric in ("balanced_accuracy", "macro_auroc"):
+        assert supp["A"][metric]["cgm"] == pytest.approx(main2["C"][metric]["cgm"], abs=1e-12)
+    assert supp["B"]["diagnostic stratum (4)"] == main2["D"]["diagnostic stratum (4)"]

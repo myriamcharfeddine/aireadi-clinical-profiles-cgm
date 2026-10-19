@@ -28,6 +28,7 @@ Columns: new file, then the record file(s) it was ported from, the record commit
 | `plotting/print_forward.py` | `01_raw_cgm_differences/code/scripts/plot_fig1_raw_profiles_paper.py` | f2b7a8f | 4bfeca000ea1 |
 | `plotting/print_reverse.py` | `01_raw_cgm_differences/reverse_direction/plot_fig2_paper.py` | ffefb30 | ac5c55603e23 |
 | `plotting/print_strata.py` | `01_raw_cgm_differences/strata/plot_fig3_paper.py` | f2b7a8f | b248596e0017 |
+| `plotting/fig_reverse_alternates.py` | `01_raw_cgm_differences/reverse_direction/plot_fig2_correspondence.py` (and its two caption files) | ffefb30 | bf3aece70fa2 |
 
 ## Analyses
 

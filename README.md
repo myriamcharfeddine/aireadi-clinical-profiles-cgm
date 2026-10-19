@@ -39,7 +39,7 @@ The full run takes about 28 minutes on 10 CPU cores, most of it in 03 (8 min) an
 | `analyses/03_reverse_direction.py` | Section 3.2: CGM groups, Table 3, agreement, prediction (Fig 2 A to C) |
 | `analyses/04_glycemic_strata.py` | Section 3.3: other strata, specificity check, pooled cohort (Fig 3, Fig 2D) |
 | `analyses/05_temporal_reproducibility.py` | Two 3-day windows (Supplementary Fig S1) |
-| `analyses/06_figures_and_tables.py` | Draws every figure (manuscript versions, plus the 16 cm print versions of Figs 1 to 3 in `results/figures/print/`) and Tables 2 and 3, from saved outputs |
+| `analyses/06_figures_and_tables.py` | Draws every figure (manuscript versions, plus the 16 cm print versions of Figs 1 to 3 in `results/figures/print/`, and the alternative Fig 2 layout with its supplementary figure in `results/figures/alternates/`) and Tables 2 and 3, from saved outputs |
 | `src/cgmprofiles/` | The importable package: data loading, profiles, CGM metrics and features, statistics, prediction, disclosure control, tables, plotting |
 | `config/paper1.yaml` | Every constant: paths, seeds, thresholds, windows, resample counts, labels, colours |
 | `results/` | Tracked aggregate outputs: `tables/`, `figures/`, `numbers/` (each quoted number), `aggregate/`, `profile_derivation/` (frozen centroids) |

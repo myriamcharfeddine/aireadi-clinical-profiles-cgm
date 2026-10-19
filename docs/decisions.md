@@ -46,7 +46,7 @@ Dated decisions that shape the analyses. The full pre-registered designs are in 
   - `fig2_reverse_print` (from `plot_fig2_paper.py`);
   - `fig3_strata_print` (from `plot_fig3_paper.py`).
 
-  They are written to `results/figures/print/` by `analyses/06_figures_and_tables.py`, from the same saved outputs as the manuscript figures. `fig2_correspondence` and `figS_reverse_supplement` still stay in the record only.
+  They are written to `results/figures/print/` by `analyses/06_figures_and_tables.py`, from the same saved outputs as the manuscript figures. - **Updated again 2026-10-19.** `fig2_correspondence` and `figS_reverse_supplement` are added as well. They are written to `results/figures/alternates/`, with their LaTeX captions, by `analyses/06`, from the same saved outputs.
 
 **D2. Tables.**
 - Table 1 uses the manuscript's format:
@@ -144,3 +144,8 @@ Data, layout, axis ranges and marker shapes are unchanged. Only labels and colou
 | Fig 3 print | Stratum labels | "T2D, non-insulin", "Insulin-treated" | "Non-insulin T2D", "Insulin-treated T2D" |
 
 **Figure style isolation.** Each figure now starts from matplotlib's defaults, so seaborn's style, which is set for the Fig 1 violins, no longer carries over to the figures drawn after it. Before this fix it added white gridlines to the Fig 2 heatmap. Without it, Figs 2 and 3 look as they did when the record drew each one in its own process.
+
+## Visual changes in the alternative Fig 2 figures (from the record's `plot_fig2_correspondence.py`)
+
+- **`fig2_correspondence`:** unchanged. Profile colours appear only on the C1 to C3 columns of panel A; statistics are black and grey. The combined-model AUROC (0.660) is read from the stored estimate rather than from a rounded note.
+- **`figS_reverse_supplement` (panel B):** the "C1 to C3, T2D only" series (black open diamonds) is now the non-insulin T2D green `#009E73`, labelled "C1 to C3, non-insulin T2D only". This matches Fig 2D. The caption says so.
