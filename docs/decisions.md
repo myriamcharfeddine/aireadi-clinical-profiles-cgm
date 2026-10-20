@@ -172,3 +172,24 @@ Each folder also holds `make_figure_N.py` and `source_data/` (aggregate tables o
 The temporal analysis still runs, and its numbers are unchanged.
 
 **The `fig1_raw_cgm_profiles` design.** Its drawing script was never committed to the record, so `plotting/fig_forward_profiles.py` re-implements it from the same participant values and checks it visually against the record PNG. The data, layout, labels, shared y limits, violin, IQR and median marks match. Small placement differences remain, for example the panel letters sit slightly higher. Its medians equal those of the summary version (tested).
+
+## Original colours for the Fig 2 and Fig 3 summary versions (2026-10-20, author request)
+
+The Fig 2 summary (`reverse_direction_summary`) and Fig 3 (`strata_summary`) use the exact colours of the record figures again. The palette is `colors.summary_palette` in the config, taken from `figure_main_config.STRATUM_COLORS`: dark red `#BA2828`, navy `#003366`, teal `#5BBABA`, bright red `#FF0000` and grey `#888888`.
+
+This supersedes D5 for these two figures. As in the original, the healthy, prediabetes and non-insulin T2D colours therefore equal the C3, C1 and C2 profile colours, and the insulin-treated stratum is bright red.
+
+| Figure | Colours |
+|---|---|
+| Fig 2 summary | Forward navy, reverse dark red, HbA1c grey, thresholds bright red, heatmap white to navy. Panel D: diagnosis dark red, stratum and profile teal, C1 to C3 navy. |
+| Fig 3 | Healthy dark red, prediabetes navy, non-insulin T2D teal, insulin-treated bright red. |
+
+Labels differ from the originals only where a stratum is named:
+- "T2D oral" becomes "Non-insulin T2D";
+- "Insulin-treated" becomes "Insulin-treated T2D".
+
+The Fig 3 panel C labels, title and band note are as in the original ("T2D centroids", "largest in T2D"), so they fit on one line.
+
+A Fig 3 version without panel C is also drawn (`figure_3_glycemic_strata_summary_panels_a_b`). It has the same panels A and B and the same values, in a shorter figure.
+
+The Fig 1 versions, the Fig 2 correspondence version and the tables are unchanged.

@@ -24,6 +24,7 @@ STRATUM_SHORT: dict[str, str] = dict(CFG.labels.strata_short.raw)
 STRATUM_LONG: dict[str, str] = dict(CFG.labels.strata_long.raw)
 NEUTRAL_DARK, NEUTRAL_MID, NEUTRAL_LIGHT = CFG.colors.neutral_dark, CFG.colors.neutral_mid, CFG.colors.neutral_light
 COLOR_NULL = CFG.colors.null_color
+SUMMARY_PALETTE: list[str] = list(CFG.colors.summary_palette)   # record summary figures (Figs 2 and 3)
 COLOR_ZERO = "#000000"
 
 

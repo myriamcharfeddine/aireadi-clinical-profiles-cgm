@@ -236,6 +236,9 @@ colors:
   neutral_mid: "#6E6E6E"
   neutral_light: "#BDBDBD"
   null_color: "#888888"
+  # Palette of the record's summary figures (figure_main_config.STRATUM_COLORS), used by the Fig 2 and Fig 3 summary
+  # versions at the author's request (2026-10-20): dark red, navy, teal, bright red, grey
+  summary_palette: ["#BA2828", "#003366", "#5BBABA", "#FF0000", "#888888"]
 
 tables:
   baseline_sections:        # [section, [[kind, column, label], ...]]; kind: cont, bin, cat, text
@@ -282,4 +285,5 @@ figures:                    # results/figures/<folder>/<stem>.{pdf,png}; one fol
   figure_3:
     title: Correspondence across glycemic strata
     folder: figure_3_correspondence_across_glycemic_strata
-    summary: figure_3_glycemic_strata_summary              # record: strata/outputs/figures/strata_summary.pdf
+    summary: figure_3_glycemic_strata_summary              # record: strata/outputs/figures/strata_summary.png
+    summary_panels_a_b: figure_3_glycemic_strata_summary_panels_a_b   # same figure without panel C

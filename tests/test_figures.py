@@ -15,7 +15,7 @@ from cgmprofiles.config import get_config, results_dir
 ROOT = Path(__file__).resolve().parents[1]
 FIG = get_config().figures
 AGG = results_dir("aggregate")
-EXPECTED_FIGURES = {"figure_1": ["summary", "profiles"], "figure_2": ["summary", "correspondence"], "figure_3": ["summary"]}
+EXPECTED_FIGURES = {"figure_1": ["summary", "profiles"], "figure_2": ["summary", "correspondence"], "figure_3": ["summary", "summary_panels_a_b"]}
 
 
 def figure_dir(figure: str) -> Path:
@@ -91,6 +91,15 @@ def test_source_data_holds_no_participant_rows():
             pytest.skip("figures not generated yet")
         for csv in data.glob("*.csv"):
             assert "participant_id" not in pd.read_csv(csv, nrows=1).columns, csv.name
+
+
+def test_figure_3_without_panel_c_shows_the_same_values():
+    full, a_b = plotted("figure_3", "summary"), plotted("figure_3", "summary_panels_a_b")
+    assert "C" not in a_b and a_b["A"] == full["A"] and a_b["B"] == full["B"]
+
+
+def test_summary_figures_use_the_record_palette():
+    assert list(get_config().colors.summary_palette) == ["#BA2828", "#003366", "#5BBABA", "#FF0000", "#888888"]
 
 
 def test_labels_and_colours_follow_conventions():

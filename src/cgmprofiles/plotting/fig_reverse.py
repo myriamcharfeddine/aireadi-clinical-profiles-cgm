@@ -14,11 +14,10 @@ from matplotlib.colors import LinearSegmentedColormap
 from . import style
 from .style import plt
 
-COLOR_FORWARD = style.NEUTRAL_DARK
-COLOR_REVERSE = style.NEUTRAL_MID
-COLOR_HBA1C = style.COLOR_NULL
-COLOR_THRESHOLD = style.NEUTRAL_DARK
-HEATMAP_CMAP = LinearSegmentedColormap.from_list("grey", ["#FFFFFF", style.NEUTRAL_MID])
+# Colours of the record's reverse_direction_summary (figure_main_config.STRATUM_COLORS), restored at the author's request
+PALETTE = style.SUMMARY_PALETTE
+COLOR_FORWARD, COLOR_REVERSE, COLOR_HBA1C, COLOR_THRESHOLD = PALETTE[1], PALETTE[0], PALETTE[4], PALETTE[3]
+HEATMAP_CMAP = LinearSegmentedColormap.from_list("navy", ["#FFFFFF", style.PROFILE_COLORS["C1"]])
 FIGURE_SIZE_IN = (7.2, 5.6)
 ETA_X_MAX = 0.15
 HBA1C_X_RANGE = (0.30, 0.52)
@@ -119,9 +118,9 @@ def _panel_c(ax, b5: pd.DataFrame, nulls: pd.DataFrame, auroc_threshold: float) 
 
 def _panel_d(ax, b6: pd.DataFrame, ari_threshold: float) -> dict:
     b6 = b6[b6.metric == "ARI"]
-    targets = [("diagnostic stratum (4)", "Diagnosis (4 strata)", style.NEUTRAL_DARK),
-               ("stratum-profile label (10)", "Stratum and profile (10)", style.NEUTRAL_MID),
-               ("C1/C2/C3 inside the 458", f"C1 to C3, {style.in_sentence(style.STRATUM_SHORT['t2d_oral_non_insulin'])} only", style.STRATUM_COLORS["t2d_oral_non_insulin"])]
+    targets = [("diagnostic stratum (4)", "Diagnosis (4 strata)", PALETTE[0]),
+               ("stratum-profile label (10)", "Stratum and profile (10)", PALETTE[2]),
+               ("C1/C2/C3 inside the 458", f"C1 to C3, {style.in_sentence(style.STRATUM_SHORT['t2d_oral_non_insulin'])} only", PALETTE[1])]
     ks = sorted(b6.pooled_k.unique())
     plotted = {}
     for i, (target, label, color) in enumerate(targets):

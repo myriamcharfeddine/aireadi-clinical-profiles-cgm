@@ -16,6 +16,7 @@ Each manuscript item, the script that produces it and the tracked output that ho
 | Fig 2 (summary version, as in the manuscript) | A to C from `03`, D from `04` (pooled cohort); drawn by `06` | `results/figures/figure_2_cgm_groups_versus_clinical_profiles/figure_2_reverse_direction_summary.{pdf,png}` |
 | Fig 2 (correspondence version) | same values, plus the R² of `03`; drawn by `06` | `results/figures/figure_2_cgm_groups_versus_clinical_profiles/figure_2_correspondence.{pdf,png}` and `_caption.tex` |
 | Fig 3 | `04` (other strata), `02` and `03` (non-insulin T2D reference); drawn by `06` | `results/figures/figure_3_correspondence_across_glycemic_strata/figure_3_glycemic_strata_summary.{pdf,png}` |
+| Fig 3 without panel C | same values (panels A and B only); drawn by `06` | `results/figures/figure_3_correspondence_across_glycemic_strata/figure_3_glycemic_strata_summary_panels_a_b.{pdf,png}` |
 
 `results/figures/` holds one folder per manuscript figure and nothing else. Each folder contains:
 - the figure files (.pdf, .png);

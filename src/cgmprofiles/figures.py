@@ -106,7 +106,7 @@ def figure_2() -> None:
 
 
 def figure_3() -> None:
-    """Fig 3: correspondence across glycemic strata (non-insulin T2D values from 02 and 03, other strata from 04)."""
+    """Fig 3: correspondence across glycemic strata (non-insulin T2D values from 02 and 03, other strata from 04); also a version with panels A and B only."""
     cols = ["canonical_stratum", "metric", "eta_squared", "ci_low", "ci_high"]
     s1, eta = read_aggregate("strata_forward"), read_aggregate("forward_eta_squared_ci")
     forward = pd.concat([s1[s1.window == WINDOWS[1]][cols], eta[eta.window == WINDOWS[1]].assign(canonical_stratum=io.PRIMARY)[cols]], ignore_index=True)
@@ -122,6 +122,8 @@ def figure_3() -> None:
     fig, plotted = fig_strata.draw(forward, reverse, spec, t2d_c2, CFG.criteria.medium_eta)
     _save(fig, plotted, "figure_3", "summary", {"forward_eta_squared_full_record": forward, "reverse_eta_squared_full_record": reverse,
                                                 "c2_minus_rest_cv_other_strata": spec, "c2_minus_rest_cv_non_insulin_t2d": t2d_c2})
+    fig, plotted = fig_strata.draw(forward, reverse, spec, t2d_c2, CFG.criteria.medium_eta, with_panel_c=False)
+    _save(fig, plotted, "figure_3", "summary_panels_a_b", {})
 
 
 FIGURES = {"figure_1": figure_1, "figure_2": figure_2, "figure_3": figure_3}
