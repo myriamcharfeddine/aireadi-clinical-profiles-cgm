@@ -1,0 +1,7 @@
+direction,feature_set,window,target,metric,value,ci_low,ci_high,perm_p,n_permutations,hyperparameter,null_mean,hba1c_plus_cgm
+CGM to clinical variable,extended,window_full,participants_age,R2,0.1039139999436277,0.0483116171767958,0.1534301764562575,0.0049751243781094,200,alpha 100,,
+CGM to clinical variable,extended,window_full,bmi_baseline,R2,0.062200817598091,0.0156213499012037,0.1000949794965605,0.0049751243781094,200,alpha 100,,
+CGM to clinical variable,extended,window_full,hba1c_percent_baseline,R2,0.5900303959061353,0.4550541108832373,0.6820222599209284,0.0049751243781094,200,alpha 31.6228,,
+CGM to clinical variable,extended,window_full,c_peptide_ngml_baseline,R2,-0.0001316967341413,-0.024115921542503,0.0162964892769255,0.0839160839160839,1000,alpha 1000,,
+CGM to clinical variable,extended,window_full,tg_hdl_ratio,R2,0.0019690037288954,-0.0325290618808273,0.0373381521938487,0.0549450549450549,1000,alpha 1000,,
+CGM to clinical variable,extended,window_full,waist_to_hip_ratio_baseline,R2,0.0504330518786434,0.0085481139710066,0.0873590471900008,0.0049751243781094,200,alpha 316.228,,

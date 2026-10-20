@@ -2,34 +2,22 @@
 
 Question: none; this script draws. Fig 2 combines analyses 03 (panels A to C) and 04 (panel D).
 Inputs:   results/aggregate/*.csv (02 to 05); restricted/participant_metrics (Fig 1 points only).
-Outputs:  results/figures/fig1_forward, fig2_reverse, fig3_strata, figS1_temporal (.pdf, .png, _plotted.json);
-          results/figures/print/fig1_forward_print, fig2_reverse_print, fig3_strata_print (16 cm print versions, same values);
-          results/figures/alternates/fig2_correspondence, figS_reverse_supplement (alternative Fig 2 layout, same values; with captions);
-          results/tables/table2_forward, table3_bidirectional (.csv, .tex).
-Paper:    Fig 1, Fig 2, Fig 3 (manuscript and print versions), Supplementary Fig S1 (already in print style), Table 2, Table 3.
+Outputs:  results/figures/figure_1_*/, figure_2_*/, figure_3_*/ (one folder per manuscript figure: .pdf, .png,
+          make_figure_N.py, source_data/); results/tables/table2_forward, table3_bidirectional (.csv, .tex).
+Paper:    Fig 1, Fig 2, Fig 3, Table 2, Table 3.
 """
 from __future__ import annotations
 
-import json
-
 import pandas as pd
 
-from cgmprofiles import io, tables
+from cgmprofiles import figures, io, tables
 from cgmprofiles.cgm_metrics import METRICS, WINDOWS
 from cgmprofiles.config import get_config, results_dir
-from cgmprofiles.plotting import (fig_forward, fig_reverse, fig_reverse_alternates, fig_strata, fig_temporal, print_forward, print_reverse,
-                                  print_strata, style)
-from cgmprofiles.report import Timer, jsonable, read_aggregate, read_restricted
+from cgmprofiles.report import Timer, read_aggregate
 
 CFG = get_config()
 LABELS = CFG.labels.variables
 T2D_LONG = CFG.labels.strata_long["t2d_oral_non_insulin"]
-
-
-def save_figure(fig, plotted: dict, stem: str, subdir: str = "") -> None:
-    out = results_dir("figures", subdir) if subdir else results_dir("figures")
-    style.save(fig, out, stem)
-    (out / f"{stem}_plotted.json").write_text(json.dumps(jsonable({str(k): v for k, v in plotted.items()}), indent=1) + "\n")
 
 
 def table2() -> pd.DataFrame:
@@ -67,64 +55,8 @@ def main() -> None:
         "full-record CGM outcomes across clinical profiles. Reverse comparisons assess clinical variables across CGM groups derived from extended "
         "full-record features (k = 3). Values are rank-based $\\eta^2$ with 95\\% participant bootstrap confidence intervals.", "tab:bidirectional"))
 
-    metrics = read_restricted("participant_metrics")
-    kw = read_aggregate("forward_kruskal_wallis")
-    fig, plotted = fig_forward.draw(metrics[metrics.canonical_stratum == io.PRIMARY], kw[kw.canonical_stratum == io.PRIMARY],
-                                    f"Raw CGM behavior across clinical profiles in {T2D_LONG}")
-    save_figure(fig, plotted, "fig1_forward")
-    fig, plotted = print_forward.draw(metrics[metrics.canonical_stratum == io.PRIMARY])
-    save_figure(fig, plotted, "fig1_forward_print", "print")
-
-    agreement = read_aggregate("reverse_agreement").set_index(["partition", "metric"])
-    contingency = read_aggregate("reverse_primary_contingency").set_index("cgm_cluster")[["C1", "C2", "C3"]].astype(int)
-    fig, plotted = fig_reverse.draw(contingency, agreement.loc[("kmeans3_extended_window_full", "ARI")], read_aggregate("forward_vs_reverse_eta_squared"),
-                                    read_aggregate("reverse_prediction").fillna({"window": ""}), read_aggregate("reverse_prediction_null_draws"),
-                                    read_aggregate("pooled_agreement"), CFG.criteria, int(contingency.to_numpy().sum()))
-    save_figure(fig, plotted, "fig2_reverse")
-    fig, plotted = print_reverse.draw(contingency, agreement.loc[("kmeans3_extended_window_full", "ARI")], read_aggregate("forward_vs_reverse_eta_squared"),
-                                      read_aggregate("reverse_prediction").fillna({"window": ""}), read_aggregate("pooled_agreement"))
-    save_figure(fig, plotted, "fig2_reverse_print", "print")
-    b3 = read_aggregate("reverse_clinical_differences")
-    b3 = b3[(b3.partition == "kmeans3_extended_window_full") & (b3.subset == "all")].set_index("factor")
-    b5 = read_aggregate("reverse_prediction").fillna({"window": ""})
-    fig, plotted = fig_reverse_alternates.draw_correspondence(contingency, read_aggregate("reverse_primary_groups"),
-                                                              agreement.loc[("kmeans3_extended_window_full", "ARI")], b3, b5)
-    save_figure(fig, plotted, "fig2_correspondence", "alternates")
-    fig, plotted = fig_reverse_alternates.draw_supplement(b5, read_aggregate("reverse_prediction_null_draws"), read_aggregate("pooled_agreement"), CFG.criteria.auroc)
-    save_figure(fig, plotted, "figS_reverse_supplement", "alternates")
-    alternates = results_dir("figures", "alternates")
-    (alternates / "fig2_correspondence_caption.tex").write_text(fig_reverse_alternates.CAPTION_CORRESPONDENCE + "\n")
-    (alternates / "figS_reverse_supplement_caption.tex").write_text(fig_reverse_alternates.CAPTION_SUPPLEMENT + "\n")
-
-    s1 = read_aggregate("strata_forward")
-    eta = read_aggregate("forward_eta_squared_ci")
-    forward = pd.concat([s1[s1.window == WINDOWS[1]][["canonical_stratum", "metric", "eta_squared", "ci_low", "ci_high"]],
-                         eta[eta.window == WINDOWS[1]].assign(canonical_stratum=io.PRIMARY)[["canonical_stratum", "metric", "eta_squared", "ci_low", "ci_high"]]])
-    s2 = read_aggregate("strata_clinical_differences")
-    s2 = s2[s2.window == WINDOWS[1]].rename(columns={"stratum": "canonical_stratum"})
-    fr = read_aggregate("forward_vs_reverse_eta_squared")
-    fr = fr[fr.direction.str.startswith("reverse")].assign(canonical_stratum=io.PRIMARY).rename(columns={"variable": "factor"})
-    cols = ["canonical_stratum", "factor", "eta_squared", "ci_low", "ci_high"]
-    spec = read_aggregate("strata_specificity")
-    spec = spec[(spec.variant == "primary (T2D scaler, all)") & (spec.metric == "coefficient_of_variation_pct")]
-    reverse = pd.concat([s2[cols], fr[cols]])
-    fig, plotted = fig_strata.draw(forward, reverse, spec, read_aggregate("forward_c2_vs_rest"), CFG.criteria.medium_eta)
-    save_figure(fig, plotted, "fig3_strata")
-    fig, plotted = print_strata.draw(forward, reverse, spec, read_aggregate("forward_c2_vs_rest"))
-    save_figure(fig, plotted, "fig3_strata_print", "print")
-
-    primary, days4 = CFG.temporal.primary, "days4"
-    t2 = read_aggregate("temporal_agreement")
-    t2 = t2[t2.design == primary].set_index("metric")
-    t3t = read_aggregate("temporal_profile_agreement")
-    icc = read_aggregate("temporal_icc")
-    icc_p = icc[icc.design == primary].set_index("feature")
-    icc_p = icc_p.assign(icc_days4=icc[icc.design == days4].set_index("feature").icc.reindex(icc_p.index))
-    stability = read_aggregate("reverse_primary_refit_stability").set_index("statistic").value["mean"]
-    fig, plotted = fig_temporal.draw({"ARI": t2.loc["ARI"], "kappa": t2.loc["kappa"]}, t3t[(t3t.design == primary) & (t3t.statistic == "ARI")].iloc[0], icc_p,
-                                     read_aggregate("temporal_c2_contrast").query("design == @primary").iloc[0],
-                                     read_aggregate("temporal_c2_full_record").query("design == @primary").iloc[0], stability, CFG.criteria.ari)
-    save_figure(fig, plotted, "figS1_temporal")
+    for draw in figures.FIGURES.values():
+        draw()
     print(f"06 done in {timer.seconds()} s")
 
 

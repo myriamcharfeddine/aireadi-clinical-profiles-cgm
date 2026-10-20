@@ -267,3 +267,19 @@ tables:
     White or Caucasian: White
     "Other, multiple or not reported": Other or not reported
     Triglyceride-to-HDL ratio (mg/dL): Triglyceride-to-HDL ratio
+
+figures:                    # results/figures/<folder>/<stem>.{pdf,png}; one folder per manuscript figure
+  figure_1:
+    title: CGM outcomes across clinical profiles
+    folder: figure_1_cgm_outcomes_across_clinical_profiles
+    summary: figure_1_cgm_outcomes_by_profile_summary      # record: outputs/figures/phase0_raw_t2d_main_figure.pdf
+    profiles: figure_1_cgm_outcomes_by_profile             # record: outputs/figures/fig1_raw_cgm_profiles.png
+  figure_2:
+    title: CGM groups versus clinical profiles
+    folder: figure_2_cgm_groups_versus_clinical_profiles
+    summary: figure_2_reverse_direction_summary            # record: reverse_direction/outputs/figures/reverse_direction_summary.pdf
+    correspondence: figure_2_correspondence                # record: reverse_direction/outputs/figures/fig2_correspondence.pdf
+  figure_3:
+    title: Correspondence across glycemic strata
+    folder: figure_3_correspondence_across_glycemic_strata
+    summary: figure_3_glycemic_strata_summary              # record: strata/outputs/figures/strata_summary.pdf

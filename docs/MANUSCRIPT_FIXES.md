@@ -35,11 +35,11 @@ These are discrepancies between the 19 October 2026 draft (`paper1_draft_2026-10
 
 ## 6. Results: the temporal paragraph is missing
 
-The Abstract (ARI 0.42, 0.030 and 0.036), Methods 2.3 and the Discussion use the temporal analysis, but no Results paragraph reports it and Supplementary Fig S1 is never cited.
+The Abstract (ARI 0.42, 0.030 and 0.036), Methods 2.3 and the Discussion use the temporal analysis, but no Results paragraph reports it.
 
 - **Proposed:** add at the end of Section 3.2.
 
-> Across two non-overlapping 3-day windows (days 1 to 3 and days 4 to 6), CGM group assignments were moderately reproducible in held-out participants (ARI 0.42, 95% CI [0.30, 0.58]; kappa 0.63 [0.52, 0.74]; Supplementary Fig. S1A). Agreement between CGM groups and the clinical profiles remained low in each window (ARI 0.030 [0.013, 0.057] and 0.036 [0.017, 0.064]). Glucose level was more reproducible between windows than timing features (Supplementary Fig. S1B). C2 had a lower coefficient of variation than the other profiles in both windows (−2.33 [−3.47, −1.21] and −2.31 [−3.47, −1.16] percentage points), close to the full-record difference in the same participants (−2.38 [−3.39, −1.30]).
+> Across two non-overlapping 3-day windows (days 1 to 3 and days 4 to 6), CGM group assignments were moderately reproducible in held-out participants (ARI 0.42, 95% CI [0.30, 0.58]; kappa 0.63 [0.52, 0.74]). Agreement between CGM groups and the clinical profiles remained low in each window (ARI 0.030 [0.013, 0.057] and 0.036 [0.017, 0.064]). Glucose level was more reproducible between windows than timing features. C2 had a lower coefficient of variation than the other profiles in both windows (−2.33 [−3.47, −1.21] and −2.31 [−3.47, −1.16] percentage points), close to the full-record difference in the same participants (−2.38 [−3.39, −1.30]).
 
 About 98% of participants were eligible. The exact count is withheld under the small-cell rule, and the held-out statistics are rounded to two decimals for the same reason.
 

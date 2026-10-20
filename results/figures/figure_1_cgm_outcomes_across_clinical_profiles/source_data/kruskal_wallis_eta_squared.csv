@@ -1,0 +1,7 @@
+canonical_stratum,window,metric,n_clusters,n_total,kruskal_h,p_value,eta_squared
+t2d_oral_non_insulin,window_48h,mean_glucose,3,458,32.88277668867061,7.237619830238135e-08,0.0678742344805947
+t2d_oral_non_insulin,window_48h,time_in_range_pct,3,458,30.981473263833387,1.8726583876774772e-07,0.0636955456347986
+t2d_oral_non_insulin,window_48h,coefficient_of_variation_pct,3,458,20.90488019569148,2.8877722788976804e-05,0.0415491872432779
+t2d_oral_non_insulin,window_full,mean_glucose,3,458,27.94566975470252,8.544269066666114e-07,0.0570234500103352
+t2d_oral_non_insulin,window_full,time_in_range_pct,3,458,37.66178007152198,6.635113681091161e-09,0.0783775386187296
+t2d_oral_non_insulin,window_full,coefficient_of_variation_pct,3,458,25.60562479065288,2.7530190961884097e-06,0.0518804940453909

@@ -1,0 +1,4 @@
+partition,split,cgm_cluster,C1,C2,C3
+kmeans3_extended_window_full,all,G1,85,66,37
+kmeans3_extended_window_full,all,G2,82,28,72
+kmeans3_extended_window_full,all,G3,25,17,46

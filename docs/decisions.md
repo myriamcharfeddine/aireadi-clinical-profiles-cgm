@@ -149,3 +149,26 @@ Data, layout, axis ranges and marker shapes are unchanged. Only labels and colou
 
 - **`fig2_correspondence`:** unchanged. Profile colours appear only on the C1 to C3 columns of panel A; statistics are black and grey. The combined-model AUROC (0.660) is read from the stored estimate rather than from a rounded note.
 - **`figS_reverse_supplement` (panel B):** the "C1 to C3, T2D only" series (black open diamonds) is now the non-insulin T2D green `#009E73`, labelled "C1 to C3, non-insulin T2D only". This matches Fig 2D. The caption says so.
+
+## Figure set (2026-10-20, replaces the figure additions above)
+
+`results/figures/` holds exactly the manuscript figures you listed, one folder per figure. The name of each folder says what the figure is about:
+
+| Folder | Files | Record figure it reproduces |
+|---|---|---|
+| `figure_1_cgm_outcomes_across_clinical_profiles/` | `figure_1_cgm_outcomes_by_profile_summary` | `01_raw_cgm_differences/outputs/figures/phase0_raw_t2d_main_figure.pdf` |
+| | `figure_1_cgm_outcomes_by_profile` | `01_raw_cgm_differences/outputs/figures/fig1_raw_cgm_profiles.png` |
+| `figure_2_cgm_groups_versus_clinical_profiles/` | `figure_2_reverse_direction_summary` | `reverse_direction/outputs/figures/reverse_direction_summary.pdf` |
+| | `figure_2_correspondence` | `reverse_direction/outputs/figures/fig2_correspondence.pdf` |
+| `figure_3_correspondence_across_glycemic_strata/` | `figure_3_glycemic_strata_summary` | `strata/outputs/figures/strata_summary.pdf` |
+
+Each folder also holds `make_figure_N.py` and `source_data/` (aggregate tables only; Fig 1's participant points stay in `restricted/`).
+
+**Removed, with their drawing code:**
+- the print versions (`fig1_forward_print`, `fig2_reverse_print`, `fig3_strata_print`);
+- `figS_reverse_supplement`;
+- the temporal Supplementary Fig S1.
+
+The temporal analysis still runs, and its numbers are unchanged.
+
+**The `fig1_raw_cgm_profiles` design.** Its drawing script was never committed to the record, so `plotting/fig_forward_profiles.py` re-implements it from the same participant values and checks it visually against the record PNG. The data, layout, labels, shared y limits, violin, IQR and median marks match. Small placement differences remain, for example the panel letters sit slightly higher. Its medians equal those of the summary version (tested).

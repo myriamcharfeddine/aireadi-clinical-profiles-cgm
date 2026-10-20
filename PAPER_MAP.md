@@ -11,20 +11,20 @@ Each manuscript item, the script that produces it and the tracked output that ho
 | Supplementary Table S2 (other strata) | `01` | `results/tables/tableS2_baseline_other_strata.{csv,tex}` |
 | Table 2 | values from `02`; drawn by `06` | `results/tables/table2_forward.{csv,tex}` |
 | Table 3 | values from `02` (forward) and `03` (reverse); drawn by `06` | `results/tables/table3_bidirectional.{csv,tex}` |
-| Fig 1 | values from `02` (participant points from `restricted/`); drawn by `06` | `results/figures/fig1_forward.{pdf,png}` |
-| Fig 2 A to C | `03`; drawn by `06` | `results/figures/fig2_reverse.{pdf,png}` |
-| Fig 2 D | `04` (pooled cohort); combined with A to C by `06` | same file |
-| Fig 3 | `04` (other strata), `02` and `03` (non-insulin T2D reference); drawn by `06` | `results/figures/fig3_strata.{pdf,png}` |
-| Supplementary Fig S1 | `05` (temporal), `03` (refit-stability reference line); drawn by `06` | `results/figures/figS1_temporal.{pdf,png}` |
-| Fig 1, print version | same values as Fig 1; drawn by `06` | `results/figures/print/fig1_forward_print.{pdf,png}` |
-| Fig 2, print version | same values as Fig 2 (A to C from `03`, D from `04`); drawn by `06` | `results/figures/print/fig2_reverse_print.{pdf,png}` |
-| Fig 3, print version | same values as Fig 3; drawn by `06` | `results/figures/print/fig3_strata_print.{pdf,png}` |
-| Fig 2, alternative layout (correspondence) | same values as Fig 2 A to C, plus the R² of `03`; drawn by `06` | `results/figures/alternates/fig2_correspondence.{pdf,png}` and `_caption.tex` |
-| Supplementary reverse-direction figure | permutation nulls (`03`) and pooled ARI (`04`); drawn by `06` | `results/figures/alternates/figS_reverse_supplement.{pdf,png}` and `_caption.tex` |
+| Fig 1 (summary version, as in the manuscript) | values from `02` (participant points from `restricted/`); drawn by `06` | `results/figures/figure_1_cgm_outcomes_across_clinical_profiles/figure_1_cgm_outcomes_by_profile_summary.{pdf,png}` |
+| Fig 1 (profile version) | same values; drawn by `06` | `results/figures/figure_1_cgm_outcomes_across_clinical_profiles/figure_1_cgm_outcomes_by_profile.{pdf,png}` and `_caption.tex` |
+| Fig 2 (summary version, as in the manuscript) | A to C from `03`, D from `04` (pooled cohort); drawn by `06` | `results/figures/figure_2_cgm_groups_versus_clinical_profiles/figure_2_reverse_direction_summary.{pdf,png}` |
+| Fig 2 (correspondence version) | same values, plus the R² of `03`; drawn by `06` | `results/figures/figure_2_cgm_groups_versus_clinical_profiles/figure_2_correspondence.{pdf,png}` and `_caption.tex` |
+| Fig 3 | `04` (other strata), `02` and `03` (non-insulin T2D reference); drawn by `06` | `results/figures/figure_3_correspondence_across_glycemic_strata/figure_3_glycemic_strata_summary.{pdf,png}` |
 
-Each figure has a `_plotted.json` file next to it holding the plotted values. `tests/test_figures.py` checks those values against the source tables. It also checks that each print version shows exactly the same values as its manuscript version.
+`results/figures/` holds one folder per manuscript figure and nothing else. Each folder contains:
+- the figure files (.pdf, .png);
+- `make_figure_N.py`, which redraws only that figure (`python results/figures/<folder>/make_figure_N.py`, using `cgmprofiles.figures`);
+- `source_data/`, with the aggregate tables the figure plots and its plotted values (`*_plotted.json`).
 
-The print versions are the newer 16 cm, 8 pt redraws of Figures 1 to 3, ported from the record's `paper1_overleaf/figures/`. They contain no new numbers, so either version can go into the manuscript. Supplementary Fig S1 already uses the print style. The two figures in `alternates/` (from the record's `plot_fig2_correspondence.py`) are an alternative four-panel layout of Fig 2 and its supplement, with LaTeX captions. They also contain no new numbers.
+`tests/test_figures.py` checks the plotted values against the source tables, and checks that both versions of Figs 1 and 2 show the same values. The tables are in `results/tables/`.
+
+The temporal analysis (`05`) still produces the numbers quoted in the Abstract and Discussion (`results/numbers/05_temporal.json`). Its supplementary figure is not part of the figure set (author decision, 2026-10-20; see `docs/decisions.md`).
 
 ## Numbers quoted in the text
 

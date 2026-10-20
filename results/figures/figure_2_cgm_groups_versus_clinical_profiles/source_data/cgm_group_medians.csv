@@ -1,0 +1,4 @@
+partition,cluster,n,median_mean_glucose
+extended_window_full,G1,188,120.42649947742252
+extended_window_full,G2,182,147.18588645796882
+extended_window_full,G3,88,184.92268740046444

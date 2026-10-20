@@ -1,10 +1,9 @@
-"""Alternative Figure 2 (correspondence, four panels) and its supplementary figure, ported from the record's
-plot_fig2_correspondence.py. Same aggregate values as Fig 2; no new numbers.
+"""Figure 2, correspondence version (four panels), ported from the record's plot_fig2_correspondence.py.
+Same aggregate values as the Fig 2 summary version; no new numbers.
 
 fig2_correspondence: A profile composition of CGM groups (each column shaded in its profile colour), B clinical
 differences across CGM groups (HbA1c on its own scale), C profile prediction from HbA1c, CGM and both with the
 paired AUROC gain, D prediction of clinical variables from CGM (R2).
-figS_reverse_supplement: A classification scores against the permutation null, B pooled-cohort ARI.
 """
 from __future__ import annotations
 
@@ -18,7 +17,6 @@ from .style import plt
 WIDTH_CM, HEIGHT_CM, SUPP_HEIGHT_CM = 16.0, 14.5, 7.5
 FONT_PT, TITLE_PT, LETTER_PT, MIN_FONT_PT = 7.0, 8.0, 9.5, 7.0
 BLACK, GREY = style.COLOR_ZERO, style.COLOR_NULL
-T2D_GREEN = style.STRATUM_COLORS["t2d_oral_non_insulin"]
 PERCENT_MAX = 60
 PROFILES = ["C1", "C2", "C3"]
 HBA1C = "hba1c_percent_baseline"
@@ -26,7 +24,6 @@ VARIABLES = [("participants_age", "Age"), ("bmi_baseline", "BMI"), ("waist_to_hi
              ("tg_hdl_ratio", "TG/HDL ratio"), ("c_peptide_ngml_baseline", "C-peptide"), (HBA1C, "HbA1c")]
 GLUCOSE_DESCRIPTOR = {"G1": "lower", "G2": "intermediate", "G3": "higher"}
 ETA_LABEL = "Rank-based effect size (η²)"
-T2D_SHORT = style.in_sentence(style.STRATUM_SHORT["t2d_oral_non_insulin"])
 T2D_LONG = style.STRATUM_LONG["t2d_oral_non_insulin"]
 
 
@@ -198,57 +195,6 @@ def draw_correspondence(contingency: pd.DataFrame, groups: pd.DataFrame, ari: pd
     return fig, plotted
 
 
-def draw_supplement(b5: pd.DataFrame, nulls: pd.DataFrame, b6: pd.DataFrame, auroc_threshold: float) -> tuple[plt.Figure, dict]:
-    """A: classification against the permutation null; B: pooled-cohort ARI with diagnosis and profiles."""
-    fig = _setup(SUPP_HEIGHT_CM)
-    grid = fig.add_gridspec(1, 2, left=0.09, right=0.975, top=0.80, bottom=0.22, wspace=0.32)
-    ax_a, ax_b = fig.add_subplot(grid[0]), fig.add_subplot(grid[1])
-    plotted, ticks = {"A": {}, "B": {}}, []
-    for x, (metric, label, chance) in enumerate((("balanced_accuracy", "Balanced accuracy", 1 / 3), ("macro_auroc", "Macro AUROC", 0.5))):
-        parts = ax_a.violinplot(nulls[nulls.analysis == f"C1/C2/C3 {metric}"].value.to_numpy(), positions=[x], widths=0.5, showextrema=False)
-        for body in parts["bodies"]:
-            body.set_facecolor(GREY)
-            body.set_alpha(0.35)
-        ref, cgm, gain = _classification_rows(b5, metric)
-        _interval(ax_a, x - 0.12, ref.value, ref.ci_low, ref.ci_high, False, fmt="s", color=GREY, markersize=3.5, label="HbA1c alone" if x == 0 else None)
-        _interval(ax_a, x + 0.04, cgm.value, cgm.ci_low, cgm.ci_high, False, fmt="o", color=BLACK, markersize=3.5, label="CGM alone" if x == 0 else None)
-        ax_a.plot(x + 0.2, gain.hba1c_plus_cgm, "D", color=BLACK, markerfacecolor="white", markersize=3.5, label="HbA1c + CGM" if x == 0 else None)
-        ax_a.hlines(chance, x - 0.3, x + 0.3, color=BLACK, linewidth=style.REFERENCE_LINEWIDTH, linestyle=":")
-        ticks.append(f"{label}\np = {cgm.perm_p:.3f}")
-        plotted["A"][metric] = {"cgm": [cgm.value, cgm.ci_low, cgm.ci_high], "hba1c": [ref.value, ref.ci_low, ref.ci_high], "both": gain.hba1c_plus_cgm,
-                                "p": cgm.perm_p}
-    ax_a.hlines(auroc_threshold, 0.65, 1.35, color=GREY, linestyle=style.REFERENCE_STYLE, linewidth=style.REFERENCE_LINEWIDTH)
-    ax_a.text(1.37, auroc_threshold, f"{auroc_threshold:.2f}", color=GREY, fontsize=FONT_PT, va="center")
-    ax_a.set_xticks([0, 1], ticks)
-    ax_a.set_xlim(-0.5, 1.65)
-    ax_a.set_ylim(0.22, 0.80)
-    ax_a.set_ylabel("Cross-validated score", fontsize=FONT_PT)
-    ax_a.set_xlabel("Permutation p, CGM alone", fontsize=FONT_PT)
-    ax_a.set_title("Prediction of C1 to C3\nagainst the permutation null", fontsize=TITLE_PT, fontweight="bold")
-    ax_a.legend(fontsize=FONT_PT, loc="upper left", frameon=False, handletextpad=0.2, borderaxespad=0.2)
-    _axes_style(ax_a)
-    b6 = b6[b6.metric == "ARI"]
-    targets = [("diagnostic stratum (4)", "Diagnosis (4 strata)", "o", BLACK), ("stratum-profile label (10)", "Stratum and profile (10)", "s", GREY),
-               ("C1/C2/C3 inside the 458", f"C1 to C3, {T2D_SHORT} only", "D", T2D_GREEN)]
-    ks = sorted(b6.pooled_k.unique())
-    for i, (target, label, marker, color) in enumerate(targets):
-        sub = b6[b6.target == target].set_index("pooled_k").loc[ks]
-        ax_b.errorbar(np.arange(len(ks)) + (i - 1) * 0.24, sub.value, yerr=[sub.value - sub.ci_low, sub.ci_high - sub.value], fmt=marker, color=color,
-                      markersize=3.5, markerfacecolor="white" if marker == "D" else color, elinewidth=style.CI_LINEWIDTH, capsize=0, label=label)
-        plotted["B"][target] = sub[["value", "ci_low", "ci_high"]].to_numpy().tolist()
-    within = b6[b6.target.str.contains("within-stratum")].set_index("pooled_k").loc[ks]
-    ax_b.scatter(np.arange(len(ks)), within.null_mean, marker="_", s=70, color=BLACK, zorder=4, label="Within-stratum null mean")
-    ax_b.set_xticks(range(len(ks)), [f"k = {k}" for k in ks])
-    ax_b.set_ylim(0, 0.30)
-    ax_b.set_ylabel("ARI [95% CI]", fontsize=FONT_PT)
-    ax_b.set_title("Pooled cohort (n = 1,591): CGM clusters\nvs diagnosis and profile", fontsize=TITLE_PT, fontweight="bold")
-    ax_b.legend(fontsize=FONT_PT, loc="upper right", frameon=False, handletextpad=0.2, borderaxespad=0.2)
-    _axes_style(ax_b)
-    _panel_letters(fig, ((ax_a, "A"), (ax_b, "B")))
-    _check_fonts(fig)
-    return fig, plotted
-
-
 CAPTION_CORRESPONDENCE = (
     r"\caption{Correspondence between clinical profiles and CGM-defined groups in " + T2D_LONG.replace("type 2", "type~2") + r" ($N=458$; full CGM record). "
     r"CGM groups G1--G3 come from $k$-means ($k=3$) on extended CGM features; row labels give each group's size and median participant mean glucose. "
@@ -259,10 +205,3 @@ CAPTION_CORRESPONDENCE = (
     r"bootstrap CIs, the bracket gives the paired bootstrap gain of HbA1c plus CGM over HbA1c alone, and no interval was stored for the combined model "
     r"itself. The dotted line marks chance (0.50). (D)~Cross-validated $R^2$ (95\% CI) for predicting each clinical variable from CGM features; the "
     r"vertical line marks $R^2=0$.}")
-CAPTION_SUPPLEMENT = (
-    r"\caption{Supplementary reverse-direction results. (A)~Cross-validated balanced accuracy and macro AUROC for predicting C1--C3 in "
-    + T2D_LONG.replace("type 2", "type~2") + r" ($N=458$, full CGM record) from HbA1c alone (grey squares), CGM features alone (black circles; 95\% "
-    r"bootstrap CI) and HbA1c plus CGM (open diamonds; point estimate only), against the permutation null for CGM alone (grey densities, 200 "
-    r"permutations). Dotted lines mark chance; the dashed line marks the prespecified 0.65 AUROC criterion. (B)~Pooled cohort ($n=1{,}591$, all four "
-    r"diagnostic strata): ARI (95\% CI) between pooled CGM clusters ($k=2$--4) and diagnostic stratum, stratum-specific clinical profile label, and C1--C3 "
-    r"within the non-insulin type~2 diabetes stratum (green); black bars mark the mean of the within-stratum permutation null.}")
